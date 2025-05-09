@@ -1,0 +1,34 @@
+no change     /n/app/miniconda3/23.1.0/condabin/conda
+no change     /n/app/miniconda3/23.1.0/bin/conda
+no change     /n/app/miniconda3/23.1.0/bin/conda-env
+no change     /n/app/miniconda3/23.1.0/bin/activate
+no change     /n/app/miniconda3/23.1.0/bin/deactivate
+no change     /n/app/miniconda3/23.1.0/etc/profile.d/conda.sh
+no change     /n/app/miniconda3/23.1.0/etc/fish/conf.d/conda.fish
+no change     /n/app/miniconda3/23.1.0/shell/condabin/Conda.psm1
+no change     /n/app/miniconda3/23.1.0/shell/condabin/conda-hook.ps1
+no change     /n/app/miniconda3/23.1.0/lib/python3.10/site-packages/xontrib/conda.xsh
+no change     /n/app/miniconda3/23.1.0/etc/profile.d/conda.csh
+no change     /home/kel331/.bashrc
+No action taken.
+4.constructCCI.py:10: DtypeWarning: Columns (4,5,12) have mixed types. Specify dtype option on import or set low_memory=False.
+  df = pd.read_csv(f, sep="\t")
+4.constructCCI.py:39: DeprecationWarning: info is deprecated and will be removed in version 3.0.
+
+  print(nx.info(G))
+Number of output files to parse: 1
+    id_cp_interaction  ... visceromotor neuron|visceromotor neuron
+0     CPI-SC0A2DB962D  ...                                     1.0
+1     CPI-SC0B5CEA47D  ...                                     1.0
+2     CPI-SC0B86B7CED  ...                                     1.0
+3     CPI-SC0FA343CEF  ...                                     1.0
+4     CPI-SC0CCCF9A7F  ...                                     1.0
+..                ...  ...                                     ...
+763   CPI-SS0291D3D2E  ...                                     1.0
+764   CPI-CS09A35DD21  ...                                     1.0
+765   CPI-SS096F8C268  ...                                     1.0
+766   CPI-SS0ABEE4D3D  ...                                     1.0
+767   CPI-SS07D508428  ...                                     1.0
+
+[768 rows x 211613 columns]
+Graph with 460 nodes and 59678 edges

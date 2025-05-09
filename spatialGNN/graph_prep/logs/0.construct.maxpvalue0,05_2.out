@@ -1,0 +1,2749 @@
+no change     /n/app/miniconda3/23.1.0/condabin/conda
+no change     /n/app/miniconda3/23.1.0/bin/conda
+no change     /n/app/miniconda3/23.1.0/bin/conda-env
+no change     /n/app/miniconda3/23.1.0/bin/activate
+no change     /n/app/miniconda3/23.1.0/bin/deactivate
+no change     /n/app/miniconda3/23.1.0/etc/profile.d/conda.sh
+no change     /n/app/miniconda3/23.1.0/etc/fish/conf.d/conda.fish
+no change     /n/app/miniconda3/23.1.0/shell/condabin/Conda.psm1
+no change     /n/app/miniconda3/23.1.0/shell/condabin/conda-hook.ps1
+no change     /n/app/miniconda3/23.1.0/lib/python3.10/site-packages/xontrib/conda.xsh
+no change     /n/app/miniconda3/23.1.0/etc/profile.d/conda.csh
+no change     /home/kel331/.bashrc
+No action taken.
+Loading in global PPI network...
+Number of nodes: 15461
+Number of edges: 207641
+Finished loading in `ppi`...
+Extracting cell type specific PPI...
+B cell
+Converting Ensemble IDs to Gene IDs
+2997
+<generator object connected_components at 0x7f2a77361b30>
+Size of LCC for B cell: 2517 (0.84 of sig genes in PPI)
+B-1 B cell
+Converting Ensemble IDs to Gene IDs
+3452
+<generator object connected_components at 0x7f2a77361c10>
+Size of LCC for B-1 B cell: 3026 (0.88 of sig genes in PPI)
+B-2 B cell
+Converting Ensemble IDs to Gene IDs
+3203
+<generator object connected_components at 0x7f2a77361c10>
+Size of LCC for B-2 B cell: 2718 (0.85 of sig genes in PPI)
+Bergmann glial cell
+Converting Ensemble IDs to Gene IDs
+3146
+<generator object connected_components at 0x7f2a77361c10>
+Size of LCC for Bergmann glial cell: 2485 (0.79 of sig genes in PPI)
+CD14-low, CD16-positive monocyte
+Converting Ensemble IDs to Gene IDs
+3443
+<generator object connected_components at 0x7f2a77361c10>
+Size of LCC for CD14-low, CD16-positive monocyte: 3108 (0.90 of sig genes in PPI)
+CD14-positive monocyte
+Converting Ensemble IDs to Gene IDs
+2945
+<generator object connected_components at 0x7f2a60a27190>
+Size of LCC for CD14-positive monocyte: 2466 (0.84 of sig genes in PPI)
+CD14-positive, CD16-negative classical monocyte
+Converting Ensemble IDs to Gene IDs
+3174
+<generator object connected_components at 0x7f2a60a27430>
+Size of LCC for CD14-positive, CD16-negative classical monocyte: 2656 (0.84 of sig genes in PPI)
+CD14-positive, CD16-positive monocyte
+Converting Ensemble IDs to Gene IDs
+3527
+<generator object connected_components at 0x7f2a60a27510>
+Size of LCC for CD14-positive, CD16-positive monocyte: 3112 (0.88 of sig genes in PPI)
+CD141-positive myeloid dendritic cell
+Converting Ensemble IDs to Gene IDs
+3679
+<generator object connected_components at 0x7f2a60a27430>
+Size of LCC for CD141-positive myeloid dendritic cell: 3380 (0.92 of sig genes in PPI)
+CD16-negative, CD56-bright natural killer cell, human
+Converting Ensemble IDs to Gene IDs
+3165
+<generator object connected_components at 0x7f2a60a27890>
+Size of LCC for CD16-negative, CD56-bright natural killer cell, human: 2615 (0.83 of sig genes in PPI)
+CD16-positive, CD56-dim natural killer cell, human
+Converting Ensemble IDs to Gene IDs
+3170
+<generator object connected_components at 0x7f2a60a27890>
+Size of LCC for CD16-positive, CD56-dim natural killer cell, human: 2766 (0.87 of sig genes in PPI)
+CD1c-positive myeloid dendritic cell
+Converting Ensemble IDs to Gene IDs
+3615
+<generator object connected_components at 0x7f2a60a27970>
+Size of LCC for CD1c-positive myeloid dendritic cell: 3310 (0.92 of sig genes in PPI)
+CD34-positive, CD56-positive, CD117-positive common innate lymphoid precursor, human
+Converting Ensemble IDs to Gene IDs
+1486
+<generator object connected_components at 0x7f2a60a27890>
+Size of LCC for CD34-positive, CD56-positive, CD117-positive common innate lymphoid precursor, human: 1151 (0.77 of sig genes in PPI)
+CD4-positive helper T cell
+Converting Ensemble IDs to Gene IDs
+3006
+<generator object connected_components at 0x7f2a60a27890>
+Size of LCC for CD4-positive helper T cell: 2490 (0.83 of sig genes in PPI)
+CD4-positive, alpha-beta T cell
+Converting Ensemble IDs to Gene IDs
+2884
+<generator object connected_components at 0x7f2a60a27890>
+Size of LCC for CD4-positive, alpha-beta T cell: 2378 (0.82 of sig genes in PPI)
+CD4-positive, alpha-beta cytotoxic T cell
+Converting Ensemble IDs to Gene IDs
+2958
+<generator object connected_components at 0x7f2a60a27b30>
+Size of LCC for CD4-positive, alpha-beta cytotoxic T cell: 2371 (0.80 of sig genes in PPI)
+CD4-positive, alpha-beta memory T cell
+Converting Ensemble IDs to Gene IDs
+3279
+<generator object connected_components at 0x7f2a60a27c10>
+Size of LCC for CD4-positive, alpha-beta memory T cell: 2765 (0.84 of sig genes in PPI)
+CD4-positive, alpha-beta thymocyte
+Converting Ensemble IDs to Gene IDs
+813
+<generator object connected_components at 0x7f2a60a27cf0>
+Size of LCC for CD4-positive, alpha-beta thymocyte: 632 (0.78 of sig genes in PPI)
+CD8-alpha-alpha-positive, alpha-beta intraepithelial T cell
+Converting Ensemble IDs to Gene IDs
+3391
+<generator object connected_components at 0x7f2a60a27eb0>
+Size of LCC for CD8-alpha-alpha-positive, alpha-beta intraepithelial T cell: 3004 (0.89 of sig genes in PPI)
+CD8-positive, alpha-beta T cell
+Converting Ensemble IDs to Gene IDs
+2741
+<generator object connected_components at 0x7f2a60a27f20>
+Size of LCC for CD8-positive, alpha-beta T cell: 2182 (0.80 of sig genes in PPI)
+CD8-positive, alpha-beta cytokine secreting effector T cell
+Converting Ensemble IDs to Gene IDs
+3434
+<generator object connected_components at 0x7f2a60a27eb0>
+Size of LCC for CD8-positive, alpha-beta cytokine secreting effector T cell: 2952 (0.86 of sig genes in PPI)
+CD8-positive, alpha-beta cytotoxic T cell
+Converting Ensemble IDs to Gene IDs
+3254
+<generator object connected_components at 0x7f2a60a27eb0>
+Size of LCC for CD8-positive, alpha-beta cytotoxic T cell: 2848 (0.88 of sig genes in PPI)
+CD8-positive, alpha-beta memory T cell
+Converting Ensemble IDs to Gene IDs
+3043
+<generator object connected_components at 0x7f2a5cb330b0>
+Size of LCC for CD8-positive, alpha-beta memory T cell: 2578 (0.85 of sig genes in PPI)
+CD8-positive, alpha-beta memory T cell, CD45RO-positive
+Converting Ensemble IDs to Gene IDs
+3211
+<generator object connected_components at 0x7f2a5cb33270>
+Size of LCC for CD8-positive, alpha-beta memory T cell, CD45RO-positive: 2660 (0.83 of sig genes in PPI)
+DN1 thymic pro-T cell
+Converting Ensemble IDs to Gene IDs
+3430
+<generator object connected_components at 0x7f2a5cb332e0>
+Size of LCC for DN1 thymic pro-T cell: 2934 (0.86 of sig genes in PPI)
+DN3 thymocyte
+Converting Ensemble IDs to Gene IDs
+3434
+<generator object connected_components at 0x7f2a5cb332e0>
+Size of LCC for DN3 thymocyte: 2954 (0.86 of sig genes in PPI)
+DN4 thymocyte
+Converting Ensemble IDs to Gene IDs
+2518
+<generator object connected_components at 0x7f2a5cb332e0>
+Size of LCC for DN4 thymocyte: 2268 (0.90 of sig genes in PPI)
+GABAergic neuron
+Converting Ensemble IDs to Gene IDs
+2169
+<generator object connected_components at 0x7f2a5cb332e0>
+Size of LCC for GABAergic neuron: 1227 (0.57 of sig genes in PPI)
+GIP cell
+Converting Ensemble IDs to Gene IDs
+1236
+<generator object connected_components at 0x7f2a5cb332e0>
+Size of LCC for GIP cell: 953 (0.77 of sig genes in PPI)
+Hofbauer cell
+Converting Ensemble IDs to Gene IDs
+3464
+<generator object connected_components at 0x7f2a5cb332e0>
+Size of LCC for Hofbauer cell: 3037 (0.88 of sig genes in PPI)
+IgA plasma cell
+Converting Ensemble IDs to Gene IDs
+2909
+<generator object connected_components at 0x7f2a5cb332e0>
+Size of LCC for IgA plasma cell: 2256 (0.78 of sig genes in PPI)
+IgG plasma cell
+Converting Ensemble IDs to Gene IDs
+3368
+<generator object connected_components at 0x7f2a5cb332e0>
+Size of LCC for IgG plasma cell: 2740 (0.81 of sig genes in PPI)
+Kupffer cell
+Converting Ensemble IDs to Gene IDs
+3285
+<generator object connected_components at 0x7f2a5cb332e0>
+Size of LCC for Kupffer cell: 2680 (0.82 of sig genes in PPI)
+L2/3-6 intratelencephalic projecting glutamatergic cortical neuron
+Converting Ensemble IDs to Gene IDs
+3318
+<generator object connected_components at 0x7f2a5cb332e0>
+Size of LCC for L2/3-6 intratelencephalic projecting glutamatergic cortical neuron: 2696 (0.81 of sig genes in PPI)
+L5 extratelencephalic projecting glutamatergic cortical neuron
+Converting Ensemble IDs to Gene IDs
+3234
+<generator object connected_components at 0x7f2a5cb332e0>
+Size of LCC for L5 extratelencephalic projecting glutamatergic cortical neuron: 2510 (0.78 of sig genes in PPI)
+L6b glutamatergic cortical neuron
+Converting Ensemble IDs to Gene IDs
+3288
+<generator object connected_components at 0x7f2a5cb332e0>
+Size of LCC for L6b glutamatergic cortical neuron: 2623 (0.80 of sig genes in PPI)
+Langerhans cell
+Converting Ensemble IDs to Gene IDs
+3085
+<generator object connected_components at 0x7f2a5cb337b0>
+Size of LCC for Langerhans cell: 2667 (0.86 of sig genes in PPI)
+M cell of gut
+Converting Ensemble IDs to Gene IDs
+2238
+<generator object connected_components at 0x7f2a5cb337b0>
+Size of LCC for M cell of gut: 1819 (0.81 of sig genes in PPI)
+Mueller cell
+Converting Ensemble IDs to Gene IDs
+2872
+<generator object connected_components at 0x7f2a77361eb0>
+Size of LCC for Mueller cell: 2047 (0.71 of sig genes in PPI)
+NKp44-negative group 3 innate lymphoid cell, human
+Converting Ensemble IDs to Gene IDs
+3215
+<generator object connected_components at 0x7f2a77361f90>
+Size of LCC for NKp44-negative group 3 innate lymphoid cell, human: 2771 (0.86 of sig genes in PPI)
+NKp44-positive group 3 innate lymphoid cell, human
+Converting Ensemble IDs to Gene IDs
+3087
+<generator object connected_components at 0x7f2a77361f90>
+Size of LCC for NKp44-positive group 3 innate lymphoid cell, human: 2646 (0.86 of sig genes in PPI)
+OFF-bipolar cell
+Converting Ensemble IDs to Gene IDs
+3285
+<generator object connected_components at 0x7f2a77361f90>
+Size of LCC for OFF-bipolar cell: 2711 (0.83 of sig genes in PPI)
+ON-bipolar cell
+Converting Ensemble IDs to Gene IDs
+3304
+<generator object connected_components at 0x7f2a77361f90>
+Size of LCC for ON-bipolar cell: 2747 (0.83 of sig genes in PPI)
+Purkinje cell
+Converting Ensemble IDs to Gene IDs
+2258
+<generator object connected_components at 0x7f2a77361f90>
+Size of LCC for Purkinje cell: 1336 (0.59 of sig genes in PPI)
+Schwann cell
+Converting Ensemble IDs to Gene IDs
+3154
+<generator object connected_components at 0x7f2a77361f90>
+Size of LCC for Schwann cell: 2353 (0.75 of sig genes in PPI)
+T cell
+Converting Ensemble IDs to Gene IDs
+2687
+<generator object connected_components at 0x7f2a77361f90>
+Size of LCC for T cell: 2088 (0.78 of sig genes in PPI)
+T follicular helper cell
+Converting Ensemble IDs to Gene IDs
+3234
+<generator object connected_components at 0x7f2a77361f90>
+Size of LCC for T follicular helper cell: 2722 (0.84 of sig genes in PPI)
+acinar cell
+Converting Ensemble IDs to Gene IDs
+3210
+<generator object connected_components at 0x7f2a77361f90>
+Size of LCC for acinar cell: 2501 (0.78 of sig genes in PPI)
+acinar cell of salivary gland
+Converting Ensemble IDs to Gene IDs
+3578
+<generator object connected_components at 0x7f2a77361f90>
+Size of LCC for acinar cell of salivary gland: 3170 (0.89 of sig genes in PPI)
+activated CD4-positive, alpha-beta T cell
+Converting Ensemble IDs to Gene IDs
+3229
+<generator object connected_components at 0x7f2a77361f90>
+Size of LCC for activated CD4-positive, alpha-beta T cell: 2614 (0.81 of sig genes in PPI)
+activated CD8-positive, alpha-beta T cell
+Converting Ensemble IDs to Gene IDs
+3335
+<generator object connected_components at 0x7f2a60a27900>
+Size of LCC for activated CD8-positive, alpha-beta T cell: 2761 (0.83 of sig genes in PPI)
+adipocyte of breast
+Converting Ensemble IDs to Gene IDs
+3041
+<generator object connected_components at 0x7f2a60a27970>
+Size of LCC for adipocyte of breast: 2382 (0.78 of sig genes in PPI)
+adventitial cell
+Converting Ensemble IDs to Gene IDs
+3541
+<generator object connected_components at 0x7f2a60a27970>
+Size of LCC for adventitial cell: 3131 (0.88 of sig genes in PPI)
+alpha-beta T cell
+Converting Ensemble IDs to Gene IDs
+3035
+<generator object connected_components at 0x7f2a60a27970>
+Size of LCC for alpha-beta T cell: 2412 (0.79 of sig genes in PPI)
+alternatively activated macrophage
+Converting Ensemble IDs to Gene IDs
+3407
+<generator object connected_components at 0x7f2a60a27970>
+Size of LCC for alternatively activated macrophage: 3005 (0.88 of sig genes in PPI)
+alveolar macrophage
+Converting Ensemble IDs to Gene IDs
+3673
+<generator object connected_components at 0x7f2a60a27ba0>
+Size of LCC for alveolar macrophage: 3321 (0.90 of sig genes in PPI)
+alveolar type 1 fibroblast cell
+Converting Ensemble IDs to Gene IDs
+3067
+<generator object connected_components at 0x7f2a60a27ba0>
+Size of LCC for alveolar type 1 fibroblast cell: 2386 (0.78 of sig genes in PPI)
+alveolar type 2 fibroblast cell
+Converting Ensemble IDs to Gene IDs
+3489
+<generator object connected_components at 0x7f2a60a27c10>
+Size of LCC for alveolar type 2 fibroblast cell: 3033 (0.87 of sig genes in PPI)
+amacrine cell
+Converting Ensemble IDs to Gene IDs
+3092
+<generator object connected_components at 0x7f2a60a27cf0>
+Size of LCC for amacrine cell: 2411 (0.78 of sig genes in PPI)
+animal cell
+Converting Ensemble IDs to Gene IDs
+3536
+<generator object connected_components at 0x7f2a60a27cf0>
+Size of LCC for animal cell: 3177 (0.90 of sig genes in PPI)
+anterior lens cell
+Converting Ensemble IDs to Gene IDs
+3028
+<generator object connected_components at 0x7f2a60a27cf0>
+Size of LCC for anterior lens cell: 2360 (0.78 of sig genes in PPI)
+astrocyte
+Converting Ensemble IDs to Gene IDs
+2250
+<generator object connected_components at 0x7f2a60a27cf0>
+Size of LCC for astrocyte: 1403 (0.62 of sig genes in PPI)
+astrocyte of the cerebral cortex
+Converting Ensemble IDs to Gene IDs
+3257
+<generator object connected_components at 0x7f2a60a27cf0>
+Size of LCC for astrocyte of the cerebral cortex: 2610 (0.80 of sig genes in PPI)
+basal cell
+Converting Ensemble IDs to Gene IDs
+3180
+<generator object connected_components at 0x7f2a5cb337b0>
+Size of LCC for basal cell: 2772 (0.87 of sig genes in PPI)
+basal cell of epidermis
+Converting Ensemble IDs to Gene IDs
+3324
+<generator object connected_components at 0x7f2a5cb337b0>
+Size of LCC for basal cell of epidermis: 2558 (0.77 of sig genes in PPI)
+basal cell of epithelium of trachea
+Converting Ensemble IDs to Gene IDs
+3227
+<generator object connected_components at 0x7f2a5cb337b0>
+Size of LCC for basal cell of epithelium of trachea: 2680 (0.83 of sig genes in PPI)
+basal cell of prostate epithelium
+Converting Ensemble IDs to Gene IDs
+3319
+<generator object connected_components at 0x7f2a5cb33190>
+Size of LCC for basal cell of prostate epithelium: 2938 (0.89 of sig genes in PPI)
+basal epithelial cell of prostatic duct
+Converting Ensemble IDs to Gene IDs
+3009
+<generator object connected_components at 0x7f2a5cb33270>
+Size of LCC for basal epithelial cell of prostatic duct: 2119 (0.70 of sig genes in PPI)
+basal epithelial cell of tracheobronchial tree
+Converting Ensemble IDs to Gene IDs
+3020
+<generator object connected_components at 0x7f2a5cb334a0>
+Size of LCC for basal epithelial cell of tracheobronchial tree: 2172 (0.72 of sig genes in PPI)
+basophil
+Converting Ensemble IDs to Gene IDs
+3374
+<generator object connected_components at 0x7f2a5cb33580>
+Size of LCC for basophil: 2840 (0.84 of sig genes in PPI)
+basophil mast progenitor cell
+Converting Ensemble IDs to Gene IDs
+3677
+<generator object connected_components at 0x7f2a5cb33580>
+Size of LCC for basophil mast progenitor cell: 3337 (0.91 of sig genes in PPI)
+bipolar neuron
+Converting Ensemble IDs to Gene IDs
+3420
+<generator object connected_components at 0x7f2a5cb33580>
+Size of LCC for bipolar neuron: 2769 (0.81 of sig genes in PPI)
+bladder urothelial cell
+Converting Ensemble IDs to Gene IDs
+3648
+<generator object connected_components at 0x7f2a5cb33580>
+Size of LCC for bladder urothelial cell: 3330 (0.91 of sig genes in PPI)
+blood cell
+Converting Ensemble IDs to Gene IDs
+3324
+<generator object connected_components at 0x7f2a5cb33580>
+Size of LCC for blood cell: 2758 (0.83 of sig genes in PPI)
+blood vessel endothelial cell
+Converting Ensemble IDs to Gene IDs
+2975
+<generator object connected_components at 0x7f2a5cb33580>
+Size of LCC for blood vessel endothelial cell: 2573 (0.86 of sig genes in PPI)
+bronchial epithelial cell
+Converting Ensemble IDs to Gene IDs
+3600
+<generator object connected_components at 0x7f2a5cb33580>
+Size of LCC for bronchial epithelial cell: 3113 (0.86 of sig genes in PPI)
+bronchial goblet cell
+Converting Ensemble IDs to Gene IDs
+3411
+<generator object connected_components at 0x7f2a5cb33580>
+Size of LCC for bronchial goblet cell: 2903 (0.85 of sig genes in PPI)
+bronchial smooth muscle cell
+Converting Ensemble IDs to Gene IDs
+517
+<generator object connected_components at 0x7f2a5cb33580>
+Size of LCC for bronchial smooth muscle cell: 330 (0.64 of sig genes in PPI)
+bronchus fibroblast of lung
+Converting Ensemble IDs to Gene IDs
+3392
+<generator object connected_components at 0x7f2a5cb339e0>
+Size of LCC for bronchus fibroblast of lung: 2819 (0.83 of sig genes in PPI)
+brush cell of trachea
+Converting Ensemble IDs to Gene IDs
+416
+<generator object connected_components at 0x7f2a77361eb0>
+Size of LCC for brush cell of trachea: 248 (0.60 of sig genes in PPI)
+brush cell of trachebronchial tree
+Converting Ensemble IDs to Gene IDs
+2237
+<generator object connected_components at 0x7f2a77361eb0>
+Size of LCC for brush cell of trachebronchial tree: 1895 (0.85 of sig genes in PPI)
+capillary endothelial cell
+Converting Ensemble IDs to Gene IDs
+2985
+<generator object connected_components at 0x7f2a77361b30>
+Size of LCC for capillary endothelial cell: 2484 (0.83 of sig genes in PPI)
+cardiac endothelial cell
+Converting Ensemble IDs to Gene IDs
+3247
+<generator object connected_components at 0x7f2a77361b30>
+Size of LCC for cardiac endothelial cell: 2616 (0.81 of sig genes in PPI)
+cardiac mesenchymal cell
+Converting Ensemble IDs to Gene IDs
+2996
+<generator object connected_components at 0x7f2a77361b30>
+Size of LCC for cardiac mesenchymal cell: 2526 (0.84 of sig genes in PPI)
+cardiac muscle cell
+Converting Ensemble IDs to Gene IDs
+2818
+<generator object connected_components at 0x7f2a77361b30>
+Size of LCC for cardiac muscle cell: 2103 (0.75 of sig genes in PPI)
+cardiac muscle myoblast
+Converting Ensemble IDs to Gene IDs
+3238
+<generator object connected_components at 0x7f2a77361b30>
+Size of LCC for cardiac muscle myoblast: 2660 (0.82 of sig genes in PPI)
+cardiac neuron
+Converting Ensemble IDs to Gene IDs
+3601
+<generator object connected_components at 0x7f2a77361b30>
+Size of LCC for cardiac neuron: 3190 (0.89 of sig genes in PPI)
+caudal ganglionic eminence derived GABAergic cortical interneuron
+Converting Ensemble IDs to Gene IDs
+3332
+<generator object connected_components at 0x7f2a77361b30>
+Size of LCC for caudal ganglionic eminence derived GABAergic cortical interneuron: 2697 (0.81 of sig genes in PPI)
+cell of skeletal muscle
+Converting Ensemble IDs to Gene IDs
+2881
+<generator object connected_components at 0x7f2a77361b30>
+Size of LCC for cell of skeletal muscle: 1983 (0.69 of sig genes in PPI)
+central memory CD4-positive, alpha-beta T cell
+Converting Ensemble IDs to Gene IDs
+2506
+<generator object connected_components at 0x7f2a60a277b0>
+Size of LCC for central memory CD4-positive, alpha-beta T cell: 1906 (0.76 of sig genes in PPI)
+central memory CD8-positive, alpha-beta T cell
+Converting Ensemble IDs to Gene IDs
+2983
+<generator object connected_components at 0x7f2a60a27900>
+Size of LCC for central memory CD8-positive, alpha-beta T cell: 2284 (0.77 of sig genes in PPI)
+central nervous system macrophage
+Converting Ensemble IDs to Gene IDs
+2796
+<generator object connected_components at 0x7f2a77361b30>
+Size of LCC for central nervous system macrophage: 2112 (0.76 of sig genes in PPI)
+centrilobular region hepatocyte
+Converting Ensemble IDs to Gene IDs
+3262
+<generator object connected_components at 0x7f2a60a27a50>
+Size of LCC for centrilobular region hepatocyte: 2634 (0.81 of sig genes in PPI)
+cerebellar granule cell
+Converting Ensemble IDs to Gene IDs
+3317
+<generator object connected_components at 0x7f2a60a27970>
+Size of LCC for cerebellar granule cell: 2716 (0.82 of sig genes in PPI)
+cerebral cortex endothelial cell
+Converting Ensemble IDs to Gene IDs
+3490
+<generator object connected_components at 0x7f2a60a27970>
+Size of LCC for cerebral cortex endothelial cell: 3040 (0.87 of sig genes in PPI)
+chandelier pvalb GABAergic cortical interneuron
+Converting Ensemble IDs to Gene IDs
+3343
+<generator object connected_components at 0x7f2a60a27c10>
+Size of LCC for chandelier pvalb GABAergic cortical interneuron: 2715 (0.81 of sig genes in PPI)
+cholangiocyte
+Converting Ensemble IDs to Gene IDs
+3342
+<generator object connected_components at 0x7f2a60a27dd0>
+Size of LCC for cholangiocyte: 2714 (0.81 of sig genes in PPI)
+chondrocyte
+Converting Ensemble IDs to Gene IDs
+3346
+<generator object connected_components at 0x7f2a60a27e40>
+Size of LCC for chondrocyte: 2839 (0.85 of sig genes in PPI)
+choroid plexus epithelial cell
+Converting Ensemble IDs to Gene IDs
+3329
+<generator object connected_components at 0x7f2a60a27e40>
+Size of LCC for choroid plexus epithelial cell: 2725 (0.82 of sig genes in PPI)
+chromaffin cell
+Converting Ensemble IDs to Gene IDs
+2687
+<generator object connected_components at 0x7f2a60a27e40>
+Size of LCC for chromaffin cell: 1758 (0.65 of sig genes in PPI)
+ciliary muscle cell
+Converting Ensemble IDs to Gene IDs
+3296
+<generator object connected_components at 0x7f2a60a27e40>
+Size of LCC for ciliary muscle cell: 2749 (0.83 of sig genes in PPI)
+ciliated cell
+Converting Ensemble IDs to Gene IDs
+3266
+<generator object connected_components at 0x7f2a60a27e40>
+Size of LCC for ciliated cell: 2723 (0.83 of sig genes in PPI)
+ciliated columnar cell of tracheobronchial tree
+Converting Ensemble IDs to Gene IDs
+3149
+<generator object connected_components at 0x7f2a5cb33040>
+Size of LCC for ciliated columnar cell of tracheobronchial tree: 2591 (0.82 of sig genes in PPI)
+ciliated epithelial cell
+Converting Ensemble IDs to Gene IDs
+3394
+<generator object connected_components at 0x7f2a60a27e40>
+Size of LCC for ciliated epithelial cell: 2923 (0.86 of sig genes in PPI)
+class switched memory B cell
+Converting Ensemble IDs to Gene IDs
+3335
+<generator object connected_components at 0x7f2a60a27e40>
+Size of LCC for class switched memory B cell: 2711 (0.81 of sig genes in PPI)
+classical monocyte
+Converting Ensemble IDs to Gene IDs
+3136
+<generator object connected_components at 0x7f2a60a27e40>
+Size of LCC for classical monocyte: 2737 (0.87 of sig genes in PPI)
+club cell
+Converting Ensemble IDs to Gene IDs
+3288
+<generator object connected_components at 0x7f2a60a27e40>
+Size of LCC for club cell: 2795 (0.85 of sig genes in PPI)
+colon epithelial cell
+Converting Ensemble IDs to Gene IDs
+3337
+<generator object connected_components at 0x7f2a60a27e40>
+Size of LCC for colon epithelial cell: 2844 (0.85 of sig genes in PPI)
+common dendritic progenitor
+Converting Ensemble IDs to Gene IDs
+3717
+<generator object connected_components at 0x7f2a60a27e40>
+Size of LCC for common dendritic progenitor: 3416 (0.92 of sig genes in PPI)
+common lymphoid progenitor
+Converting Ensemble IDs to Gene IDs
+1416
+<generator object connected_components at 0x7f2a60a27e40>
+Size of LCC for common lymphoid progenitor: 1140 (0.81 of sig genes in PPI)
+common myeloid progenitor
+Converting Ensemble IDs to Gene IDs
+3693
+<generator object connected_components at 0x7f2a60a27e40>
+Size of LCC for common myeloid progenitor: 3381 (0.92 of sig genes in PPI)
+conjunctival epithelial cell
+Converting Ensemble IDs to Gene IDs
+3643
+<generator object connected_components at 0x7f2a60a27e40>
+Size of LCC for conjunctival epithelial cell: 3332 (0.91 of sig genes in PPI)
+connective tissue cell
+Converting Ensemble IDs to Gene IDs
+1775
+<generator object connected_components at 0x7f2a60a27e40>
+Size of LCC for connective tissue cell: 1424 (0.80 of sig genes in PPI)
+contractile cell
+Converting Ensemble IDs to Gene IDs
+3091
+<generator object connected_components at 0x7f2a60a27e40>
+Size of LCC for contractile cell: 2184 (0.71 of sig genes in PPI)
+conventional dendritic cell
+Converting Ensemble IDs to Gene IDs
+3348
+<generator object connected_components at 0x7f2a60a27e40>
+Size of LCC for conventional dendritic cell: 2923 (0.87 of sig genes in PPI)
+corneal endothelial cell
+Converting Ensemble IDs to Gene IDs
+3317
+<generator object connected_components at 0x7f2a60a27e40>
+Size of LCC for corneal endothelial cell: 2720 (0.82 of sig genes in PPI)
+corneal epithelial cell
+Converting Ensemble IDs to Gene IDs
+3493
+<generator object connected_components at 0x7f2a60a27e40>
+Size of LCC for corneal epithelial cell: 3063 (0.88 of sig genes in PPI)
+cortical cell of adrenal gland
+Converting Ensemble IDs to Gene IDs
+2175
+<generator object connected_components at 0x7f2a60a27e40>
+Size of LCC for cortical cell of adrenal gland: 1232 (0.57 of sig genes in PPI)
+cortical thymic epithelial cell
+Converting Ensemble IDs to Gene IDs
+3657
+<generator object connected_components at 0x7f2a60a27e40>
+Size of LCC for cortical thymic epithelial cell: 3342 (0.91 of sig genes in PPI)
+corticothalamic-projecting glutamatergic cortical neuron
+Converting Ensemble IDs to Gene IDs
+3297
+<generator object connected_components at 0x7f2a77361eb0>
+Size of LCC for corticothalamic-projecting glutamatergic cortical neuron: 2628 (0.80 of sig genes in PPI)
+cytotoxic T cell
+Converting Ensemble IDs to Gene IDs
+3027
+<generator object connected_components at 0x7f2a77361f90>
+Size of LCC for cytotoxic T cell: 2669 (0.88 of sig genes in PPI)
+decidual cell
+Converting Ensemble IDs to Gene IDs
+3552
+<generator object connected_components at 0x7f2a77361f90>
+Size of LCC for decidual cell: 3189 (0.90 of sig genes in PPI)
+decidual natural killer cell, human
+Converting Ensemble IDs to Gene IDs
+2986
+<generator object connected_components at 0x7f2a77361f90>
+Size of LCC for decidual natural killer cell, human: 2376 (0.80 of sig genes in PPI)
+dendritic cell
+Converting Ensemble IDs to Gene IDs
+3689
+<generator object connected_components at 0x7f2a60a270b0>
+Size of LCC for dendritic cell: 3369 (0.91 of sig genes in PPI)
+dendritic cell, human
+Converting Ensemble IDs to Gene IDs
+2289
+<generator object connected_components at 0x7f2a60a270b0>
+Size of LCC for dendritic cell, human: 1898 (0.83 of sig genes in PPI)
+dermis microvascular lymphatic vessel endothelial cell
+Converting Ensemble IDs to Gene IDs
+3536
+<generator object connected_components at 0x7f2a60a27510>
+Size of LCC for dermis microvascular lymphatic vessel endothelial cell: 3003 (0.85 of sig genes in PPI)
+double negative T regulatory cell
+Converting Ensemble IDs to Gene IDs
+3435
+<generator object connected_components at 0x7f2a60a275f0>
+Size of LCC for double negative T regulatory cell: 2927 (0.85 of sig genes in PPI)
+double negative thymocyte
+Converting Ensemble IDs to Gene IDs
+3572
+<generator object connected_components at 0x7f2a60a27510>
+Size of LCC for double negative thymocyte: 3277 (0.92 of sig genes in PPI)
+double-positive, alpha-beta thymocyte
+Converting Ensemble IDs to Gene IDs
+3505
+<generator object connected_components at 0x7f2a60a27510>
+Size of LCC for double-positive, alpha-beta thymocyte: 3225 (0.92 of sig genes in PPI)
+duct epithelial cell
+Converting Ensemble IDs to Gene IDs
+3637
+<generator object connected_components at 0x7f2a60a277b0>
+Size of LCC for duct epithelial cell: 3286 (0.90 of sig genes in PPI)
+duodenum glandular cell
+Converting Ensemble IDs to Gene IDs
+732
+<generator object connected_components at 0x7f2a60a277b0>
+Size of LCC for duodenum glandular cell: 412 (0.56 of sig genes in PPI)
+early T lineage precursor
+Converting Ensemble IDs to Gene IDs
+3015
+<generator object connected_components at 0x7f2a60a277b0>
+Size of LCC for early T lineage precursor: 2635 (0.87 of sig genes in PPI)
+early lymphoid progenitor
+Converting Ensemble IDs to Gene IDs
+3673
+<generator object connected_components at 0x7f2a60a277b0>
+Size of LCC for early lymphoid progenitor: 3394 (0.92 of sig genes in PPI)
+early promyelocyte
+Converting Ensemble IDs to Gene IDs
+3629
+<generator object connected_components at 0x7f2a60a277b0>
+Size of LCC for early promyelocyte: 3280 (0.90 of sig genes in PPI)
+effector CD4-positive, alpha-beta T cell
+Converting Ensemble IDs to Gene IDs
+3382
+<generator object connected_components at 0x7f2a60a277b0>
+Size of LCC for effector CD4-positive, alpha-beta T cell: 2932 (0.87 of sig genes in PPI)
+effector CD8-positive, alpha-beta T cell
+Converting Ensemble IDs to Gene IDs
+3350
+<generator object connected_components at 0x7f2a60a27c80>
+Size of LCC for effector CD8-positive, alpha-beta T cell: 2859 (0.85 of sig genes in PPI)
+effector memory CD4-positive, alpha-beta T cell
+Converting Ensemble IDs to Gene IDs
+2881
+<generator object connected_components at 0x7f2a60a27dd0>
+Size of LCC for effector memory CD4-positive, alpha-beta T cell: 2356 (0.82 of sig genes in PPI)
+effector memory CD8-positive, alpha-beta T cell
+Converting Ensemble IDs to Gene IDs
+2444
+<generator object connected_components at 0x7f2a60a27dd0>
+Size of LCC for effector memory CD8-positive, alpha-beta T cell: 1702 (0.70 of sig genes in PPI)
+effector memory CD8-positive, alpha-beta T cell, terminally differentiated
+Converting Ensemble IDs to Gene IDs
+3248
+<generator object connected_components at 0x7f2a60a27f90>
+Size of LCC for effector memory CD8-positive, alpha-beta T cell, terminally differentiated: 2738 (0.84 of sig genes in PPI)
+elicited macrophage
+Converting Ensemble IDs to Gene IDs
+3468
+<generator object connected_components at 0x7f2a60a27f90>
+Size of LCC for elicited macrophage: 3067 (0.88 of sig genes in PPI)
+embryonic fibroblast
+Converting Ensemble IDs to Gene IDs
+3552
+<generator object connected_components at 0x7f2a60a27f90>
+Size of LCC for embryonic fibroblast: 3201 (0.90 of sig genes in PPI)
+endocardial cell
+Converting Ensemble IDs to Gene IDs
+3030
+<generator object connected_components at 0x7f2a60a27f90>
+Size of LCC for endocardial cell: 2278 (0.75 of sig genes in PPI)
+endocrine cell
+Converting Ensemble IDs to Gene IDs
+3415
+<generator object connected_components at 0x7f2a60a27f90>
+Size of LCC for endocrine cell: 2790 (0.82 of sig genes in PPI)
+endosteal cell
+Converting Ensemble IDs to Gene IDs
+609
+<generator object connected_components at 0x7f2a60a27f90>
+Size of LCC for endosteal cell: 369 (0.61 of sig genes in PPI)
+endothelial cell
+Converting Ensemble IDs to Gene IDs
+3517
+<generator object connected_components at 0x7f2a60a27f90>
+Size of LCC for endothelial cell: 3161 (0.90 of sig genes in PPI)
+endothelial cell of artery
+Converting Ensemble IDs to Gene IDs
+3261
+<generator object connected_components at 0x7f2a60a27f90>
+Size of LCC for endothelial cell of artery: 2759 (0.85 of sig genes in PPI)
+endothelial cell of hepatic sinusoid
+Converting Ensemble IDs to Gene IDs
+2504
+<generator object connected_components at 0x7f2a60a27f90>
+Size of LCC for endothelial cell of hepatic sinusoid: 2106 (0.84 of sig genes in PPI)
+endothelial cell of lymphatic vessel
+Converting Ensemble IDs to Gene IDs
+3009
+<generator object connected_components at 0x7f2a5cb337b0>
+Size of LCC for endothelial cell of lymphatic vessel: 2507 (0.83 of sig genes in PPI)
+endothelial cell of pericentral hepatic sinusoid
+Converting Ensemble IDs to Gene IDs
+3191
+<generator object connected_components at 0x7f2a5cb33270>
+Size of LCC for endothelial cell of pericentral hepatic sinusoid: 2440 (0.76 of sig genes in PPI)
+endothelial cell of placenta
+Converting Ensemble IDs to Gene IDs
+3531
+<generator object connected_components at 0x7f2a5cb333c0>
+Size of LCC for endothelial cell of placenta: 3130 (0.89 of sig genes in PPI)
+endothelial cell of sinusoid
+Converting Ensemble IDs to Gene IDs
+3476
+<generator object connected_components at 0x7f2a5cb333c0>
+Size of LCC for endothelial cell of sinusoid: 3068 (0.88 of sig genes in PPI)
+endothelial cell of uterus
+Converting Ensemble IDs to Gene IDs
+3420
+<generator object connected_components at 0x7f2a5cb333c0>
+Size of LCC for endothelial cell of uterus: 3000 (0.88 of sig genes in PPI)
+endothelial cell of vascular tree
+Converting Ensemble IDs to Gene IDs
+2492
+<generator object connected_components at 0x7f2a5cb333c0>
+Size of LCC for endothelial cell of vascular tree: 1663 (0.67 of sig genes in PPI)
+endothelial tip cell
+Converting Ensemble IDs to Gene IDs
+3065
+<generator object connected_components at 0x7f2a5cb33510>
+Size of LCC for endothelial tip cell: 2743 (0.89 of sig genes in PPI)
+enteric neuron
+Converting Ensemble IDs to Gene IDs
+555
+<generator object connected_components at 0x7f2a5cb33510>
+Size of LCC for enteric neuron: 394 (0.71 of sig genes in PPI)
+enteric smooth muscle cell
+Converting Ensemble IDs to Gene IDs
+2945
+<generator object connected_components at 0x7f2a5cb33510>
+Size of LCC for enteric smooth muscle cell: 2154 (0.73 of sig genes in PPI)
+enterocyte
+Converting Ensemble IDs to Gene IDs
+3658
+<generator object connected_components at 0x7f2a5cb33510>
+Size of LCC for enterocyte: 3362 (0.92 of sig genes in PPI)
+enterocyte of colon
+Converting Ensemble IDs to Gene IDs
+3339
+<generator object connected_components at 0x7f2a5cb33510>
+Size of LCC for enterocyte of colon: 2895 (0.87 of sig genes in PPI)
+enterocyte of epithelium of large intestine
+Converting Ensemble IDs to Gene IDs
+3286
+<generator object connected_components at 0x7f2a5cb33510>
+Size of LCC for enterocyte of epithelium of large intestine: 2739 (0.83 of sig genes in PPI)
+enterocyte of epithelium of small intestine
+Converting Ensemble IDs to Gene IDs
+3408
+<generator object connected_components at 0x7f2a77361dd0>
+Size of LCC for enterocyte of epithelium of small intestine: 2861 (0.84 of sig genes in PPI)
+enteroendocrine cell
+Converting Ensemble IDs to Gene IDs
+3650
+<generator object connected_components at 0x7f2a77361b30>
+Size of LCC for enteroendocrine cell: 3351 (0.92 of sig genes in PPI)
+eosinophil
+Converting Ensemble IDs to Gene IDs
+3529
+<generator object connected_components at 0x7f2a77361b30>
+Size of LCC for eosinophil: 3167 (0.90 of sig genes in PPI)
+ependymal cell
+Converting Ensemble IDs to Gene IDs
+3064
+<generator object connected_components at 0x7f2a77361b30>
+Size of LCC for ependymal cell: 2329 (0.76 of sig genes in PPI)
+epicardial adipocyte
+Converting Ensemble IDs to Gene IDs
+3305
+<generator object connected_components at 0x7f2a77361b30>
+Size of LCC for epicardial adipocyte: 2567 (0.78 of sig genes in PPI)
+epidermal Langerhans cell
+Converting Ensemble IDs to Gene IDs
+210
+<generator object connected_components at 0x7f2a77361b30>
+Size of LCC for epidermal Langerhans cell: 140 (0.67 of sig genes in PPI)
+epidermal cell
+Converting Ensemble IDs to Gene IDs
+3570
+<generator object connected_components at 0x7f2a77361b30>
+Size of LCC for epidermal cell: 3098 (0.87 of sig genes in PPI)
+epithelial cell
+Converting Ensemble IDs to Gene IDs
+3669
+<generator object connected_components at 0x7f2a77361b30>
+Size of LCC for epithelial cell: 3350 (0.91 of sig genes in PPI)
+epithelial cell of alveolus of lung
+Converting Ensemble IDs to Gene IDs
+2843
+<generator object connected_components at 0x7f2a77361b30>
+Size of LCC for epithelial cell of alveolus of lung: 1970 (0.69 of sig genes in PPI)
+epithelial cell of lacrimal sac
+Converting Ensemble IDs to Gene IDs
+352
+<generator object connected_components at 0x7f2a60a27510>
+Size of LCC for epithelial cell of lacrimal sac: 211 (0.60 of sig genes in PPI)
+epithelial cell of lower respiratory tract
+Converting Ensemble IDs to Gene IDs
+2394
+<generator object connected_components at 0x7f2a60a27900>
+Size of LCC for epithelial cell of lower respiratory tract: 1433 (0.60 of sig genes in PPI)
+epithelial cell of lung
+Converting Ensemble IDs to Gene IDs
+3527
+<generator object connected_components at 0x7f2a60a27890>
+Size of LCC for epithelial cell of lung: 3135 (0.89 of sig genes in PPI)
+epithelial cell of nephron
+Converting Ensemble IDs to Gene IDs
+3620
+<generator object connected_components at 0x7f2a60a27890>
+Size of LCC for epithelial cell of nephron: 3228 (0.89 of sig genes in PPI)
+epithelial cell of prostate
+Converting Ensemble IDs to Gene IDs
+3195
+<generator object connected_components at 0x7f2a60a27890>
+Size of LCC for epithelial cell of prostate: 2426 (0.76 of sig genes in PPI)
+epithelial cell of proximal tubule
+Converting Ensemble IDs to Gene IDs
+2895
+<generator object connected_components at 0x7f2a60a27890>
+Size of LCC for epithelial cell of proximal tubule: 2052 (0.71 of sig genes in PPI)
+epithelial cell of sweat gland
+Converting Ensemble IDs to Gene IDs
+3045
+<generator object connected_components at 0x7f2a60a27c80>
+Size of LCC for epithelial cell of sweat gland: 2739 (0.90 of sig genes in PPI)
+epithelial cell of thymus
+Converting Ensemble IDs to Gene IDs
+3436
+<generator object connected_components at 0x7f2a60a27c80>
+Size of LCC for epithelial cell of thymus: 3058 (0.89 of sig genes in PPI)
+epithelial cell of urethra
+Converting Ensemble IDs to Gene IDs
+3353
+<generator object connected_components at 0x7f2a60a27c80>
+Size of LCC for epithelial cell of urethra: 2906 (0.87 of sig genes in PPI)
+epithelial cell of uterus
+Converting Ensemble IDs to Gene IDs
+2566
+<generator object connected_components at 0x7f2a60a27c80>
+Size of LCC for epithelial cell of uterus: 2246 (0.88 of sig genes in PPI)
+erythroblast
+Converting Ensemble IDs to Gene IDs
+2649
+<generator object connected_components at 0x7f2a60a27c80>
+Size of LCC for erythroblast: 1810 (0.68 of sig genes in PPI)
+erythrocyte
+Converting Ensemble IDs to Gene IDs
+2746
+<generator object connected_components at 0x7f2a60a27c80>
+Size of LCC for erythrocyte: 2167 (0.79 of sig genes in PPI)
+erythroid lineage cell
+Converting Ensemble IDs to Gene IDs
+3677
+<generator object connected_components at 0x7f2a60a27c80>
+Size of LCC for erythroid lineage cell: 3356 (0.91 of sig genes in PPI)
+erythroid progenitor cell
+Converting Ensemble IDs to Gene IDs
+3726
+<generator object connected_components at 0x7f2a60a27c80>
+Size of LCC for erythroid progenitor cell: 3428 (0.92 of sig genes in PPI)
+eukaryotic cell
+Converting Ensemble IDs to Gene IDs
+3481
+<generator object connected_components at 0x7f2a60a27c80>
+Size of LCC for eukaryotic cell: 2988 (0.86 of sig genes in PPI)
+eurydendroid cell
+Converting Ensemble IDs to Gene IDs
+3597
+<generator object connected_components at 0x7f2a60a27c80>
+Size of LCC for eurydendroid cell: 3225 (0.90 of sig genes in PPI)
+extravillous trophoblast
+Converting Ensemble IDs to Gene IDs
+3675
+<generator object connected_components at 0x7f2a60a27c80>
+Size of LCC for extravillous trophoblast: 3375 (0.92 of sig genes in PPI)
+eye photoreceptor cell
+Converting Ensemble IDs to Gene IDs
+3420
+<generator object connected_components at 0x7f2a60a27c80>
+Size of LCC for eye photoreceptor cell: 2879 (0.84 of sig genes in PPI)
+fast muscle cell
+Converting Ensemble IDs to Gene IDs
+3360
+<generator object connected_components at 0x7f2a60a27c80>
+Size of LCC for fast muscle cell: 2632 (0.78 of sig genes in PPI)
+fat cell
+Converting Ensemble IDs to Gene IDs
+3093
+<generator object connected_components at 0x7f2a60a27c80>
+Size of LCC for fat cell: 2471 (0.80 of sig genes in PPI)
+fetal cardiomyocyte
+Converting Ensemble IDs to Gene IDs
+3437
+<generator object connected_components at 0x7f2a60a27c80>
+Size of LCC for fetal cardiomyocyte: 2876 (0.84 of sig genes in PPI)
+fibro/adipogenic progenitor cell
+Converting Ensemble IDs to Gene IDs
+3086
+<generator object connected_components at 0x7f2a60a27c80>
+Size of LCC for fibro/adipogenic progenitor cell: 2409 (0.78 of sig genes in PPI)
+fibroblast
+Converting Ensemble IDs to Gene IDs
+3408
+<generator object connected_components at 0x7f2a5cb33350>
+Size of LCC for fibroblast: 3062 (0.90 of sig genes in PPI)
+fibroblast of breast
+Converting Ensemble IDs to Gene IDs
+3446
+<generator object connected_components at 0x7f2a5cb33350>
+Size of LCC for fibroblast of breast: 2931 (0.85 of sig genes in PPI)
+fibroblast of cardiac tissue
+Converting Ensemble IDs to Gene IDs
+3090
+<generator object connected_components at 0x7f2a5cb33350>
+Size of LCC for fibroblast of cardiac tissue: 2428 (0.79 of sig genes in PPI)
+fibroblast of connective tissue of glandular part of prostate
+Converting Ensemble IDs to Gene IDs
+3532
+<generator object connected_components at 0x7f2a5cb335f0>
+Size of LCC for fibroblast of connective tissue of glandular part of prostate: 3143 (0.89 of sig genes in PPI)
+fibroblast of connective tissue of nonglandular part of prostate
+Converting Ensemble IDs to Gene IDs
+2185
+<generator object connected_components at 0x7f2a5cb33660>
+Size of LCC for fibroblast of connective tissue of nonglandular part of prostate: 1818 (0.83 of sig genes in PPI)
+fibroblast of lung
+Converting Ensemble IDs to Gene IDs
+3426
+<generator object connected_components at 0x7f2a5cb33660>
+Size of LCC for fibroblast of lung: 2861 (0.84 of sig genes in PPI)
+fibroblast of mammary gland
+Converting Ensemble IDs to Gene IDs
+2986
+<generator object connected_components at 0x7f2a5cb33660>
+Size of LCC for fibroblast of mammary gland: 2596 (0.87 of sig genes in PPI)
+follicular dendritic cell
+Converting Ensemble IDs to Gene IDs
+134
+<generator object connected_components at 0x7f2a5cb33660>
+Size of LCC for follicular dendritic cell: 10 (0.07 of sig genes in PPI)
+fraction A pre-pro B cell
+Converting Ensemble IDs to Gene IDs
+3674
+<generator object connected_components at 0x7f2a5cb33660>
+Size of LCC for fraction A pre-pro B cell: 3399 (0.93 of sig genes in PPI)
+gamma-delta T cell
+Converting Ensemble IDs to Gene IDs
+3035
+<generator object connected_components at 0x7f2a5cb33660>
+Size of LCC for gamma-delta T cell: 2563 (0.84 of sig genes in PPI)
+ganglion interneuron
+Converting Ensemble IDs to Gene IDs
+3407
+<generator object connected_components at 0x7f2a77361c10>
+Size of LCC for ganglion interneuron: 2743 (0.81 of sig genes in PPI)
+germ cell
+Converting Ensemble IDs to Gene IDs
+3623
+<generator object connected_components at 0x7f2a77361c10>
+Size of LCC for germ cell: 3299 (0.91 of sig genes in PPI)
+germinal center B cell
+Converting Ensemble IDs to Gene IDs
+3450
+<generator object connected_components at 0x7f2a77361c10>
+Size of LCC for germinal center B cell: 3084 (0.89 of sig genes in PPI)
+glandular epithelial cell
+Converting Ensemble IDs to Gene IDs
+3595
+<generator object connected_components at 0x7f2a77361c10>
+Size of LCC for glandular epithelial cell: 3271 (0.91 of sig genes in PPI)
+glial cell
+Converting Ensemble IDs to Gene IDs
+2654
+<generator object connected_components at 0x7f2a77361c10>
+Size of LCC for glial cell: 1776 (0.67 of sig genes in PPI)
+glutamatergic neuron
+Converting Ensemble IDs to Gene IDs
+1981
+<generator object connected_components at 0x7f2a77361c10>
+Size of LCC for glutamatergic neuron: 1037 (0.52 of sig genes in PPI)
+goblet cell
+Converting Ensemble IDs to Gene IDs
+3469
+<generator object connected_components at 0x7f2a77361c10>
+Size of LCC for goblet cell: 3014 (0.87 of sig genes in PPI)
+granule cell
+Converting Ensemble IDs to Gene IDs
+2395
+<generator object connected_components at 0x7f2a77361c10>
+Size of LCC for granule cell: 1401 (0.58 of sig genes in PPI)
+granulocyte
+Converting Ensemble IDs to Gene IDs
+3678
+<generator object connected_components at 0x7f2a77361c10>
+Size of LCC for granulocyte: 3370 (0.92 of sig genes in PPI)
+granulocyte monocyte progenitor cell
+Converting Ensemble IDs to Gene IDs
+3690
+<generator object connected_components at 0x7f2a77361c10>
+Size of LCC for granulocyte monocyte progenitor cell: 3399 (0.92 of sig genes in PPI)
+granulosa cell
+Converting Ensemble IDs to Gene IDs
+3619
+<generator object connected_components at 0x7f2a60a276d0>
+Size of LCC for granulosa cell: 3279 (0.91 of sig genes in PPI)
+group 2 innate lymphoid cell
+Converting Ensemble IDs to Gene IDs
+2522
+<generator object connected_components at 0x7f2a60a276d0>
+Size of LCC for group 2 innate lymphoid cell: 2152 (0.85 of sig genes in PPI)
+group 3 innate lymphoid cell
+Converting Ensemble IDs to Gene IDs
+3335
+<generator object connected_components at 0x7f2a60a276d0>
+Size of LCC for group 3 innate lymphoid cell: 2822 (0.85 of sig genes in PPI)
+group 3 innate lymphoid cell, human
+Converting Ensemble IDs to Gene IDs
+3346
+<generator object connected_components at 0x7f2a60a276d0>
+Size of LCC for group 3 innate lymphoid cell, human: 2701 (0.81 of sig genes in PPI)
+gut endothelial cell
+Converting Ensemble IDs to Gene IDs
+952
+<generator object connected_components at 0x7f2a60a27a50>
+Size of LCC for gut endothelial cell: 713 (0.75 of sig genes in PPI)
+hematopoietic cell
+Converting Ensemble IDs to Gene IDs
+2962
+<generator object connected_components at 0x7f2a60a27a50>
+Size of LCC for hematopoietic cell: 2311 (0.78 of sig genes in PPI)
+hematopoietic multipotent progenitor cell
+Converting Ensemble IDs to Gene IDs
+3704
+<generator object connected_components at 0x7f2a60a27a50>
+Size of LCC for hematopoietic multipotent progenitor cell: 3409 (0.92 of sig genes in PPI)
+hematopoietic precursor cell
+Converting Ensemble IDs to Gene IDs
+3379
+<generator object connected_components at 0x7f2a60a27890>
+Size of LCC for hematopoietic precursor cell: 2887 (0.85 of sig genes in PPI)
+hematopoietic stem cell
+Converting Ensemble IDs to Gene IDs
+3580
+<generator object connected_components at 0x7f2a60a27890>
+Size of LCC for hematopoietic stem cell: 3229 (0.90 of sig genes in PPI)
+hepatic stellate cell
+Converting Ensemble IDs to Gene IDs
+3213
+<generator object connected_components at 0x7f2a60a27890>
+Size of LCC for hepatic stellate cell: 2575 (0.80 of sig genes in PPI)
+hepatoblast
+Converting Ensemble IDs to Gene IDs
+2567
+<generator object connected_components at 0x7f2a60a27890>
+Size of LCC for hepatoblast: 1643 (0.64 of sig genes in PPI)
+hepatocyte
+Converting Ensemble IDs to Gene IDs
+3434
+<generator object connected_components at 0x7f2a60a27890>
+Size of LCC for hepatocyte: 2886 (0.84 of sig genes in PPI)
+immature B cell
+Converting Ensemble IDs to Gene IDs
+3281
+<generator object connected_components at 0x7f2a60a27890>
+Size of LCC for immature B cell: 2719 (0.83 of sig genes in PPI)
+immature innate lymphoid cell
+Converting Ensemble IDs to Gene IDs
+3364
+<generator object connected_components at 0x7f2a60a27890>
+Size of LCC for immature innate lymphoid cell: 2743 (0.82 of sig genes in PPI)
+immature natural killer cell
+Converting Ensemble IDs to Gene IDs
+583
+<generator object connected_components at 0x7f2a60a27890>
+Size of LCC for immature natural killer cell: 417 (0.72 of sig genes in PPI)
+inflammatory macrophage
+Converting Ensemble IDs to Gene IDs
+3314
+<generator object connected_components at 0x7f2a60a27890>
+Size of LCC for inflammatory macrophage: 2848 (0.86 of sig genes in PPI)
+inhibitory interneuron
+Converting Ensemble IDs to Gene IDs
+2288
+<generator object connected_components at 0x7f2a60a27890>
+Size of LCC for inhibitory interneuron: 1334 (0.58 of sig genes in PPI)
+inhibitory motor neuron
+Converting Ensemble IDs to Gene IDs
+2303
+<generator object connected_components at 0x7f2a60a27890>
+Size of LCC for inhibitory motor neuron: 1960 (0.85 of sig genes in PPI)
+innate lymphoid cell
+Converting Ensemble IDs to Gene IDs
+2996
+<generator object connected_components at 0x7f2a60a27890>
+Size of LCC for innate lymphoid cell: 2286 (0.76 of sig genes in PPI)
+intermediate monocyte
+Converting Ensemble IDs to Gene IDs
+3490
+<generator object connected_components at 0x7f2a60a27890>
+Size of LCC for intermediate monocyte: 3021 (0.87 of sig genes in PPI)
+interneuron
+Converting Ensemble IDs to Gene IDs
+1886
+<generator object connected_components at 0x7f2a60a27890>
+Size of LCC for interneuron: 1551 (0.82 of sig genes in PPI)
+interstitial cell of Cajal
+Converting Ensemble IDs to Gene IDs
+3496
+<generator object connected_components at 0x7f2a60a27890>
+Size of LCC for interstitial cell of Cajal: 3036 (0.87 of sig genes in PPI)
+interstitial cell of ovary
+Converting Ensemble IDs to Gene IDs
+3450
+<generator object connected_components at 0x7f2a60a27890>
+Size of LCC for interstitial cell of ovary: 3034 (0.88 of sig genes in PPI)
+intestinal crypt stem cell
+Converting Ensemble IDs to Gene IDs
+3642
+<generator object connected_components at 0x7f2a60a27890>
+Size of LCC for intestinal crypt stem cell: 3289 (0.90 of sig genes in PPI)
+intestinal crypt stem cell of large intestine
+Converting Ensemble IDs to Gene IDs
+1136
+<generator object connected_components at 0x7f2a60a27890>
+Size of LCC for intestinal crypt stem cell of large intestine: 872 (0.77 of sig genes in PPI)
+intestinal crypt stem cell of small intestine
+Converting Ensemble IDs to Gene IDs
+3454
+<generator object connected_components at 0x7f2a5cb33190>
+Size of LCC for intestinal crypt stem cell of small intestine: 3143 (0.91 of sig genes in PPI)
+intestinal enteroendocrine cell
+Converting Ensemble IDs to Gene IDs
+1282
+<generator object connected_components at 0x7f2a5cb334a0>
+Size of LCC for intestinal enteroendocrine cell: 1023 (0.80 of sig genes in PPI)
+intestinal epithelial cell
+Converting Ensemble IDs to Gene IDs
+3447
+<generator object connected_components at 0x7f2a5cb33350>
+Size of LCC for intestinal epithelial cell: 2961 (0.86 of sig genes in PPI)
+intestinal tuft cell
+Converting Ensemble IDs to Gene IDs
+3431
+<generator object connected_components at 0x7f2a5cb33350>
+Size of LCC for intestinal tuft cell: 2920 (0.85 of sig genes in PPI)
+intestine goblet cell
+Converting Ensemble IDs to Gene IDs
+3344
+<generator object connected_components at 0x7f2a5cb33350>
+Size of LCC for intestine goblet cell: 2839 (0.85 of sig genes in PPI)
+intrahepatic cholangiocyte
+Converting Ensemble IDs to Gene IDs
+533
+<generator object connected_components at 0x7f2a5cb33350>
+Size of LCC for intrahepatic cholangiocyte: 308 (0.58 of sig genes in PPI)
+ionocyte
+Converting Ensemble IDs to Gene IDs
+3413
+<generator object connected_components at 0x7f2a77361eb0>
+Size of LCC for ionocyte: 2969 (0.87 of sig genes in PPI)
+keratinocyte
+Converting Ensemble IDs to Gene IDs
+3692
+<generator object connected_components at 0x7f2a77361eb0>
+Size of LCC for keratinocyte: 3397 (0.92 of sig genes in PPI)
+keratocyte
+Converting Ensemble IDs to Gene IDs
+3548
+<generator object connected_components at 0x7f2a77361eb0>
+Size of LCC for keratocyte: 3144 (0.89 of sig genes in PPI)
+kidney cell
+Converting Ensemble IDs to Gene IDs
+3618
+<generator object connected_components at 0x7f2a77361eb0>
+Size of LCC for kidney cell: 3297 (0.91 of sig genes in PPI)
+kidney collecting duct intercalated cell
+Converting Ensemble IDs to Gene IDs
+3316
+<generator object connected_components at 0x7f2a77361eb0>
+Size of LCC for kidney collecting duct intercalated cell: 2795 (0.84 of sig genes in PPI)
+kidney collecting duct principal cell
+Converting Ensemble IDs to Gene IDs
+3298
+<generator object connected_components at 0x7f2a60a27190>
+Size of LCC for kidney collecting duct principal cell: 2721 (0.83 of sig genes in PPI)
+kidney connecting tubule epithelial cell
+Converting Ensemble IDs to Gene IDs
+3286
+<generator object connected_components at 0x7f2a60a27430>
+Size of LCC for kidney connecting tubule epithelial cell: 2740 (0.83 of sig genes in PPI)
+kidney distal convoluted tubule epithelial cell
+Converting Ensemble IDs to Gene IDs
+3298
+<generator object connected_components at 0x7f2a60a27ac0>
+Size of LCC for kidney distal convoluted tubule epithelial cell: 2705 (0.82 of sig genes in PPI)
+kidney epithelial cell
+Converting Ensemble IDs to Gene IDs
+3629
+<generator object connected_components at 0x7f2a60a27900>
+Size of LCC for kidney epithelial cell: 3301 (0.91 of sig genes in PPI)
+kidney interstitial cell
+Converting Ensemble IDs to Gene IDs
+3422
+<generator object connected_components at 0x7f2a60a27900>
+Size of LCC for kidney interstitial cell: 2877 (0.84 of sig genes in PPI)
+kidney interstitial fibroblast
+Converting Ensemble IDs to Gene IDs
+3243
+<generator object connected_components at 0x7f2a60a27900>
+Size of LCC for kidney interstitial fibroblast: 2540 (0.78 of sig genes in PPI)
+kidney loop of Henle epithelial cell
+Converting Ensemble IDs to Gene IDs
+1896
+<generator object connected_components at 0x7f2a60a27900>
+Size of LCC for kidney loop of Henle epithelial cell: 1571 (0.83 of sig genes in PPI)
+kidney loop of Henle thick ascending limb epithelial cell
+Converting Ensemble IDs to Gene IDs
+3146
+<generator object connected_components at 0x7f2a60a27a50>
+Size of LCC for kidney loop of Henle thick ascending limb epithelial cell: 2499 (0.79 of sig genes in PPI)
+kidney loop of Henle thin ascending limb epithelial cell
+Converting Ensemble IDs to Gene IDs
+3318
+<generator object connected_components at 0x7f2a60a27a50>
+Size of LCC for kidney loop of Henle thin ascending limb epithelial cell: 2703 (0.81 of sig genes in PPI)
+kidney loop of Henle thin descending limb epithelial cell
+Converting Ensemble IDs to Gene IDs
+3233
+<generator object connected_components at 0x7f2a60a27a50>
+Size of LCC for kidney loop of Henle thin descending limb epithelial cell: 2539 (0.79 of sig genes in PPI)
+lamp5 GABAergic cortical interneuron
+Converting Ensemble IDs to Gene IDs
+3329
+<generator object connected_components at 0x7f2a60a27d60>
+Size of LCC for lamp5 GABAergic cortical interneuron: 2720 (0.82 of sig genes in PPI)
+large intestine goblet cell
+Converting Ensemble IDs to Gene IDs
+3142
+<generator object connected_components at 0x7f2a60a27a50>
+Size of LCC for large intestine goblet cell: 2697 (0.86 of sig genes in PPI)
+large pre-B-II cell
+Converting Ensemble IDs to Gene IDs
+3594
+<generator object connected_components at 0x7f2a60a27a50>
+Size of LCC for large pre-B-II cell: 3215 (0.89 of sig genes in PPI)
+late pro-B cell
+Converting Ensemble IDs to Gene IDs
+1798
+<generator object connected_components at 0x7f2a60a27a50>
+Size of LCC for late pro-B cell: 1469 (0.82 of sig genes in PPI)
+late promyelocyte
+Converting Ensemble IDs to Gene IDs
+3617
+<generator object connected_components at 0x7f2a60a27a50>
+Size of LCC for late promyelocyte: 3240 (0.90 of sig genes in PPI)
+lens epithelial cell
+Converting Ensemble IDs to Gene IDs
+3074
+<generator object connected_components at 0x7f2a60a27a50>
+Size of LCC for lens epithelial cell: 2422 (0.79 of sig genes in PPI)
+lens fiber cell
+Converting Ensemble IDs to Gene IDs
+3233
+<generator object connected_components at 0x7f2a60a27a50>
+Size of LCC for lens fiber cell: 2636 (0.82 of sig genes in PPI)
+leukocyte
+Converting Ensemble IDs to Gene IDs
+3207
+<generator object connected_components at 0x7f2a60a27a50>
+Size of LCC for leukocyte: 2615 (0.82 of sig genes in PPI)
+liver dendritic cell
+Converting Ensemble IDs to Gene IDs
+493
+<generator object connected_components at 0x7f2a60a27a50>
+Size of LCC for liver dendritic cell: 309 (0.63 of sig genes in PPI)
+luminal cell of prostate epithelium
+Converting Ensemble IDs to Gene IDs
+3026
+<generator object connected_components at 0x7f2a60a27a50>
+Size of LCC for luminal cell of prostate epithelium: 2232 (0.74 of sig genes in PPI)
+luminal epithelial cell of mammary gland
+Converting Ensemble IDs to Gene IDs
+3606
+<generator object connected_components at 0x7f2a5cb332e0>
+Size of LCC for luminal epithelial cell of mammary gland: 3287 (0.91 of sig genes in PPI)
+lung ciliated cell
+Converting Ensemble IDs to Gene IDs
+3176
+<generator object connected_components at 0x7f2a5cb33890>
+Size of LCC for lung ciliated cell: 2480 (0.78 of sig genes in PPI)
+lung goblet cell
+Converting Ensemble IDs to Gene IDs
+3409
+<generator object connected_components at 0x7f2a5cb33890>
+Size of LCC for lung goblet cell: 2775 (0.81 of sig genes in PPI)
+lung macrophage
+Converting Ensemble IDs to Gene IDs
+3334
+<generator object connected_components at 0x7f2a5cb33890>
+Size of LCC for lung macrophage: 2815 (0.84 of sig genes in PPI)
+lung microvascular endothelial cell
+Converting Ensemble IDs to Gene IDs
+3116
+<generator object connected_components at 0x7f2a5cb33890>
+Size of LCC for lung microvascular endothelial cell: 2645 (0.85 of sig genes in PPI)
+lung neuroendocrine cell
+Converting Ensemble IDs to Gene IDs
+1849
+<generator object connected_components at 0x7f2a5cb337b0>
+Size of LCC for lung neuroendocrine cell: 1450 (0.78 of sig genes in PPI)
+lung pericyte
+Converting Ensemble IDs to Gene IDs
+3252
+<generator object connected_components at 0x7f2a5cb337b0>
+Size of LCC for lung pericyte: 2658 (0.82 of sig genes in PPI)
+lymphocyte
+Converting Ensemble IDs to Gene IDs
+3507
+<generator object connected_components at 0x7f2a5cb337b0>
+Size of LCC for lymphocyte: 3151 (0.90 of sig genes in PPI)
+lymphoid lineage restricted progenitor cell
+Converting Ensemble IDs to Gene IDs
+3562
+<generator object connected_components at 0x7f2a5cb337b0>
+Size of LCC for lymphoid lineage restricted progenitor cell: 3151 (0.88 of sig genes in PPI)
+macroglial cell
+Converting Ensemble IDs to Gene IDs
+2705
+<generator object connected_components at 0x7f2a5cb333c0>
+Size of LCC for macroglial cell: 1724 (0.64 of sig genes in PPI)
+macrophage
+Converting Ensemble IDs to Gene IDs
+3417
+<generator object connected_components at 0x7f2a5cb333c0>
+Size of LCC for macrophage: 3042 (0.89 of sig genes in PPI)
+macrophage dendritic cell progenitor
+Converting Ensemble IDs to Gene IDs
+3225
+<generator object connected_components at 0x7f2a5cb333c0>
+Size of LCC for macrophage dendritic cell progenitor: 2905 (0.90 of sig genes in PPI)
+mammary gland epithelial cell
+Converting Ensemble IDs to Gene IDs
+3610
+<generator object connected_components at 0x7f2a5cb33350>
+Size of LCC for mammary gland epithelial cell: 3335 (0.92 of sig genes in PPI)
+mast cell
+Converting Ensemble IDs to Gene IDs
+2992
+<generator object connected_components at 0x7f2a5cb33350>
+Size of LCC for mast cell: 2375 (0.79 of sig genes in PPI)
+mature B cell
+Converting Ensemble IDs to Gene IDs
+3651
+<generator object connected_components at 0x7f2a5cb33350>
+Size of LCC for mature B cell: 3322 (0.91 of sig genes in PPI)
+mature NK T cell
+Converting Ensemble IDs to Gene IDs
+3250
+<generator object connected_components at 0x7f2a5cb33350>
+Size of LCC for mature NK T cell: 2789 (0.86 of sig genes in PPI)
+mature alpha-beta T cell
+Converting Ensemble IDs to Gene IDs
+2988
+<generator object connected_components at 0x7f2a77361f90>
+Size of LCC for mature alpha-beta T cell: 2476 (0.83 of sig genes in PPI)
+mature gamma-delta T cell
+Converting Ensemble IDs to Gene IDs
+3287
+<generator object connected_components at 0x7f2a77361f90>
+Size of LCC for mature gamma-delta T cell: 2732 (0.83 of sig genes in PPI)
+medullary thymic epithelial cell
+Converting Ensemble IDs to Gene IDs
+3455
+<generator object connected_components at 0x7f2a77361f90>
+Size of LCC for medullary thymic epithelial cell: 3061 (0.89 of sig genes in PPI)
+megakaryocyte
+Converting Ensemble IDs to Gene IDs
+3618
+<generator object connected_components at 0x7f2a77361eb0>
+Size of LCC for megakaryocyte: 3316 (0.92 of sig genes in PPI)
+megakaryocyte progenitor cell
+Converting Ensemble IDs to Gene IDs
+3504
+<generator object connected_components at 0x7f2a77361eb0>
+Size of LCC for megakaryocyte progenitor cell: 3173 (0.91 of sig genes in PPI)
+megakaryocyte-erythroid progenitor cell
+Converting Ensemble IDs to Gene IDs
+3679
+<generator object connected_components at 0x7f2a77361eb0>
+Size of LCC for megakaryocyte-erythroid progenitor cell: 3381 (0.92 of sig genes in PPI)
+melanocyte
+Converting Ensemble IDs to Gene IDs
+3270
+<generator object connected_components at 0x7f2a60a27350>
+Size of LCC for melanocyte: 2675 (0.82 of sig genes in PPI)
+melanocyte of skin
+Converting Ensemble IDs to Gene IDs
+2640
+<generator object connected_components at 0x7f2a60a27350>
+Size of LCC for melanocyte of skin: 2323 (0.88 of sig genes in PPI)
+memory B cell
+Converting Ensemble IDs to Gene IDs
+2975
+<generator object connected_components at 0x7f2a60a27350>
+Size of LCC for memory B cell: 2479 (0.83 of sig genes in PPI)
+mesangial cell
+Converting Ensemble IDs to Gene IDs
+2597
+<generator object connected_components at 0x7f2a60a27350>
+Size of LCC for mesangial cell: 1650 (0.64 of sig genes in PPI)
+mesenchymal cell
+Converting Ensemble IDs to Gene IDs
+3508
+<generator object connected_components at 0x7f2a60a27350>
+Size of LCC for mesenchymal cell: 3123 (0.89 of sig genes in PPI)
+mesenchymal lymphangioblast
+Converting Ensemble IDs to Gene IDs
+2093
+<generator object connected_components at 0x7f2a60a27350>
+Size of LCC for mesenchymal lymphangioblast: 1727 (0.83 of sig genes in PPI)
+mesenchymal stem cell
+Converting Ensemble IDs to Gene IDs
+3660
+<generator object connected_components at 0x7f2a60a27350>
+Size of LCC for mesenchymal stem cell: 3356 (0.92 of sig genes in PPI)
+mesodermal cell
+Converting Ensemble IDs to Gene IDs
+3118
+<generator object connected_components at 0x7f2a60a27350>
+Size of LCC for mesodermal cell: 2496 (0.80 of sig genes in PPI)
+mesothelial cell
+Converting Ensemble IDs to Gene IDs
+3687
+<generator object connected_components at 0x7f2a60a27350>
+Size of LCC for mesothelial cell: 3361 (0.91 of sig genes in PPI)
+mesothelial cell of epicardium
+Converting Ensemble IDs to Gene IDs
+3464
+<generator object connected_components at 0x7f2a60a27350>
+Size of LCC for mesothelial cell of epicardium: 2955 (0.85 of sig genes in PPI)
+mesothelial fibroblast
+Converting Ensemble IDs to Gene IDs
+435
+<generator object connected_components at 0x7f2a60a27350>
+Size of LCC for mesothelial fibroblast: 316 (0.73 of sig genes in PPI)
+microglial cell
+Converting Ensemble IDs to Gene IDs
+3077
+<generator object connected_components at 0x7f2a60a27350>
+Size of LCC for microglial cell: 2442 (0.79 of sig genes in PPI)
+midzonal region hepatocyte
+Converting Ensemble IDs to Gene IDs
+3320
+<generator object connected_components at 0x7f2a60a27350>
+Size of LCC for midzonal region hepatocyte: 2707 (0.82 of sig genes in PPI)
+migratory enteric neural crest cell
+Converting Ensemble IDs to Gene IDs
+1880
+<generator object connected_components at 0x7f2a60a27350>
+Size of LCC for migratory enteric neural crest cell: 1558 (0.83 of sig genes in PPI)
+monocyte
+Converting Ensemble IDs to Gene IDs
+3062
+<generator object connected_components at 0x7f2a60a27cf0>
+Size of LCC for monocyte: 2601 (0.85 of sig genes in PPI)
+motor neuron
+Converting Ensemble IDs to Gene IDs
+3529
+<generator object connected_components at 0x7f2a60a27cf0>
+Size of LCC for motor neuron: 3071 (0.87 of sig genes in PPI)
+mucosal invariant T cell
+Converting Ensemble IDs to Gene IDs
+3074
+<generator object connected_components at 0x7f2a60a27cf0>
+Size of LCC for mucosal invariant T cell: 2563 (0.83 of sig genes in PPI)
+mucus secreting cell
+Converting Ensemble IDs to Gene IDs
+3315
+<generator object connected_components at 0x7f2a60a27cf0>
+Size of LCC for mucus secreting cell: 2559 (0.77 of sig genes in PPI)
+multi-ciliated epithelial cell
+Converting Ensemble IDs to Gene IDs
+3422
+<generator object connected_components at 0x7f2a60a27cf0>
+Size of LCC for multi-ciliated epithelial cell: 2940 (0.86 of sig genes in PPI)
+mural cell
+Converting Ensemble IDs to Gene IDs
+2703
+<generator object connected_components at 0x7f2a60a27cf0>
+Size of LCC for mural cell: 2166 (0.80 of sig genes in PPI)
+muscle cell
+Converting Ensemble IDs to Gene IDs
+3287
+<generator object connected_components at 0x7f2a60a27cf0>
+Size of LCC for muscle cell: 2904 (0.88 of sig genes in PPI)
+muscle precursor cell
+Converting Ensemble IDs to Gene IDs
+1057
+<generator object connected_components at 0x7f2a60a27cf0>
+Size of LCC for muscle precursor cell: 819 (0.77 of sig genes in PPI)
+myelocyte
+Converting Ensemble IDs to Gene IDs
+3141
+<generator object connected_components at 0x7f2a60a27cf0>
+Size of LCC for myelocyte: 2421 (0.77 of sig genes in PPI)
+myeloid cell
+Converting Ensemble IDs to Gene IDs
+2885
+<generator object connected_components at 0x7f2a60a27cf0>
+Size of LCC for myeloid cell: 2079 (0.72 of sig genes in PPI)
+myeloid dendritic cell
+Converting Ensemble IDs to Gene IDs
+3093
+<generator object connected_components at 0x7f2a60a27cf0>
+Size of LCC for myeloid dendritic cell: 2606 (0.84 of sig genes in PPI)
+myeloid leukocyte
+Converting Ensemble IDs to Gene IDs
+3518
+<generator object connected_components at 0x7f2a60a27cf0>
+Size of LCC for myeloid leukocyte: 3135 (0.89 of sig genes in PPI)
+myeloid lineage restricted progenitor cell
+Converting Ensemble IDs to Gene IDs
+2782
+<generator object connected_components at 0x7f2a60a27cf0>
+Size of LCC for myeloid lineage restricted progenitor cell: 2455 (0.88 of sig genes in PPI)
+myoepithelial cell
+Converting Ensemble IDs to Gene IDs
+1143
+<generator object connected_components at 0x7f2a5cb33890>
+Size of LCC for myoepithelial cell: 893 (0.78 of sig genes in PPI)
+myoepithelial cell of mammary gland
+Converting Ensemble IDs to Gene IDs
+3121
+<generator object connected_components at 0x7f2a5cb33890>
+Size of LCC for myoepithelial cell of mammary gland: 2669 (0.86 of sig genes in PPI)
+myofibroblast cell
+Converting Ensemble IDs to Gene IDs
+3445
+<generator object connected_components at 0x7f2a5cb33430>
+Size of LCC for myofibroblast cell: 3081 (0.89 of sig genes in PPI)
+myometrial cell
+Converting Ensemble IDs to Gene IDs
+1499
+<generator object connected_components at 0x7f2a5cb33430>
+Size of LCC for myometrial cell: 1222 (0.82 of sig genes in PPI)
+naive B cell
+Converting Ensemble IDs to Gene IDs
+2607
+<generator object connected_components at 0x7f2a5cb33430>
+Size of LCC for naive B cell: 1977 (0.76 of sig genes in PPI)
+naive T cell
+Converting Ensemble IDs to Gene IDs
+3429
+<generator object connected_components at 0x7f2a5cb33430>
+Size of LCC for naive T cell: 2898 (0.85 of sig genes in PPI)
+naive regulatory T cell
+Converting Ensemble IDs to Gene IDs
+3474
+<generator object connected_components at 0x7f2a5cb33430>
+Size of LCC for naive regulatory T cell: 3012 (0.87 of sig genes in PPI)
+naive thymus-derived CD4-positive, alpha-beta T cell
+Converting Ensemble IDs to Gene IDs
+2490
+<generator object connected_components at 0x7f2a5cb33820>
+Size of LCC for naive thymus-derived CD4-positive, alpha-beta T cell: 1838 (0.74 of sig genes in PPI)
+naive thymus-derived CD8-positive, alpha-beta T cell
+Converting Ensemble IDs to Gene IDs
+2865
+<generator object connected_components at 0x7f2a5cb33820>
+Size of LCC for naive thymus-derived CD8-positive, alpha-beta T cell: 2351 (0.82 of sig genes in PPI)
+nasal mucosa goblet cell
+Converting Ensemble IDs to Gene IDs
+3255
+<generator object connected_components at 0x7f2a77361dd0>
+Size of LCC for nasal mucosa goblet cell: 2758 (0.85 of sig genes in PPI)
+native cell
+Converting Ensemble IDs to Gene IDs
+2711
+<generator object connected_components at 0x7f2a77361dd0>
+Size of LCC for native cell: 1990 (0.73 of sig genes in PPI)
+natural killer cell
+Converting Ensemble IDs to Gene IDs
+2478
+<generator object connected_components at 0x7f2a77361dd0>
+Size of LCC for natural killer cell: 1819 (0.73 of sig genes in PPI)
+near-projecting glutamatergic cortical neuron
+Converting Ensemble IDs to Gene IDs
+3307
+<generator object connected_components at 0x7f2a77361dd0>
+Size of LCC for near-projecting glutamatergic cortical neuron: 2624 (0.79 of sig genes in PPI)
+neural cell
+Converting Ensemble IDs to Gene IDs
+3570
+<generator object connected_components at 0x7f2a60a27270>
+Size of LCC for neural cell: 3230 (0.90 of sig genes in PPI)
+neuroblast (sensu Vertebrata)
+Converting Ensemble IDs to Gene IDs
+3498
+<generator object connected_components at 0x7f2a60a27270>
+Size of LCC for neuroblast (sensu Vertebrata): 3038 (0.87 of sig genes in PPI)
+neuroendocrine cell
+Converting Ensemble IDs to Gene IDs
+3364
+<generator object connected_components at 0x7f2a60a27270>
+Size of LCC for neuroendocrine cell: 2650 (0.79 of sig genes in PPI)
+neuron
+Converting Ensemble IDs to Gene IDs
+3308
+<generator object connected_components at 0x7f2a60a27270>
+Size of LCC for neuron: 2666 (0.81 of sig genes in PPI)
+neuron associated cell
+Converting Ensemble IDs to Gene IDs
+3344
+<generator object connected_components at 0x7f2a60a27ac0>
+Size of LCC for neuron associated cell: 2615 (0.78 of sig genes in PPI)
+neuron associated cell (sensu Vertebrata)
+Converting Ensemble IDs to Gene IDs
+2480
+<generator object connected_components at 0x7f2a60a27ac0>
+Size of LCC for neuron associated cell (sensu Vertebrata): 1507 (0.61 of sig genes in PPI)
+neuronal brush cell
+Converting Ensemble IDs to Gene IDs
+2478
+<generator object connected_components at 0x7f2a60a27b30>
+Size of LCC for neuronal brush cell: 1500 (0.61 of sig genes in PPI)
+neuronal receptor cell
+Converting Ensemble IDs to Gene IDs
+3202
+<generator object connected_components at 0x7f2a60a27b30>
+Size of LCC for neuronal receptor cell: 2861 (0.89 of sig genes in PPI)
+neutrophil
+Converting Ensemble IDs to Gene IDs
+2787
+<generator object connected_components at 0x7f2a60a27b30>
+Size of LCC for neutrophil: 2173 (0.78 of sig genes in PPI)
+non-classical monocyte
+Converting Ensemble IDs to Gene IDs
+3296
+<generator object connected_components at 0x7f2a60a27b30>
+Size of LCC for non-classical monocyte: 2829 (0.86 of sig genes in PPI)
+non-pigmented ciliary epithelial cell
+Converting Ensemble IDs to Gene IDs
+3304
+<generator object connected_components at 0x7f2a60a27b30>
+Size of LCC for non-pigmented ciliary epithelial cell: 2718 (0.82 of sig genes in PPI)
+oligodendrocyte
+Converting Ensemble IDs to Gene IDs
+2775
+<generator object connected_components at 0x7f2a60a27d60>
+Size of LCC for oligodendrocyte: 2055 (0.74 of sig genes in PPI)
+oligodendrocyte precursor cell
+Converting Ensemble IDs to Gene IDs
+3182
+<generator object connected_components at 0x7f2a60a27d60>
+Size of LCC for oligodendrocyte precursor cell: 2477 (0.78 of sig genes in PPI)
+osteoblast
+Converting Ensemble IDs to Gene IDs
+2479
+<generator object connected_components at 0x7f2a60a27d60>
+Size of LCC for osteoblast: 2085 (0.84 of sig genes in PPI)
+osteoclast
+Converting Ensemble IDs to Gene IDs
+3695
+<generator object connected_components at 0x7f2a60a27d60>
+Size of LCC for osteoclast: 3380 (0.91 of sig genes in PPI)
+ovarian surface epithelial cell
+Converting Ensemble IDs to Gene IDs
+3681
+<generator object connected_components at 0x7f2a60a27d60>
+Size of LCC for ovarian surface epithelial cell: 3341 (0.91 of sig genes in PPI)
+pancreatic A cell
+Converting Ensemble IDs to Gene IDs
+798
+<generator object connected_components at 0x7f2a60a27c80>
+Size of LCC for pancreatic A cell: 505 (0.63 of sig genes in PPI)
+pancreatic acinar cell
+Converting Ensemble IDs to Gene IDs
+3570
+<generator object connected_components at 0x7f2a60a27c80>
+Size of LCC for pancreatic acinar cell: 3127 (0.88 of sig genes in PPI)
+pancreatic ductal cell
+Converting Ensemble IDs to Gene IDs
+3609
+<generator object connected_components at 0x7f2a60a27c80>
+Size of LCC for pancreatic ductal cell: 3226 (0.89 of sig genes in PPI)
+pancreatic stellate cell
+Converting Ensemble IDs to Gene IDs
+3559
+<generator object connected_components at 0x7f2a60a27c80>
+Size of LCC for pancreatic stellate cell: 3150 (0.89 of sig genes in PPI)
+paneth cell of colon
+Converting Ensemble IDs to Gene IDs
+3442
+<generator object connected_components at 0x7f2a60a27c80>
+Size of LCC for paneth cell of colon: 2936 (0.85 of sig genes in PPI)
+paneth cell of epithelium of small intestine
+Converting Ensemble IDs to Gene IDs
+3497
+<generator object connected_components at 0x7f2a60a27c80>
+Size of LCC for paneth cell of epithelium of small intestine: 3034 (0.87 of sig genes in PPI)
+papillary tips cell
+Converting Ensemble IDs to Gene IDs
+2674
+<generator object connected_components at 0x7f2a5cb332e0>
+Size of LCC for papillary tips cell: 2267 (0.85 of sig genes in PPI)
+parietal epithelial cell
+Converting Ensemble IDs to Gene IDs
+2986
+<generator object connected_components at 0x7f2a5cb332e0>
+Size of LCC for parietal epithelial cell: 2521 (0.84 of sig genes in PPI)
+pericyte
+Converting Ensemble IDs to Gene IDs
+2989
+<generator object connected_components at 0x7f2a5cb332e0>
+Size of LCC for pericyte: 2471 (0.83 of sig genes in PPI)
+peripheral blood mononuclear cell
+Converting Ensemble IDs to Gene IDs
+1103
+<generator object connected_components at 0x7f2a5cb332e0>
+Size of LCC for peripheral blood mononuclear cell: 863 (0.78 of sig genes in PPI)
+peripheral nervous system neuron
+Converting Ensemble IDs to Gene IDs
+3571
+<generator object connected_components at 0x7f2a5cb33270>
+Size of LCC for peripheral nervous system neuron: 3236 (0.91 of sig genes in PPI)
+periportal region hepatocyte
+Converting Ensemble IDs to Gene IDs
+2962
+<generator object connected_components at 0x7f2a5cb33890>
+Size of LCC for periportal region hepatocyte: 2152 (0.73 of sig genes in PPI)
+photoreceptor cell
+Converting Ensemble IDs to Gene IDs
+2871
+<generator object connected_components at 0x7f2a5cb33890>
+Size of LCC for photoreceptor cell: 1918 (0.67 of sig genes in PPI)
+pigmented ciliary epithelial cell
+Converting Ensemble IDs to Gene IDs
+3368
+<generator object connected_components at 0x7f2a5cb33890>
+Size of LCC for pigmented ciliary epithelial cell: 2836 (0.84 of sig genes in PPI)
+pigmented epithelial cell
+Converting Ensemble IDs to Gene IDs
+3175
+<generator object connected_components at 0x7f2a5cb336d0>
+Size of LCC for pigmented epithelial cell: 2567 (0.81 of sig genes in PPI)
+placental villous trophoblast
+Converting Ensemble IDs to Gene IDs
+3659
+<generator object connected_components at 0x7f2a5cb336d0>
+Size of LCC for placental villous trophoblast: 3361 (0.92 of sig genes in PPI)
+plasma cell
+Converting Ensemble IDs to Gene IDs
+3620
+<generator object connected_components at 0x7f2a5cb336d0>
+Size of LCC for plasma cell: 3306 (0.91 of sig genes in PPI)
+plasmablast
+Converting Ensemble IDs to Gene IDs
+3541
+<generator object connected_components at 0x7f2a5cb336d0>
+Size of LCC for plasmablast: 3214 (0.91 of sig genes in PPI)
+plasmacytoid dendritic cell
+Converting Ensemble IDs to Gene IDs
+3425
+<generator object connected_components at 0x7f2a5cb336d0>
+Size of LCC for plasmacytoid dendritic cell: 3032 (0.89 of sig genes in PPI)
+plasmacytoid dendritic cell, human
+Converting Ensemble IDs to Gene IDs
+552
+<generator object connected_components at 0x7f2a5cb336d0>
+Size of LCC for plasmacytoid dendritic cell, human: 347 (0.63 of sig genes in PPI)
+platelet
+Converting Ensemble IDs to Gene IDs
+2805
+<generator object connected_components at 0x7f2a5cb339e0>
+Size of LCC for platelet: 2047 (0.73 of sig genes in PPI)
+podocyte
+Converting Ensemble IDs to Gene IDs
+3430
+<generator object connected_components at 0x7f2a5cb339e0>
+Size of LCC for podocyte: 2921 (0.85 of sig genes in PPI)
+pre-conventional dendritic cell
+Converting Ensemble IDs to Gene IDs
+1942
+<generator object connected_components at 0x7f2a5cb339e0>
+Size of LCC for pre-conventional dendritic cell: 1694 (0.87 of sig genes in PPI)
+precursor B cell
+Converting Ensemble IDs to Gene IDs
+3659
+<generator object connected_components at 0x7f2a77361c10>
+Size of LCC for precursor B cell: 3388 (0.93 of sig genes in PPI)
+precursor cell
+Converting Ensemble IDs to Gene IDs
+1869
+<generator object connected_components at 0x7f2a77361c10>
+Size of LCC for precursor cell: 1572 (0.84 of sig genes in PPI)
+preosteoblast
+Converting Ensemble IDs to Gene IDs
+3591
+<generator object connected_components at 0x7f2a77361c10>
+Size of LCC for preosteoblast: 3225 (0.90 of sig genes in PPI)
+primary sensory neuron
+Converting Ensemble IDs to Gene IDs
+602
+<generator object connected_components at 0x7f2a77361c10>
+Size of LCC for primary sensory neuron: 399 (0.66 of sig genes in PPI)
+primitive red blood cell
+Converting Ensemble IDs to Gene IDs
+3685
+<generator object connected_components at 0x7f2a77361c10>
+Size of LCC for primitive red blood cell: 3377 (0.92 of sig genes in PPI)
+pro-B cell
+Converting Ensemble IDs to Gene IDs
+3342
+<generator object connected_components at 0x7f2a77361c10>
+Size of LCC for pro-B cell: 2926 (0.88 of sig genes in PPI)
+professional antigen presenting cell
+Converting Ensemble IDs to Gene IDs
+3282
+<generator object connected_components at 0x7f2a77361c10>
+Size of LCC for professional antigen presenting cell: 2543 (0.77 of sig genes in PPI)
+progenitor cell
+Converting Ensemble IDs to Gene IDs
+3624
+<generator object connected_components at 0x7f2a60a27270>
+Size of LCC for progenitor cell: 3344 (0.92 of sig genes in PPI)
+progenitor cell of endocrine pancreas
+Converting Ensemble IDs to Gene IDs
+299
+<generator object connected_components at 0x7f2a60a27270>
+Size of LCC for progenitor cell of endocrine pancreas: 186 (0.62 of sig genes in PPI)
+promonocyte
+Converting Ensemble IDs to Gene IDs
+3586
+<generator object connected_components at 0x7f2a60a27900>
+Size of LCC for promonocyte: 3255 (0.91 of sig genes in PPI)
+promyelocyte
+Converting Ensemble IDs to Gene IDs
+3432
+<generator object connected_components at 0x7f2a60a27900>
+Size of LCC for promyelocyte: 2951 (0.86 of sig genes in PPI)
+prostate gland microvascular endothelial cell
+Converting Ensemble IDs to Gene IDs
+3425
+<generator object connected_components at 0x7f2a60a27900>
+Size of LCC for prostate gland microvascular endothelial cell: 2904 (0.85 of sig genes in PPI)
+pulmonary artery endothelial cell
+Converting Ensemble IDs to Gene IDs
+3367
+<generator object connected_components at 0x7f2a60a27970>
+Size of LCC for pulmonary artery endothelial cell: 2829 (0.84 of sig genes in PPI)
+pulmonary ionocyte
+Converting Ensemble IDs to Gene IDs
+3386
+<generator object connected_components at 0x7f2a60a27dd0>
+Size of LCC for pulmonary ionocyte: 2880 (0.85 of sig genes in PPI)
+pvalb GABAergic cortical interneuron
+Converting Ensemble IDs to Gene IDs
+3332
+<generator object connected_components at 0x7f2a60a27dd0>
+Size of LCC for pvalb GABAergic cortical interneuron: 2679 (0.80 of sig genes in PPI)
+radial glial cell
+Converting Ensemble IDs to Gene IDs
+3710
+<generator object connected_components at 0x7f2a60a27e40>
+Size of LCC for radial glial cell: 3448 (0.93 of sig genes in PPI)
+regular atrial cardiac myocyte
+Converting Ensemble IDs to Gene IDs
+156
+<generator object connected_components at 0x7f2a60a27e40>
+Size of LCC for regular atrial cardiac myocyte: 96 (0.62 of sig genes in PPI)
+regulatory T cell
+Converting Ensemble IDs to Gene IDs
+2843
+<generator object connected_components at 0x7f2a60a27e40>
+Size of LCC for regulatory T cell: 2242 (0.79 of sig genes in PPI)
+renal alpha-intercalated cell
+Converting Ensemble IDs to Gene IDs
+3478
+<generator object connected_components at 0x7f2a60a27e40>
+Size of LCC for renal alpha-intercalated cell: 3000 (0.86 of sig genes in PPI)
+renal beta-intercalated cell
+Converting Ensemble IDs to Gene IDs
+1512
+<generator object connected_components at 0x7f2a60a27e40>
+Size of LCC for renal beta-intercalated cell: 1160 (0.77 of sig genes in PPI)
+renal interstitial pericyte
+Converting Ensemble IDs to Gene IDs
+3295
+<generator object connected_components at 0x7f2a60a27e40>
+Size of LCC for renal interstitial pericyte: 2607 (0.79 of sig genes in PPI)
+renal principal cell
+Converting Ensemble IDs to Gene IDs
+3404
+<generator object connected_components at 0x7f2a60a27e40>
+Size of LCC for renal principal cell: 2888 (0.85 of sig genes in PPI)
+respiratory basal cell
+Converting Ensemble IDs to Gene IDs
+3605
+<generator object connected_components at 0x7f2a60a27e40>
+Size of LCC for respiratory basal cell: 3247 (0.90 of sig genes in PPI)
+respiratory goblet cell
+Converting Ensemble IDs to Gene IDs
+3634
+<generator object connected_components at 0x7f2a60a27e40>
+Size of LCC for respiratory goblet cell: 3276 (0.90 of sig genes in PPI)
+respiratory hillock cell
+Converting Ensemble IDs to Gene IDs
+3686
+<generator object connected_components at 0x7f2a60a27e40>
+Size of LCC for respiratory hillock cell: 3390 (0.92 of sig genes in PPI)
+retina horizontal cell
+Converting Ensemble IDs to Gene IDs
+3186
+<generator object connected_components at 0x7f2a60a27e40>
+Size of LCC for retina horizontal cell: 2495 (0.78 of sig genes in PPI)
+retinal bipolar neuron
+Converting Ensemble IDs to Gene IDs
+2922
+<generator object connected_components at 0x7f2a60a27e40>
+Size of LCC for retinal bipolar neuron: 2182 (0.75 of sig genes in PPI)
+retinal blood vessel endothelial cell
+Converting Ensemble IDs to Gene IDs
+3636
+<generator object connected_components at 0x7f2a60a27e40>
+Size of LCC for retinal blood vessel endothelial cell: 3266 (0.90 of sig genes in PPI)
+retinal cone cell
+Converting Ensemble IDs to Gene IDs
+3164
+<generator object connected_components at 0x7f2a5cb33200>
+Size of LCC for retinal cone cell: 2528 (0.80 of sig genes in PPI)
+retinal ganglion cell
+Converting Ensemble IDs to Gene IDs
+3478
+<generator object connected_components at 0x7f2a5cb33200>
+Size of LCC for retinal ganglion cell: 3029 (0.87 of sig genes in PPI)
+retinal pigment epithelial cell
+Converting Ensemble IDs to Gene IDs
+3352
+<generator object connected_components at 0x7f2a5cb33200>
+Size of LCC for retinal pigment epithelial cell: 2758 (0.82 of sig genes in PPI)
+retinal rod cell
+Converting Ensemble IDs to Gene IDs
+2701
+<generator object connected_components at 0x7f2a5cb334a0>
+Size of LCC for retinal rod cell: 1970 (0.73 of sig genes in PPI)
+rod bipolar cell
+Converting Ensemble IDs to Gene IDs
+3274
+<generator object connected_components at 0x7f2a5cb334a0>
+Size of LCC for rod bipolar cell: 2699 (0.82 of sig genes in PPI)
+salivary gland cell
+Converting Ensemble IDs to Gene IDs
+2246
+<generator object connected_components at 0x7f2a5cb334a0>
+Size of LCC for salivary gland cell: 1909 (0.85 of sig genes in PPI)
+sebaceous gland cell
+Converting Ensemble IDs to Gene IDs
+1020
+<generator object connected_components at 0x7f2a5cb334a0>
+Size of LCC for sebaceous gland cell: 869 (0.85 of sig genes in PPI)
+secondary lens fiber
+Converting Ensemble IDs to Gene IDs
+3062
+<generator object connected_components at 0x7f2a5cb334a0>
+Size of LCC for secondary lens fiber: 2440 (0.80 of sig genes in PPI)
+secretory cell
+Converting Ensemble IDs to Gene IDs
+3601
+<generator object connected_components at 0x7f2a5cb334a0>
+Size of LCC for secretory cell: 3236 (0.90 of sig genes in PPI)
+serous cell of epithelium of trachea
+Converting Ensemble IDs to Gene IDs
+476
+<generator object connected_components at 0x7f2a5cb334a0>
+Size of LCC for serous cell of epithelium of trachea: 230 (0.48 of sig genes in PPI)
+serous secreting cell
+Converting Ensemble IDs to Gene IDs
+3279
+<generator object connected_components at 0x7f2a5cb333c0>
+Size of LCC for serous secreting cell: 2610 (0.80 of sig genes in PPI)
+skeletal muscle fiber
+Converting Ensemble IDs to Gene IDs
+2809
+<generator object connected_components at 0x7f2a5cb333c0>
+Size of LCC for skeletal muscle fiber: 1918 (0.68 of sig genes in PPI)
+skeletal muscle fibroblast
+Converting Ensemble IDs to Gene IDs
+3130
+<generator object connected_components at 0x7f2a5cb333c0>
+Size of LCC for skeletal muscle fibroblast: 2286 (0.73 of sig genes in PPI)
+skeletal muscle satellite cell
+Converting Ensemble IDs to Gene IDs
+3125
+<generator object connected_components at 0x7f2a77361f90>
+Size of LCC for skeletal muscle satellite cell: 2531 (0.81 of sig genes in PPI)
+skeletal muscle satellite stem cell
+Converting Ensemble IDs to Gene IDs
+3439
+<generator object connected_components at 0x7f2a77361f90>
+Size of LCC for skeletal muscle satellite stem cell: 3031 (0.88 of sig genes in PPI)
+skin fibroblast
+Converting Ensemble IDs to Gene IDs
+3408
+<generator object connected_components at 0x7f2a77361dd0>
+Size of LCC for skin fibroblast: 2738 (0.80 of sig genes in PPI)
+slow muscle cell
+Converting Ensemble IDs to Gene IDs
+3483
+<generator object connected_components at 0x7f2a77361dd0>
+Size of LCC for slow muscle cell: 2959 (0.85 of sig genes in PPI)
+small intestine goblet cell
+Converting Ensemble IDs to Gene IDs
+3112
+<generator object connected_components at 0x7f2a77361dd0>
+Size of LCC for small intestine goblet cell: 2694 (0.87 of sig genes in PPI)
+small pre-B-II cell
+Converting Ensemble IDs to Gene IDs
+3444
+<generator object connected_components at 0x7f2a77361dd0>
+Size of LCC for small pre-B-II cell: 2998 (0.87 of sig genes in PPI)
+smooth muscle cell
+Converting Ensemble IDs to Gene IDs
+3254
+<generator object connected_components at 0x7f2a77361dd0>
+Size of LCC for smooth muscle cell: 2766 (0.85 of sig genes in PPI)
+smooth muscle cell of prostate
+Converting Ensemble IDs to Gene IDs
+3360
+<generator object connected_components at 0x7f2a77361dd0>
+Size of LCC for smooth muscle cell of prostate: 2667 (0.79 of sig genes in PPI)
+smooth muscle cell of sphincter of pupil
+Converting Ensemble IDs to Gene IDs
+3438
+<generator object connected_components at 0x7f2a77361dd0>
+Size of LCC for smooth muscle cell of sphincter of pupil: 2947 (0.86 of sig genes in PPI)
+smooth muscle myoblast
+Converting Ensemble IDs to Gene IDs
+2575
+<generator object connected_components at 0x7f2a60a27270>
+Size of LCC for smooth muscle myoblast: 2236 (0.87 of sig genes in PPI)
+sncg GABAergic cortical interneuron
+Converting Ensemble IDs to Gene IDs
+3319
+<generator object connected_components at 0x7f2a60a27270>
+Size of LCC for sncg GABAergic cortical interneuron: 2658 (0.80 of sig genes in PPI)
+somatic cell
+Converting Ensemble IDs to Gene IDs
+3678
+<generator object connected_components at 0x7f2a60a27f20>
+Size of LCC for somatic cell: 3361 (0.91 of sig genes in PPI)
+squamous epithelial cell
+Converting Ensemble IDs to Gene IDs
+3271
+<generator object connected_components at 0x7f2a60a27f20>
+Size of LCC for squamous epithelial cell: 2623 (0.80 of sig genes in PPI)
+sst GABAergic cortical interneuron
+Converting Ensemble IDs to Gene IDs
+3320
+<generator object connected_components at 0x7f2a60a27f20>
+Size of LCC for sst GABAergic cortical interneuron: 2683 (0.81 of sig genes in PPI)
+stellate neuron
+Converting Ensemble IDs to Gene IDs
+2513
+<generator object connected_components at 0x7f2a60a27eb0>
+Size of LCC for stellate neuron: 1575 (0.63 of sig genes in PPI)
+stem cell
+Converting Ensemble IDs to Gene IDs
+3608
+<generator object connected_components at 0x7f2a60a27eb0>
+Size of LCC for stem cell: 3253 (0.90 of sig genes in PPI)
+stromal cell
+Converting Ensemble IDs to Gene IDs
+2668
+<generator object connected_components at 0x7f2a60a27eb0>
+Size of LCC for stromal cell: 2070 (0.78 of sig genes in PPI)
+stromal cell of ovary
+Converting Ensemble IDs to Gene IDs
+3610
+<generator object connected_components at 0x7f2a60a27eb0>
+Size of LCC for stromal cell of ovary: 3256 (0.90 of sig genes in PPI)
+subcutaneous fat cell
+Converting Ensemble IDs to Gene IDs
+3253
+<generator object connected_components at 0x7f2a60a27eb0>
+Size of LCC for subcutaneous fat cell: 2465 (0.76 of sig genes in PPI)
+supporting cell
+Converting Ensemble IDs to Gene IDs
+3617
+<generator object connected_components at 0x7f2a60a27eb0>
+Size of LCC for supporting cell: 3285 (0.91 of sig genes in PPI)
+surface ectodermal cell
+Converting Ensemble IDs to Gene IDs
+1069
+<generator object connected_components at 0x7f2a60a27eb0>
+Size of LCC for surface ectodermal cell: 812 (0.76 of sig genes in PPI)
+sympathetic neuron
+Converting Ensemble IDs to Gene IDs
+3160
+<generator object connected_components at 0x7f2a60a27eb0>
+Size of LCC for sympathetic neuron: 2268 (0.72 of sig genes in PPI)
+syncytiotrophoblast cell
+Converting Ensemble IDs to Gene IDs
+3271
+<generator object connected_components at 0x7f2a60a27eb0>
+Size of LCC for syncytiotrophoblast cell: 2823 (0.86 of sig genes in PPI)
+taste receptor cell
+Converting Ensemble IDs to Gene IDs
+3050
+<generator object connected_components at 0x7f2a60a27eb0>
+Size of LCC for taste receptor cell: 2219 (0.73 of sig genes in PPI)
+tendon cell
+Converting Ensemble IDs to Gene IDs
+1888
+<generator object connected_components at 0x7f2a60a27eb0>
+Size of LCC for tendon cell: 1542 (0.82 of sig genes in PPI)
+thymocyte
+Converting Ensemble IDs to Gene IDs
+2555
+<generator object connected_components at 0x7f2a60a27eb0>
+Size of LCC for thymocyte: 2157 (0.84 of sig genes in PPI)
+tongue muscle cell
+Converting Ensemble IDs to Gene IDs
+342
+<generator object connected_components at 0x7f2a60a27eb0>
+Size of LCC for tongue muscle cell: 201 (0.59 of sig genes in PPI)
+tracheal goblet cell
+Converting Ensemble IDs to Gene IDs
+3381
+<generator object connected_components at 0x7f2a60a27eb0>
+Size of LCC for tracheal goblet cell: 2916 (0.86 of sig genes in PPI)
+tracheobronchial goblet cell
+Converting Ensemble IDs to Gene IDs
+3319
+<generator object connected_components at 0x7f2a60a27eb0>
+Size of LCC for tracheobronchial goblet cell: 2600 (0.78 of sig genes in PPI)
+tracheobronchial serous cell
+Converting Ensemble IDs to Gene IDs
+3282
+<generator object connected_components at 0x7f2a60a27eb0>
+Size of LCC for tracheobronchial serous cell: 2559 (0.78 of sig genes in PPI)
+tracheobronchial smooth muscle cell
+Converting Ensemble IDs to Gene IDs
+3202
+<generator object connected_components at 0x7f2a60a27eb0>
+Size of LCC for tracheobronchial smooth muscle cell: 2546 (0.80 of sig genes in PPI)
+transit amplifying cell
+Converting Ensemble IDs to Gene IDs
+3444
+<generator object connected_components at 0x7f2a5cb332e0>
+Size of LCC for transit amplifying cell: 2986 (0.87 of sig genes in PPI)
+transit amplifying cell of colon
+Converting Ensemble IDs to Gene IDs
+3636
+<generator object connected_components at 0x7f2a5cb332e0>
+Size of LCC for transit amplifying cell of colon: 3300 (0.91 of sig genes in PPI)
+transit amplifying cell of small intestine
+Converting Ensemble IDs to Gene IDs
+3487
+<generator object connected_components at 0x7f2a5cb33200>
+Size of LCC for transit amplifying cell of small intestine: 3077 (0.88 of sig genes in PPI)
+transitional stage B cell
+Converting Ensemble IDs to Gene IDs
+2782
+<generator object connected_components at 0x7f2a5cb335f0>
+Size of LCC for transitional stage B cell: 2055 (0.74 of sig genes in PPI)
+trophoblast giant cell
+Converting Ensemble IDs to Gene IDs
+292
+<generator object connected_components at 0x7f2a5cb335f0>
+Size of LCC for trophoblast giant cell: 130 (0.45 of sig genes in PPI)
+type B pancreatic cell
+Converting Ensemble IDs to Gene IDs
+1972
+<generator object connected_components at 0x7f2a5cb335f0>
+Size of LCC for type B pancreatic cell: 1584 (0.80 of sig genes in PPI)
+type D enteroendocrine cell
+Converting Ensemble IDs to Gene IDs
+508
+<generator object connected_components at 0x7f2a5cb335f0>
+Size of LCC for type D enteroendocrine cell: 293 (0.58 of sig genes in PPI)
+type EC enteroendocrine cell
+Converting Ensemble IDs to Gene IDs
+3481
+<generator object connected_components at 0x7f2a5cb335f0>
+Size of LCC for type EC enteroendocrine cell: 3058 (0.88 of sig genes in PPI)
+type I NK T cell
+Converting Ensemble IDs to Gene IDs
+3391
+<generator object connected_components at 0x7f2a5cb335f0>
+Size of LCC for type I NK T cell: 2952 (0.87 of sig genes in PPI)
+type I enteroendocrine cell
+Converting Ensemble IDs to Gene IDs
+595
+<generator object connected_components at 0x7f2a5cb335f0>
+Size of LCC for type I enteroendocrine cell: 350 (0.59 of sig genes in PPI)
+type I pneumocyte
+Converting Ensemble IDs to Gene IDs
+3106
+<generator object connected_components at 0x7f2a5cb335f0>
+Size of LCC for type I pneumocyte: 2408 (0.78 of sig genes in PPI)
+type II pneumocyte
+Converting Ensemble IDs to Gene IDs
+3414
+<generator object connected_components at 0x7f2a77361eb0>
+Size of LCC for type II pneumocyte: 2916 (0.85 of sig genes in PPI)
+type L enteroendocrine cell
+Converting Ensemble IDs to Gene IDs
+353
+<generator object connected_components at 0x7f2a77361eb0>
+Size of LCC for type L enteroendocrine cell: 136 (0.39 of sig genes in PPI)
+unswitched memory B cell
+Converting Ensemble IDs to Gene IDs
+3465
+<generator object connected_components at 0x7f2a77361eb0>
+Size of LCC for unswitched memory B cell: 2989 (0.86 of sig genes in PPI)
+uterine smooth muscle cell
+Converting Ensemble IDs to Gene IDs
+3005
+<generator object connected_components at 0x7f2a77361eb0>
+Size of LCC for uterine smooth muscle cell: 2380 (0.79 of sig genes in PPI)
+vascular associated smooth muscle cell
+Converting Ensemble IDs to Gene IDs
+3143
+<generator object connected_components at 0x7f2a77361eb0>
+Size of LCC for vascular associated smooth muscle cell: 2696 (0.86 of sig genes in PPI)
+vascular leptomeningeal cell
+Converting Ensemble IDs to Gene IDs
+3452
+<generator object connected_components at 0x7f2a60a27190>
+Size of LCC for vascular leptomeningeal cell: 2969 (0.86 of sig genes in PPI)
+vein endothelial cell
+Converting Ensemble IDs to Gene IDs
+3327
+<generator object connected_components at 0x7f2a60a27190>
+Size of LCC for vein endothelial cell: 2963 (0.89 of sig genes in PPI)
+ventricular cardiac muscle cell
+Converting Ensemble IDs to Gene IDs
+1176
+<generator object connected_components at 0x7f2a60a27190>
+Size of LCC for ventricular cardiac muscle cell: 1004 (0.85 of sig genes in PPI)
+vip GABAergic cortical interneuron
+Converting Ensemble IDs to Gene IDs
+3321
+<generator object connected_components at 0x7f2a60a27ac0>
+Size of LCC for vip GABAergic cortical interneuron: 2690 (0.81 of sig genes in PPI)
+visceromotor neuron
+Converting Ensemble IDs to Gene IDs
+3654
+<generator object connected_components at 0x7f2a60a27ba0>
+Size of LCC for visceromotor neuron: 3269 (0.89 of sig genes in PPI)
+Writing to... ../data/networks/ppi_edgelists_cellxgene/b_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/b-1_b_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/b-2_b_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/bergmann_glial_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/cd14-low,_cd16-positive_monocyte.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/cd14-positive_monocyte.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/cd14-positive,_cd16-negative_classical_monocyte.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/cd14-positive,_cd16-positive_monocyte.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/cd141-positive_myeloid_dendritic_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/cd16-negative,_cd56-bright_natural_killer_cell,_human.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/cd16-positive,_cd56-dim_natural_killer_cell,_human.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/cd1c-positive_myeloid_dendritic_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/cd34-positive,_cd56-positive,_cd117-positive_common_innate_lymphoid_precursor,_human.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/cd4-positive_helper_t_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/cd4-positive,_alpha-beta_t_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/cd4-positive,_alpha-beta_cytotoxic_t_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/cd4-positive,_alpha-beta_memory_t_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/cd8-alpha-alpha-positive,_alpha-beta_intraepithelial_t_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/cd8-positive,_alpha-beta_t_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/cd8-positive,_alpha-beta_cytokine_secreting_effector_t_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/cd8-positive,_alpha-beta_cytotoxic_t_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/cd8-positive,_alpha-beta_memory_t_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/cd8-positive,_alpha-beta_memory_t_cell,_cd45ro-positive.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/dn1_thymic_pro-t_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/dn3_thymocyte.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/dn4_thymocyte.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/gabaergic_neuron.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/hofbauer_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/iga_plasma_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/igg_plasma_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/kupffer_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/l2_3-6_intratelencephalic_projecting_glutamatergic_cortical_neuron.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/l5_extratelencephalic_projecting_glutamatergic_cortical_neuron.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/l6b_glutamatergic_cortical_neuron.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/langerhans_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/m_cell_of_gut.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/mueller_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/nkp44-negative_group_3_innate_lymphoid_cell,_human.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/nkp44-positive_group_3_innate_lymphoid_cell,_human.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/off-bipolar_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/on-bipolar_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/purkinje_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/schwann_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/t_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/t_follicular_helper_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/acinar_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/acinar_cell_of_salivary_gland.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/activated_cd4-positive,_alpha-beta_t_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/activated_cd8-positive,_alpha-beta_t_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/adipocyte_of_breast.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/adventitial_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/alpha-beta_t_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/alternatively_activated_macrophage.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/alveolar_macrophage.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/alveolar_type_1_fibroblast_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/alveolar_type_2_fibroblast_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/amacrine_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/animal_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/anterior_lens_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/astrocyte.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/astrocyte_of_the_cerebral_cortex.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/basal_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/basal_cell_of_epidermis.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/basal_cell_of_epithelium_of_trachea.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/basal_cell_of_prostate_epithelium.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/basal_epithelial_cell_of_prostatic_duct.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/basal_epithelial_cell_of_tracheobronchial_tree.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/basophil.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/basophil_mast_progenitor_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/bipolar_neuron.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/bladder_urothelial_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/blood_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/blood_vessel_endothelial_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/bronchial_epithelial_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/bronchial_goblet_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/bronchus_fibroblast_of_lung.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/brush_cell_of_trachebronchial_tree.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/capillary_endothelial_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/cardiac_endothelial_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/cardiac_mesenchymal_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/cardiac_muscle_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/cardiac_muscle_myoblast.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/cardiac_neuron.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/caudal_ganglionic_eminence_derived_gabaergic_cortical_interneuron.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/cell_of_skeletal_muscle.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/central_memory_cd4-positive,_alpha-beta_t_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/central_memory_cd8-positive,_alpha-beta_t_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/central_nervous_system_macrophage.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/centrilobular_region_hepatocyte.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/cerebellar_granule_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/cerebral_cortex_endothelial_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/chandelier_pvalb_gabaergic_cortical_interneuron.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/cholangiocyte.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/chondrocyte.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/choroid_plexus_epithelial_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/chromaffin_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/ciliary_muscle_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/ciliated_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/ciliated_columnar_cell_of_tracheobronchial_tree.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/ciliated_epithelial_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/class_switched_memory_b_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/classical_monocyte.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/club_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/colon_epithelial_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/common_dendritic_progenitor.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/common_lymphoid_progenitor.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/common_myeloid_progenitor.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/conjunctival_epithelial_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/connective_tissue_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/contractile_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/conventional_dendritic_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/corneal_endothelial_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/corneal_epithelial_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/cortical_cell_of_adrenal_gland.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/cortical_thymic_epithelial_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/corticothalamic-projecting_glutamatergic_cortical_neuron.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/cytotoxic_t_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/decidual_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/decidual_natural_killer_cell,_human.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/dendritic_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/dendritic_cell,_human.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/dermis_microvascular_lymphatic_vessel_endothelial_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/double_negative_t_regulatory_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/double_negative_thymocyte.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/double-positive,_alpha-beta_thymocyte.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/duct_epithelial_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/early_t_lineage_precursor.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/early_lymphoid_progenitor.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/early_promyelocyte.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/effector_cd4-positive,_alpha-beta_t_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/effector_cd8-positive,_alpha-beta_t_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/effector_memory_cd4-positive,_alpha-beta_t_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/effector_memory_cd8-positive,_alpha-beta_t_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/effector_memory_cd8-positive,_alpha-beta_t_cell,_terminally_differentiated.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/elicited_macrophage.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/embryonic_fibroblast.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/endocardial_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/endocrine_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/endothelial_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/endothelial_cell_of_artery.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/endothelial_cell_of_hepatic_sinusoid.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/endothelial_cell_of_lymphatic_vessel.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/endothelial_cell_of_pericentral_hepatic_sinusoid.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/endothelial_cell_of_placenta.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/endothelial_cell_of_sinusoid.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/endothelial_cell_of_uterus.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/endothelial_cell_of_vascular_tree.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/endothelial_tip_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/enteric_smooth_muscle_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/enterocyte.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/enterocyte_of_colon.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/enterocyte_of_epithelium_of_large_intestine.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/enterocyte_of_epithelium_of_small_intestine.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/enteroendocrine_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/eosinophil.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/ependymal_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/epicardial_adipocyte.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/epidermal_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/epithelial_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/epithelial_cell_of_alveolus_of_lung.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/epithelial_cell_of_lower_respiratory_tract.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/epithelial_cell_of_lung.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/epithelial_cell_of_nephron.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/epithelial_cell_of_prostate.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/epithelial_cell_of_proximal_tubule.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/epithelial_cell_of_sweat_gland.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/epithelial_cell_of_thymus.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/epithelial_cell_of_urethra.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/epithelial_cell_of_uterus.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/erythroblast.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/erythrocyte.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/erythroid_lineage_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/erythroid_progenitor_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/eukaryotic_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/eurydendroid_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/extravillous_trophoblast.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/eye_photoreceptor_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/fast_muscle_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/fat_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/fetal_cardiomyocyte.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/fibro_adipogenic_progenitor_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/fibroblast.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/fibroblast_of_breast.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/fibroblast_of_cardiac_tissue.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/fibroblast_of_connective_tissue_of_glandular_part_of_prostate.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/fibroblast_of_connective_tissue_of_nonglandular_part_of_prostate.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/fibroblast_of_lung.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/fibroblast_of_mammary_gland.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/fraction_a_pre-pro_b_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/gamma-delta_t_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/ganglion_interneuron.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/germ_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/germinal_center_b_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/glandular_epithelial_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/glial_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/glutamatergic_neuron.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/goblet_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/granule_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/granulocyte.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/granulocyte_monocyte_progenitor_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/granulosa_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/group_2_innate_lymphoid_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/group_3_innate_lymphoid_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/group_3_innate_lymphoid_cell,_human.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/hematopoietic_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/hematopoietic_multipotent_progenitor_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/hematopoietic_precursor_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/hematopoietic_stem_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/hepatic_stellate_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/hepatoblast.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/hepatocyte.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/immature_b_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/immature_innate_lymphoid_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/inflammatory_macrophage.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/inhibitory_interneuron.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/inhibitory_motor_neuron.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/innate_lymphoid_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/intermediate_monocyte.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/interneuron.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/interstitial_cell_of_cajal.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/interstitial_cell_of_ovary.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/intestinal_crypt_stem_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/intestinal_crypt_stem_cell_of_small_intestine.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/intestinal_enteroendocrine_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/intestinal_epithelial_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/intestinal_tuft_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/intestine_goblet_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/ionocyte.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/keratinocyte.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/keratocyte.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/kidney_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/kidney_collecting_duct_intercalated_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/kidney_collecting_duct_principal_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/kidney_connecting_tubule_epithelial_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/kidney_distal_convoluted_tubule_epithelial_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/kidney_epithelial_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/kidney_interstitial_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/kidney_interstitial_fibroblast.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/kidney_loop_of_henle_epithelial_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/kidney_loop_of_henle_thick_ascending_limb_epithelial_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/kidney_loop_of_henle_thin_ascending_limb_epithelial_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/kidney_loop_of_henle_thin_descending_limb_epithelial_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/lamp5_gabaergic_cortical_interneuron.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/large_intestine_goblet_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/large_pre-b-ii_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/late_pro-b_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/late_promyelocyte.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/lens_epithelial_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/lens_fiber_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/leukocyte.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/luminal_cell_of_prostate_epithelium.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/luminal_epithelial_cell_of_mammary_gland.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/lung_ciliated_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/lung_goblet_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/lung_macrophage.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/lung_microvascular_endothelial_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/lung_neuroendocrine_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/lung_pericyte.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/lymphocyte.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/lymphoid_lineage_restricted_progenitor_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/macroglial_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/macrophage.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/macrophage_dendritic_cell_progenitor.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/mammary_gland_epithelial_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/mast_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/mature_b_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/mature_nk_t_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/mature_alpha-beta_t_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/mature_gamma-delta_t_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/medullary_thymic_epithelial_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/megakaryocyte.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/megakaryocyte_progenitor_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/megakaryocyte-erythroid_progenitor_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/melanocyte.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/melanocyte_of_skin.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/memory_b_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/mesangial_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/mesenchymal_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/mesenchymal_lymphangioblast.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/mesenchymal_stem_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/mesodermal_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/mesothelial_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/mesothelial_cell_of_epicardium.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/microglial_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/midzonal_region_hepatocyte.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/migratory_enteric_neural_crest_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/monocyte.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/motor_neuron.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/mucosal_invariant_t_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/mucus_secreting_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/multi-ciliated_epithelial_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/mural_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/muscle_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/myelocyte.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/myeloid_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/myeloid_dendritic_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/myeloid_leukocyte.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/myeloid_lineage_restricted_progenitor_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/myoepithelial_cell_of_mammary_gland.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/myofibroblast_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/myometrial_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/naive_b_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/naive_t_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/naive_regulatory_t_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/naive_thymus-derived_cd4-positive,_alpha-beta_t_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/naive_thymus-derived_cd8-positive,_alpha-beta_t_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/nasal_mucosa_goblet_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/native_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/natural_killer_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/near-projecting_glutamatergic_cortical_neuron.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/neural_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/neuroblast_(sensu_vertebrata).txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/neuroendocrine_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/neuron.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/neuron_associated_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/neuron_associated_cell_(sensu_vertebrata).txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/neuronal_brush_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/neuronal_receptor_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/neutrophil.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/non-classical_monocyte.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/non-pigmented_ciliary_epithelial_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/oligodendrocyte.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/oligodendrocyte_precursor_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/osteoblast.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/osteoclast.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/ovarian_surface_epithelial_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/pancreatic_acinar_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/pancreatic_ductal_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/pancreatic_stellate_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/paneth_cell_of_colon.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/paneth_cell_of_epithelium_of_small_intestine.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/papillary_tips_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/parietal_epithelial_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/pericyte.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/peripheral_nervous_system_neuron.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/periportal_region_hepatocyte.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/photoreceptor_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/pigmented_ciliary_epithelial_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/pigmented_epithelial_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/placental_villous_trophoblast.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/plasma_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/plasmablast.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/plasmacytoid_dendritic_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/platelet.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/podocyte.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/pre-conventional_dendritic_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/precursor_b_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/precursor_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/preosteoblast.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/primitive_red_blood_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/pro-b_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/professional_antigen_presenting_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/progenitor_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/promonocyte.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/promyelocyte.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/prostate_gland_microvascular_endothelial_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/pulmonary_artery_endothelial_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/pulmonary_ionocyte.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/pvalb_gabaergic_cortical_interneuron.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/radial_glial_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/regulatory_t_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/renal_alpha-intercalated_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/renal_beta-intercalated_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/renal_interstitial_pericyte.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/renal_principal_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/respiratory_basal_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/respiratory_goblet_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/respiratory_hillock_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/retina_horizontal_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/retinal_bipolar_neuron.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/retinal_blood_vessel_endothelial_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/retinal_cone_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/retinal_ganglion_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/retinal_pigment_epithelial_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/retinal_rod_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/rod_bipolar_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/salivary_gland_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/secondary_lens_fiber.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/secretory_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/serous_secreting_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/skeletal_muscle_fiber.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/skeletal_muscle_fibroblast.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/skeletal_muscle_satellite_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/skeletal_muscle_satellite_stem_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/skin_fibroblast.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/slow_muscle_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/small_intestine_goblet_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/small_pre-b-ii_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/smooth_muscle_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/smooth_muscle_cell_of_prostate.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/smooth_muscle_cell_of_sphincter_of_pupil.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/smooth_muscle_myoblast.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/sncg_gabaergic_cortical_interneuron.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/somatic_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/squamous_epithelial_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/sst_gabaergic_cortical_interneuron.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/stellate_neuron.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/stem_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/stromal_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/stromal_cell_of_ovary.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/subcutaneous_fat_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/supporting_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/sympathetic_neuron.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/syncytiotrophoblast_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/taste_receptor_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/tendon_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/thymocyte.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/tracheal_goblet_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/tracheobronchial_goblet_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/tracheobronchial_serous_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/tracheobronchial_smooth_muscle_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/transit_amplifying_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/transit_amplifying_cell_of_colon.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/transit_amplifying_cell_of_small_intestine.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/transitional_stage_b_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/type_b_pancreatic_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/type_ec_enteroendocrine_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/type_i_nk_t_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/type_i_pneumocyte.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/type_ii_pneumocyte.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/unswitched_memory_b_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/uterine_smooth_muscle_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/vascular_associated_smooth_muscle_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/vascular_leptomeningeal_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/vein_endothelial_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/ventricular_cardiac_muscle_cell.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/vip_gabaergic_cortical_interneuron.txt
+Writing to... ../data/networks/ppi_edgelists_cellxgene/visceromotor_neuron.txt
+Finished writing 428 edgelists.
+Saved inventory at ../data/networks/ppi_edgelists_cellxgene/inventory.txt
+All finished!

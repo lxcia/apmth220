@@ -1,0 +1,35 @@
+no change     /n/app/miniconda3/23.1.0/condabin/conda
+no change     /n/app/miniconda3/23.1.0/bin/conda
+no change     /n/app/miniconda3/23.1.0/bin/conda-env
+no change     /n/app/miniconda3/23.1.0/bin/activate
+no change     /n/app/miniconda3/23.1.0/bin/deactivate
+no change     /n/app/miniconda3/23.1.0/etc/profile.d/conda.sh
+no change     /n/app/miniconda3/23.1.0/etc/fish/conf.d/conda.fish
+no change     /n/app/miniconda3/23.1.0/shell/condabin/Conda.psm1
+no change     /n/app/miniconda3/23.1.0/shell/condabin/conda-hook.ps1
+no change     /n/app/miniconda3/23.1.0/lib/python3.10/site-packages/xontrib/conda.xsh
+no change     /n/app/miniconda3/23.1.0/etc/profile.d/conda.csh
+no change     /home/kel331/.bashrc
+No action taken.
+Loading in global PPI network...
+Number of nodes: 15461
+Number of edges: 207641
+Finished loading in `ppi`...
+Loading in cell type specific PPI...
+dict_keys([('0', 'B cell'), ('1', 'CD4-positive helper T cell'), ('2', 'CD4-positive, alpha-beta T cell'), ('3', 'CD8-positive, alpha-beta memory T cell'), ('4', 'GABAergic neuron'), ('5', 'Hofbauer cell'), ('6', 'IgA plasma cell'), ('7', 'IgG plasma cell'), ('8', 'Schwann cell'), ('12', 'adipocyte of breast'), ('13', 'alternatively activated macrophage'), ('14', 'astrocyte'), ('15', 'basal cell'), ('16', 'capillary endothelial cell'), ('17', 'central nervous system macrophage'), ('18', 'cerebellar granule cell'), ('19', 'class switched memory B cell'), ('20', 'classical monocyte'), ('21', 'conventional dendritic cell'), ('22', 'decidual natural killer cell, human'), ('23', 'dendritic cell'), ('24', 'effector memory CD4-positive, alpha-beta T cell'), ('25', 'effector memory CD8-positive, alpha-beta T cell'), ('26', 'embryonic fibroblast'), ('27', 'endothelial cell'), ('28', 'endothelial cell of artery'), ('29', 'endothelial cell of lymphatic vessel'), ('30', 'endothelial cell of placenta'), ('31', 'endothelial cell of uterus'), ('32', 'endothelial cell of vascular tree'), ('33', 'epithelial cell'), ('34', 'extravillous trophoblast'), ('35', 'fat cell'), ('36', 'fibro/adipogenic progenitor cell'), ('37', 'fibroblast'), ('38', 'gamma-delta T cell'), ('39', 'glutamatergic neuron'), ('40', 'granulocyte'), ('43', 'inflammatory macrophage'), ('44', 'leukocyte'), ('45', 'luminal epithelial cell of mammary gland'), ('46', 'lymphocyte'), ('47', 'macrophage'), ('48', 'mammary gland epithelial cell'), ('50', 'mature NK T cell'), ('51', 'mesothelial cell'), ('52', 'microglial cell'), ('53', 'mural cell'), ('54', 'myeloid cell'), ('55', 'myeloid dendritic cell'), ('57', 'native cell'), ('58', 'natural killer cell'), ('59', 'neuron'), ('60', 'neuron associated cell'), ('62', 'non-classical monocyte'), ('63', 'oligodendrocyte'), ('64', 'oligodendrocyte precursor cell'), ('66', 'placental villous trophoblast'), ('67', 'plasma cell'), ('69', 'regulatory T cell'), ('70', 'smooth muscle cell'), ('71', 'stromal cell'), ('72', 'syncytiotrophoblast cell'), ('73', 'trophoblast giant cell'), ('74', 'unswitched memory B cell'), ('75', 'uterine smooth muscle cell'), ('76', 'vascular associated smooth muscle cell'), ('77', 'vein endothelial cell')])
+Finished loading in cell type specific PPI...
+Loading in Cell Ontology...
+['CL:0000136', 'CL:0009099', 'CL:0000003', 'CL:0002488', 'CL:0000235', 'CL:0000798', 'CL:2000060', 'CL:0000077', 'CL:0000359', 'CL:0000624', 'CL:0000617', 'CL:0000860', 'CL:0002144', 'CL:0000127', 'CL:0000890', 'CL:2000042', 'CL:0009092', 'CL:0002326', 'CL:1000413', 'CL:0000814', 'CL:0000095', 'CL:0000499', 'CL:0000738', 'CL:0000905', 'CL:0002138', 'CL:0000679', 'CL:0000525', 'CL:0000128', 'CL:0000875', 'CL:0002543', 'CL:0000542', 'CL:0002327', 'CL:0008036', 'CL:0002453', 'CL:0000094', 'CL:0000786', 'CL:0002617', 'CL:0000192', 'CL:0000990', 'CL:0000985', 'CL:0000970', 'CL:0000913', 'CL:0000646', 'CL:0001031', 'CL:3000001', 'CL:0000782', 'CL:0000236', 'CL:0000066', 'CL:0000815', 'CL:0009095', 'CL:0000492', 'CL:0000878', 'CL:0000909', 'CL:0008034', 'CL:0000540', 'CL:0000763', 'CL:0000863', 'CL:0000987', 'CL:0002573', 'CL:0000451', 'CL:0000972', 'CL:0000057', 'CL:0000623', 'CL:0002343', 'CL:0002139', 'CL:0002601', 'CL:0000115', 'CL:0000129']
+Number of nodes in Cell Ontology: 68
+Number of nodes: 16846
+Number of edges: 49596
+Finished loading in Cell Ontology...
+Evaluating cell type specific PPI...
+Minimum SPLs: 2 Maximum SPLs: 16 Average SPLs: 8.961538461538462 +/- 1.6050493549896412
+Number of cell types: 68
+Minimum LCC: 1012 Maximum LCC: 3385 Average LCC: 2214.323529411765 +/- 747.4186644944064
+Unique genes in cell type PPI networks: 9714
+Unique genes in global PPI network: 15461
+Coverage 0.6282905374814048
+Tree is now undirected
+All finished!

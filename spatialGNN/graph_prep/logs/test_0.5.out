@@ -1,0 +1,97 @@
+no change     /n/app/miniconda3/23.1.0/condabin/conda
+no change     /n/app/miniconda3/23.1.0/bin/conda
+no change     /n/app/miniconda3/23.1.0/bin/conda-env
+no change     /n/app/miniconda3/23.1.0/bin/activate
+no change     /n/app/miniconda3/23.1.0/bin/deactivate
+no change     /n/app/miniconda3/23.1.0/etc/profile.d/conda.sh
+no change     /n/app/miniconda3/23.1.0/etc/fish/conf.d/conda.fish
+no change     /n/app/miniconda3/23.1.0/shell/condabin/Conda.psm1
+no change     /n/app/miniconda3/23.1.0/shell/condabin/conda-hook.ps1
+no change     /n/app/miniconda3/23.1.0/lib/python3.10/site-packages/xontrib/conda.xsh
+no change     /n/app/miniconda3/23.1.0/etc/profile.d/conda.csh
+no change     /home/kel331/.bashrc
+No action taken.
+Loading in global PPI network...
+Number of nodes: 15461
+Number of edges: 207641
+Finished loading in `ppi`...
+Extracting cell type specific PPI...
+Size of LCC for B cell: 1126 (0.58 of sig genes in PPI)
+Size of LCC for CD4-positive helper T cell: 1152 (0.60 of sig genes in PPI)
+Size of LCC for CD4-positive, alpha-beta T cell: 1387 (0.67 of sig genes in PPI)
+Size of LCC for CD8-positive, alpha-beta memory T cell: 1027 (0.55 of sig genes in PPI)
+Size of LCC for GABAergic neuron: 2638 (0.80 of sig genes in PPI)
+Size of LCC for Hofbauer cell: 3047 (0.87 of sig genes in PPI)
+Size of LCC for IgA plasma cell: 1484 (0.69 of sig genes in PPI)
+Size of LCC for IgG plasma cell: 1052 (0.55 of sig genes in PPI)
+Size of LCC for Schwann cell: 2210 (0.74 of sig genes in PPI)
+Size of LCC for T cell: 867 (0.50 of sig genes in PPI)
+Size of LCC for activated CD4-positive, alpha-beta T cell: 865 (0.49 of sig genes in PPI)
+Size of LCC for activated CD8-positive, alpha-beta T cell: 861 (0.48 of sig genes in PPI)
+Size of LCC for adipocyte of breast: 2341 (0.77 of sig genes in PPI)
+Size of LCC for alternatively activated macrophage: 3040 (0.89 of sig genes in PPI)
+Size of LCC for astrocyte: 1977 (0.69 of sig genes in PPI)
+Size of LCC for basal cell: 1722 (0.74 of sig genes in PPI)
+Size of LCC for capillary endothelial cell: 2442 (0.85 of sig genes in PPI)
+Size of LCC for central nervous system macrophage: 2301 (0.77 of sig genes in PPI)
+Size of LCC for cerebellar granule cell: 2699 (0.82 of sig genes in PPI)
+Size of LCC for class switched memory B cell: 1012 (0.54 of sig genes in PPI)
+Size of LCC for classical monocyte: 3090 (0.90 of sig genes in PPI)
+Size of LCC for conventional dendritic cell: 3169 (0.91 of sig genes in PPI)
+Size of LCC for decidual natural killer cell, human: 1324 (0.63 of sig genes in PPI)
+Size of LCC for dendritic cell: 2975 (0.87 of sig genes in PPI)
+Size of LCC for effector memory CD4-positive, alpha-beta T cell: 1108 (0.59 of sig genes in PPI)
+Size of LCC for effector memory CD8-positive, alpha-beta T cell: 1028 (0.55 of sig genes in PPI)
+Size of LCC for embryonic fibroblast: 3212 (0.89 of sig genes in PPI)
+Size of LCC for endothelial cell: 2419 (0.78 of sig genes in PPI)
+Size of LCC for endothelial cell of artery: 1738 (0.76 of sig genes in PPI)
+Size of LCC for endothelial cell of lymphatic vessel: 1889 (0.72 of sig genes in PPI)
+Size of LCC for endothelial cell of placenta: 3198 (0.89 of sig genes in PPI)
+Size of LCC for endothelial cell of uterus: 2990 (0.86 of sig genes in PPI)
+Size of LCC for endothelial cell of vascular tree: 1160 (0.57 of sig genes in PPI)
+Size of LCC for epithelial cell: 2466 (0.78 of sig genes in PPI)
+Size of LCC for extravillous trophoblast: 3347 (0.91 of sig genes in PPI)
+Size of LCC for fat cell: 2505 (0.80 of sig genes in PPI)
+Size of LCC for fibro/adipogenic progenitor cell: 2327 (0.76 of sig genes in PPI)
+Size of LCC for fibroblast: 2526 (0.84 of sig genes in PPI)
+Size of LCC for gamma-delta T cell: 1137 (0.59 of sig genes in PPI)
+Size of LCC for glutamatergic neuron: 2304 (0.75 of sig genes in PPI)
+Size of LCC for granulocyte: 1290 (0.62 of sig genes in PPI)
+Size of LCC for group 3 innate lymphoid cell, human: 910 (0.50 of sig genes in PPI)
+Size of LCC for hematopoietic cell: 705 (0.41 of sig genes in PPI)
+Size of LCC for inflammatory macrophage: 2964 (0.89 of sig genes in PPI)
+Size of LCC for leukocyte: 2256 (0.77 of sig genes in PPI)
+Size of LCC for luminal epithelial cell of mammary gland: 3299 (0.90 of sig genes in PPI)
+Size of LCC for lymphocyte: 2071 (0.74 of sig genes in PPI)
+Size of LCC for macrophage: 2456 (0.80 of sig genes in PPI)
+Size of LCC for mammary gland epithelial cell: 3385 (0.92 of sig genes in PPI)
+Size of LCC for mast cell: 864 (0.49 of sig genes in PPI)
+Size of LCC for mature NK T cell: 1226 (0.61 of sig genes in PPI)
+Size of LCC for mesothelial cell: 2457 (0.78 of sig genes in PPI)
+Size of LCC for microglial cell: 2415 (0.78 of sig genes in PPI)
+Size of LCC for mural cell: 2902 (0.84 of sig genes in PPI)
+Size of LCC for myeloid cell: 1778 (0.68 of sig genes in PPI)
+Size of LCC for myeloid dendritic cell: 2957 (0.89 of sig genes in PPI)
+Size of LCC for naive B cell: 967 (0.53 of sig genes in PPI)
+Size of LCC for native cell: 1816 (0.72 of sig genes in PPI)
+Size of LCC for natural killer cell: 1052 (0.56 of sig genes in PPI)
+Size of LCC for neuron: 2362 (0.78 of sig genes in PPI)
+Size of LCC for neuron associated cell: 1313 (0.56 of sig genes in PPI)
+Size of LCC for neutrophil: 790 (0.46 of sig genes in PPI)
+Size of LCC for non-classical monocyte: 3052 (0.90 of sig genes in PPI)
+Size of LCC for oligodendrocyte: 2491 (0.78 of sig genes in PPI)
+Size of LCC for oligodendrocyte precursor cell: 2558 (0.79 of sig genes in PPI)
+Size of LCC for pericyte: 898 (0.49 of sig genes in PPI)
+Size of LCC for placental villous trophoblast: 3344 (0.91 of sig genes in PPI)
+Size of LCC for plasma cell: 2041 (0.77 of sig genes in PPI)
+Size of LCC for plasmacytoid dendritic cell: 942 (0.51 of sig genes in PPI)
+Size of LCC for regulatory T cell: 1296 (0.65 of sig genes in PPI)
+Size of LCC for smooth muscle cell: 2156 (0.74 of sig genes in PPI)
+Size of LCC for stromal cell: 3187 (0.89 of sig genes in PPI)
+Size of LCC for syncytiotrophoblast cell: 2802 (0.85 of sig genes in PPI)
+Size of LCC for trophoblast giant cell: 2599 (0.81 of sig genes in PPI)
+Size of LCC for unswitched memory B cell: 1426 (0.68 of sig genes in PPI)
+Size of LCC for uterine smooth muscle cell: 2550 (0.80 of sig genes in PPI)
+Size of LCC for vascular associated smooth muscle cell: 1319 (0.65 of sig genes in PPI)
+Size of LCC for vein endothelial cell: 3185 (0.90 of sig genes in PPI)
+All finished!

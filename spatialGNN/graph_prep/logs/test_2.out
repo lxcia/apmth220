@@ -1,0 +1,56 @@
+no change     /n/app/miniconda3/23.1.0/condabin/conda
+no change     /n/app/miniconda3/23.1.0/bin/conda
+no change     /n/app/miniconda3/23.1.0/bin/conda-env
+no change     /n/app/miniconda3/23.1.0/bin/activate
+no change     /n/app/miniconda3/23.1.0/bin/deactivate
+no change     /n/app/miniconda3/23.1.0/etc/profile.d/conda.sh
+no change     /n/app/miniconda3/23.1.0/etc/fish/conf.d/conda.fish
+no change     /n/app/miniconda3/23.1.0/shell/condabin/Conda.psm1
+no change     /n/app/miniconda3/23.1.0/shell/condabin/conda-hook.ps1
+no change     /n/app/miniconda3/23.1.0/lib/python3.10/site-packages/xontrib/conda.xsh
+no change     /n/app/miniconda3/23.1.0/etc/profile.d/conda.csh
+no change     /home/kel331/.bashrc
+No action taken.
+Loading in Tabula Sapiens data...
+AnnData object with n_obs × n_vars = 999999 × 14053
+    obs: 'soma_joinid', 'dataset_id', 'assay', 'assay_ontology_term_id', 'cell_type', 'cell_type_ontology_term_id', 'development_stage', 'development_stage_ontology_term_id', 'disease', 'disease_ontology_term_id', 'donor_id', 'is_primary_data', 'self_reported_ethnicity', 'self_reported_ethnicity_ontology_term_id', 'sex', 'sex_ontology_term_id', 'suspension_type', 'tissue', 'tissue_ontology_term_id', 'tissue_general', 'tissue_general_ontology_term_id'
+    var: 'soma_joinid', 'feature_id', 'feature_name', 'feature_length'
+       organ_tissue                  cell_ontology_class
+0           decidua  decidual natural killer cell, human
+1           decidua                               T cell
+2           decidua                               T cell
+3           decidua  decidual natural killer cell, human
+4           decidua                               T cell
+...             ...                                  ...
+999994       breast                           fibroblast
+999995       breast                           fibroblast
+999996       breast                           fibroblast
+999997       breast                           fibroblast
+999998       breast                           fibroblast
+
+[999999 rows x 2 columns]
+['decidual natural killer cell, human', 'T cell', 'group 3 innate lymphoid cell, human', 'regulatory T cell', 'macrophage', ..., 'inflammatory macrophage', 'myeloid dendritic cell', 'plasmacytoid dendritic cell', 'vein endothelial cell', 'neutrophil']
+Length: 78
+Categories (78, object): ['B cell', 'CD4-positive helper T cell',
+                          'CD4-positive, alpha-beta T cell', 'CD8-positive, alpha-beta memory T cell', ...,
+                          'unswitched memory B cell', 'uterine smooth muscle cell',
+                          'vascular associated smooth muscle cell', 'vein endothelial cell']
+Finished loading `ts_data`...
+Saving meta data...
+Index(['index', 'cell_ontology_class'], dtype='object')
+          Cell                            cell_type
+0            0  decidual natural killer cell, human
+1            1                               T cell
+2            2                               T cell
+3            3  decidual natural killer cell, human
+4            4                               T cell
+...        ...                                  ...
+999994  999994                           fibroblast
+999995  999995                           fibroblast
+999996  999996                           fibroblast
+999997  999997                           fibroblast
+999998  999998                           fibroblast
+
+[999999 rows x 2 columns]
+Finished saving meta data...
+All finished!

@@ -1,0 +1,11 @@
+torch>=1.13.0
+rpy2>=1.13.0
+scikit-learn>=1.2.0
+scanpy>=1.9.6
+scipy>=1.11.4
+pandas>=1.5.2
+numpy>=1.21.6
+sympy>=1.11.1
+anndata>=0.10.3
+SpaGCN>=1.2.7
+tqdm>=4.64.1
