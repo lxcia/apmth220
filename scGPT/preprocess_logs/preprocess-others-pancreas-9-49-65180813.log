@@ -1,0 +1,551 @@
+Current PATH: /n/app/miniconda3/4.10.3/bin:/n/app/cuda/10.2/bin:/n/app/gcc/6.2.0/bin:/n/cluster/bin:/opt/singularity/bin:/home/lum347/.cursor-server/cli/servers/Stable-1649e229afdef8fd1d18ea173f063563f1e722e0/server/bin/remote-cli:/n/cluster/bin:/opt/singularity/bin:/n/app/miniconda3/4.10.3/bin:/n/app/miniconda3/4.10.3/condabin:/n/cluster/bin:/opt/singularity/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/puppetlabs/bin:/usr/local/rvm/bin:/opt/dell/srvadmin/bin:/home/lum347/.local/bin:/home/lum347/bin:/home/lum347/.local/bin:/home/lum347/bin
+Current PYTHONPATH: 
+Current CONDA_PREFIX: /n/app/miniconda3/4.10.3
+no change     /n/app/miniconda3/4.10.3/condabin/conda
+no change     /n/app/miniconda3/4.10.3/bin/conda
+no change     /n/app/miniconda3/4.10.3/bin/conda-env
+no change     /n/app/miniconda3/4.10.3/bin/activate
+no change     /n/app/miniconda3/4.10.3/bin/deactivate
+no change     /n/app/miniconda3/4.10.3/etc/profile.d/conda.sh
+no change     /n/app/miniconda3/4.10.3/etc/fish/conf.d/conda.fish
+no change     /n/app/miniconda3/4.10.3/shell/condabin/Conda.psm1
+no change     /n/app/miniconda3/4.10.3/shell/condabin/conda-hook.ps1
+no change     /n/app/miniconda3/4.10.3/lib/python3.9/site-packages/xontrib/conda.xsh
+no change     /n/app/miniconda3/4.10.3/etc/profile.d/conda.csh
+no change     /home/lum347/.bashrc
+No action taken.
+After activation, CONDA_PREFIX: /n/data1/hms/dbmi/zitnik/lab/users/lucia1215/conda_envs/preprocess
+Python path: /n/data1/hms/dbmi/zitnik/lab/users/lucia1215/conda_envs/preprocess/bin/python
+Python version: Python 3.10.17
+scGPT - INFO - Starting processing of data/cellxgene/batch_download_scb/others/partition_48.scb
+scGPT - INFO - Saving results to data/processed_all/others/partition_48.scb
+scGPT - INFO - Loading data from: data/cellxgene/batch_download_scb/others/partition_48.scb
+scGPT - INFO - Successfully loaded data with shape: (200000, 60694)
+scGPT - INFO - Saving raw data to data/processed_all/others/partition_48.scb/raw_data.h5ad
+scGPT - INFO - Starting preprocessing steps...
+scGPT - INFO - Normalizing total counts ...
+scGPT - INFO - Preprocessing completed
+scGPT - INFO - Saving processed AnnData to data/processed_all/others/partition_48.scb/processed_data.h5ad
+scGPT - INFO - Saved adata to data/processed_all/others/partition_48.scb
+scGPT - INFO - Saved raw_counts to data/processed_all/others/partition_48.scb
+scGPT - INFO - Saved normalized_counts to data/processed_all/others/partition_48.scb
+scGPT - INFO - Saved var_names to data/processed_all/others/partition_48.scb
+scGPT - INFO - Saved obs_names to data/processed_all/others/partition_48.scb
+scGPT - INFO - Saved metadata to data/processed_all/others/partition_48.scb
+scGPT - INFO - Saving metadata to data/processed_all/others/partition_48.scb/metadata.json
+scGPT - INFO - All files saved successfully
+scGPT - INFO - Preprocessor returned dictionary with keys: ['adata', 'raw_counts', 'normalized_counts', 'var_names', 'obs_names', 'metadata']
+scGPT - INFO - Processing completed
+scGPT - INFO - Starting processing of data/cellxgene/batch_download_scb/others/partition_49.scb
+scGPT - INFO - Saving results to data/processed_all/others/partition_49.scb
+scGPT - INFO - Loading data from: data/cellxgene/batch_download_scb/others/partition_49.scb
+scGPT - INFO - Successfully loaded data with shape: (200000, 60694)
+scGPT - INFO - Saving raw data to data/processed_all/others/partition_49.scb/raw_data.h5ad
+scGPT - INFO - Starting preprocessing steps...
+scGPT - INFO - Normalizing total counts ...
+scGPT - INFO - Preprocessing completed
+scGPT - INFO - Saving processed AnnData to data/processed_all/others/partition_49.scb/processed_data.h5ad
+scGPT - INFO - Saved adata to data/processed_all/others/partition_49.scb
+scGPT - INFO - Saved raw_counts to data/processed_all/others/partition_49.scb
+scGPT - INFO - Saved normalized_counts to data/processed_all/others/partition_49.scb
+scGPT - INFO - Saved var_names to data/processed_all/others/partition_49.scb
+scGPT - INFO - Saved obs_names to data/processed_all/others/partition_49.scb
+scGPT - INFO - Saved metadata to data/processed_all/others/partition_49.scb
+scGPT - INFO - Saving metadata to data/processed_all/others/partition_49.scb/metadata.json
+scGPT - INFO - All files saved successfully
+scGPT - INFO - Preprocessor returned dictionary with keys: ['adata', 'raw_counts', 'normalized_counts', 'var_names', 'obs_names', 'metadata']
+scGPT - INFO - Processing completed
+scGPT - INFO - Starting processing of data/cellxgene/batch_download_scb/others/partition_5.scb
+scGPT - INFO - Saving results to data/processed_all/others/partition_5.scb
+scGPT - INFO - Loading data from: data/cellxgene/batch_download_scb/others/partition_5.scb
+scGPT - INFO - Successfully loaded data with shape: (200000, 60694)
+scGPT - INFO - Saving raw data to data/processed_all/others/partition_5.scb/raw_data.h5ad
+scGPT - INFO - Starting preprocessing steps...
+scGPT - INFO - Normalizing total counts ...
+scGPT - INFO - Preprocessing completed
+scGPT - INFO - Saving processed AnnData to data/processed_all/others/partition_5.scb/processed_data.h5ad
+scGPT - INFO - Saved adata to data/processed_all/others/partition_5.scb
+scGPT - INFO - Saved raw_counts to data/processed_all/others/partition_5.scb
+scGPT - INFO - Saved normalized_counts to data/processed_all/others/partition_5.scb
+scGPT - INFO - Saved var_names to data/processed_all/others/partition_5.scb
+scGPT - INFO - Saved obs_names to data/processed_all/others/partition_5.scb
+scGPT - INFO - Saved metadata to data/processed_all/others/partition_5.scb
+scGPT - INFO - Saving metadata to data/processed_all/others/partition_5.scb/metadata.json
+scGPT - INFO - All files saved successfully
+scGPT - INFO - Preprocessor returned dictionary with keys: ['adata', 'raw_counts', 'normalized_counts', 'var_names', 'obs_names', 'metadata']
+scGPT - INFO - Processing completed
+scGPT - INFO - Starting processing of data/cellxgene/batch_download_scb/others/partition_50.scb
+scGPT - INFO - Saving results to data/processed_all/others/partition_50.scb
+scGPT - INFO - Loading data from: data/cellxgene/batch_download_scb/others/partition_50.scb
+scGPT - INFO - Successfully loaded data with shape: (200000, 60694)
+scGPT - INFO - Saving raw data to data/processed_all/others/partition_50.scb/raw_data.h5ad
+scGPT - INFO - Starting preprocessing steps...
+scGPT - INFO - Normalizing total counts ...
+scGPT - INFO - Preprocessing completed
+scGPT - INFO - Saving processed AnnData to data/processed_all/others/partition_50.scb/processed_data.h5ad
+scGPT - INFO - Saved adata to data/processed_all/others/partition_50.scb
+scGPT - INFO - Saved raw_counts to data/processed_all/others/partition_50.scb
+scGPT - INFO - Saved normalized_counts to data/processed_all/others/partition_50.scb
+scGPT - INFO - Saved var_names to data/processed_all/others/partition_50.scb
+scGPT - INFO - Saved obs_names to data/processed_all/others/partition_50.scb
+scGPT - INFO - Saved metadata to data/processed_all/others/partition_50.scb
+scGPT - INFO - Saving metadata to data/processed_all/others/partition_50.scb/metadata.json
+scGPT - INFO - All files saved successfully
+scGPT - INFO - Preprocessor returned dictionary with keys: ['adata', 'raw_counts', 'normalized_counts', 'var_names', 'obs_names', 'metadata']
+scGPT - INFO - Processing completed
+scGPT - INFO - Starting processing of data/cellxgene/batch_download_scb/others/partition_51.scb
+scGPT - INFO - Saving results to data/processed_all/others/partition_51.scb
+scGPT - INFO - Loading data from: data/cellxgene/batch_download_scb/others/partition_51.scb
+scGPT - INFO - Successfully loaded data with shape: (200000, 60694)
+scGPT - INFO - Saving raw data to data/processed_all/others/partition_51.scb/raw_data.h5ad
+scGPT - INFO - Starting preprocessing steps...
+scGPT - INFO - Normalizing total counts ...
+scGPT - INFO - Preprocessing completed
+scGPT - INFO - Saving processed AnnData to data/processed_all/others/partition_51.scb/processed_data.h5ad
+scGPT - INFO - Saved adata to data/processed_all/others/partition_51.scb
+scGPT - INFO - Saved raw_counts to data/processed_all/others/partition_51.scb
+scGPT - INFO - Saved normalized_counts to data/processed_all/others/partition_51.scb
+scGPT - INFO - Saved var_names to data/processed_all/others/partition_51.scb
+scGPT - INFO - Saved obs_names to data/processed_all/others/partition_51.scb
+scGPT - INFO - Saved metadata to data/processed_all/others/partition_51.scb
+scGPT - INFO - Saving metadata to data/processed_all/others/partition_51.scb/metadata.json
+scGPT - INFO - All files saved successfully
+scGPT - INFO - Preprocessor returned dictionary with keys: ['adata', 'raw_counts', 'normalized_counts', 'var_names', 'obs_names', 'metadata']
+scGPT - INFO - Processing completed
+scGPT - INFO - Starting processing of data/cellxgene/batch_download_scb/others/partition_52.scb
+scGPT - INFO - Saving results to data/processed_all/others/partition_52.scb
+scGPT - INFO - Loading data from: data/cellxgene/batch_download_scb/others/partition_52.scb
+scGPT - INFO - Successfully loaded data with shape: (200000, 60694)
+scGPT - INFO - Saving raw data to data/processed_all/others/partition_52.scb/raw_data.h5ad
+scGPT - INFO - Starting preprocessing steps...
+scGPT - INFO - Normalizing total counts ...
+scGPT - INFO - Preprocessing completed
+scGPT - INFO - Saving processed AnnData to data/processed_all/others/partition_52.scb/processed_data.h5ad
+scGPT - INFO - Saved adata to data/processed_all/others/partition_52.scb
+scGPT - INFO - Saved raw_counts to data/processed_all/others/partition_52.scb
+scGPT - INFO - Saved normalized_counts to data/processed_all/others/partition_52.scb
+scGPT - INFO - Saved var_names to data/processed_all/others/partition_52.scb
+scGPT - INFO - Saved obs_names to data/processed_all/others/partition_52.scb
+scGPT - INFO - Saved metadata to data/processed_all/others/partition_52.scb
+scGPT - INFO - Saving metadata to data/processed_all/others/partition_52.scb/metadata.json
+scGPT - INFO - All files saved successfully
+scGPT - INFO - Preprocessor returned dictionary with keys: ['adata', 'raw_counts', 'normalized_counts', 'var_names', 'obs_names', 'metadata']
+scGPT - INFO - Processing completed
+scGPT - INFO - Starting processing of data/cellxgene/batch_download_scb/others/partition_53.scb
+scGPT - INFO - Saving results to data/processed_all/others/partition_53.scb
+scGPT - INFO - Loading data from: data/cellxgene/batch_download_scb/others/partition_53.scb
+scGPT - INFO - Successfully loaded data with shape: (200000, 60694)
+scGPT - INFO - Saving raw data to data/processed_all/others/partition_53.scb/raw_data.h5ad
+scGPT - INFO - Starting preprocessing steps...
+scGPT - INFO - Normalizing total counts ...
+scGPT - INFO - Preprocessing completed
+scGPT - INFO - Saving processed AnnData to data/processed_all/others/partition_53.scb/processed_data.h5ad
+scGPT - INFO - Saved adata to data/processed_all/others/partition_53.scb
+scGPT - INFO - Saved raw_counts to data/processed_all/others/partition_53.scb
+scGPT - INFO - Saved normalized_counts to data/processed_all/others/partition_53.scb
+scGPT - INFO - Saved var_names to data/processed_all/others/partition_53.scb
+scGPT - INFO - Saved obs_names to data/processed_all/others/partition_53.scb
+scGPT - INFO - Saved metadata to data/processed_all/others/partition_53.scb
+scGPT - INFO - Saving metadata to data/processed_all/others/partition_53.scb/metadata.json
+scGPT - INFO - All files saved successfully
+scGPT - INFO - Preprocessor returned dictionary with keys: ['adata', 'raw_counts', 'normalized_counts', 'var_names', 'obs_names', 'metadata']
+scGPT - INFO - Processing completed
+scGPT - INFO - Starting processing of data/cellxgene/batch_download_scb/others/partition_54.scb
+scGPT - INFO - Saving results to data/processed_all/others/partition_54.scb
+scGPT - INFO - Loading data from: data/cellxgene/batch_download_scb/others/partition_54.scb
+scGPT - INFO - Successfully loaded data with shape: (200000, 60694)
+scGPT - INFO - Saving raw data to data/processed_all/others/partition_54.scb/raw_data.h5ad
+scGPT - INFO - Starting preprocessing steps...
+scGPT - INFO - Normalizing total counts ...
+scGPT - INFO - Preprocessing completed
+scGPT - INFO - Saving processed AnnData to data/processed_all/others/partition_54.scb/processed_data.h5ad
+scGPT - INFO - Saved adata to data/processed_all/others/partition_54.scb
+scGPT - INFO - Saved raw_counts to data/processed_all/others/partition_54.scb
+scGPT - INFO - Saved normalized_counts to data/processed_all/others/partition_54.scb
+scGPT - INFO - Saved var_names to data/processed_all/others/partition_54.scb
+scGPT - INFO - Saved obs_names to data/processed_all/others/partition_54.scb
+scGPT - INFO - Saved metadata to data/processed_all/others/partition_54.scb
+scGPT - INFO - Saving metadata to data/processed_all/others/partition_54.scb/metadata.json
+scGPT - INFO - All files saved successfully
+scGPT - INFO - Preprocessor returned dictionary with keys: ['adata', 'raw_counts', 'normalized_counts', 'var_names', 'obs_names', 'metadata']
+scGPT - INFO - Processing completed
+scGPT - INFO - Starting processing of data/cellxgene/batch_download_scb/others/partition_55.scb
+scGPT - INFO - Saving results to data/processed_all/others/partition_55.scb
+scGPT - INFO - Loading data from: data/cellxgene/batch_download_scb/others/partition_55.scb
+scGPT - INFO - Successfully loaded data with shape: (200000, 60694)
+scGPT - INFO - Saving raw data to data/processed_all/others/partition_55.scb/raw_data.h5ad
+scGPT - INFO - Starting preprocessing steps...
+scGPT - INFO - Normalizing total counts ...
+scGPT - INFO - Preprocessing completed
+scGPT - INFO - Saving processed AnnData to data/processed_all/others/partition_55.scb/processed_data.h5ad
+scGPT - INFO - Saved adata to data/processed_all/others/partition_55.scb
+scGPT - INFO - Saved raw_counts to data/processed_all/others/partition_55.scb
+scGPT - INFO - Saved normalized_counts to data/processed_all/others/partition_55.scb
+scGPT - INFO - Saved var_names to data/processed_all/others/partition_55.scb
+scGPT - INFO - Saved obs_names to data/processed_all/others/partition_55.scb
+scGPT - INFO - Saved metadata to data/processed_all/others/partition_55.scb
+scGPT - INFO - Saving metadata to data/processed_all/others/partition_55.scb/metadata.json
+scGPT - INFO - All files saved successfully
+scGPT - INFO - Preprocessor returned dictionary with keys: ['adata', 'raw_counts', 'normalized_counts', 'var_names', 'obs_names', 'metadata']
+scGPT - INFO - Processing completed
+scGPT - INFO - Starting processing of data/cellxgene/batch_download_scb/others/partition_56.scb
+scGPT - INFO - Saving results to data/processed_all/others/partition_56.scb
+scGPT - INFO - Loading data from: data/cellxgene/batch_download_scb/others/partition_56.scb
+scGPT - INFO - Successfully loaded data with shape: (200000, 60694)
+scGPT - INFO - Saving raw data to data/processed_all/others/partition_56.scb/raw_data.h5ad
+scGPT - INFO - Starting preprocessing steps...
+scGPT - INFO - Normalizing total counts ...
+scGPT - INFO - Preprocessing completed
+scGPT - INFO - Saving processed AnnData to data/processed_all/others/partition_56.scb/processed_data.h5ad
+scGPT - INFO - Saved adata to data/processed_all/others/partition_56.scb
+scGPT - INFO - Saved raw_counts to data/processed_all/others/partition_56.scb
+scGPT - INFO - Saved normalized_counts to data/processed_all/others/partition_56.scb
+scGPT - INFO - Saved var_names to data/processed_all/others/partition_56.scb
+scGPT - INFO - Saved obs_names to data/processed_all/others/partition_56.scb
+scGPT - INFO - Saved metadata to data/processed_all/others/partition_56.scb
+scGPT - INFO - Saving metadata to data/processed_all/others/partition_56.scb/metadata.json
+scGPT - INFO - All files saved successfully
+scGPT - INFO - Preprocessor returned dictionary with keys: ['adata', 'raw_counts', 'normalized_counts', 'var_names', 'obs_names', 'metadata']
+scGPT - INFO - Processing completed
+scGPT - INFO - Starting processing of data/cellxgene/batch_download_scb/others/partition_57.scb
+scGPT - INFO - Saving results to data/processed_all/others/partition_57.scb
+scGPT - INFO - Loading data from: data/cellxgene/batch_download_scb/others/partition_57.scb
+scGPT - INFO - Successfully loaded data with shape: (200000, 60694)
+scGPT - INFO - Saving raw data to data/processed_all/others/partition_57.scb/raw_data.h5ad
+scGPT - INFO - Starting preprocessing steps...
+scGPT - INFO - Normalizing total counts ...
+scGPT - INFO - Preprocessing completed
+scGPT - INFO - Saving processed AnnData to data/processed_all/others/partition_57.scb/processed_data.h5ad
+scGPT - INFO - Saved adata to data/processed_all/others/partition_57.scb
+scGPT - INFO - Saved raw_counts to data/processed_all/others/partition_57.scb
+scGPT - INFO - Saved normalized_counts to data/processed_all/others/partition_57.scb
+scGPT - INFO - Saved var_names to data/processed_all/others/partition_57.scb
+scGPT - INFO - Saved obs_names to data/processed_all/others/partition_57.scb
+scGPT - INFO - Saved metadata to data/processed_all/others/partition_57.scb
+scGPT - INFO - Saving metadata to data/processed_all/others/partition_57.scb/metadata.json
+scGPT - INFO - All files saved successfully
+scGPT - INFO - Preprocessor returned dictionary with keys: ['adata', 'raw_counts', 'normalized_counts', 'var_names', 'obs_names', 'metadata']
+scGPT - INFO - Processing completed
+scGPT - INFO - Starting processing of data/cellxgene/batch_download_scb/others/partition_58.scb
+scGPT - INFO - Saving results to data/processed_all/others/partition_58.scb
+scGPT - INFO - Loading data from: data/cellxgene/batch_download_scb/others/partition_58.scb
+scGPT - INFO - Successfully loaded data with shape: (200000, 60694)
+scGPT - INFO - Saving raw data to data/processed_all/others/partition_58.scb/raw_data.h5ad
+scGPT - INFO - Starting preprocessing steps...
+scGPT - INFO - Normalizing total counts ...
+scGPT - INFO - Preprocessing completed
+scGPT - INFO - Saving processed AnnData to data/processed_all/others/partition_58.scb/processed_data.h5ad
+scGPT - INFO - Saved adata to data/processed_all/others/partition_58.scb
+scGPT - INFO - Saved raw_counts to data/processed_all/others/partition_58.scb
+scGPT - INFO - Saved normalized_counts to data/processed_all/others/partition_58.scb
+scGPT - INFO - Saved var_names to data/processed_all/others/partition_58.scb
+scGPT - INFO - Saved obs_names to data/processed_all/others/partition_58.scb
+scGPT - INFO - Saved metadata to data/processed_all/others/partition_58.scb
+scGPT - INFO - Saving metadata to data/processed_all/others/partition_58.scb/metadata.json
+scGPT - INFO - All files saved successfully
+scGPT - INFO - Preprocessor returned dictionary with keys: ['adata', 'raw_counts', 'normalized_counts', 'var_names', 'obs_names', 'metadata']
+scGPT - INFO - Processing completed
+scGPT - INFO - Starting processing of data/cellxgene/batch_download_scb/others/partition_59.scb
+scGPT - INFO - Saving results to data/processed_all/others/partition_59.scb
+scGPT - INFO - Loading data from: data/cellxgene/batch_download_scb/others/partition_59.scb
+scGPT - INFO - Successfully loaded data with shape: (200000, 60694)
+scGPT - INFO - Saving raw data to data/processed_all/others/partition_59.scb/raw_data.h5ad
+scGPT - INFO - Starting preprocessing steps...
+scGPT - INFO - Normalizing total counts ...
+scGPT - INFO - Preprocessing completed
+scGPT - INFO - Saving processed AnnData to data/processed_all/others/partition_59.scb/processed_data.h5ad
+scGPT - INFO - Saved adata to data/processed_all/others/partition_59.scb
+scGPT - INFO - Saved raw_counts to data/processed_all/others/partition_59.scb
+scGPT - INFO - Saved normalized_counts to data/processed_all/others/partition_59.scb
+scGPT - INFO - Saved var_names to data/processed_all/others/partition_59.scb
+scGPT - INFO - Saved obs_names to data/processed_all/others/partition_59.scb
+scGPT - INFO - Saved metadata to data/processed_all/others/partition_59.scb
+scGPT - INFO - Saving metadata to data/processed_all/others/partition_59.scb/metadata.json
+scGPT - INFO - All files saved successfully
+scGPT - INFO - Preprocessor returned dictionary with keys: ['adata', 'raw_counts', 'normalized_counts', 'var_names', 'obs_names', 'metadata']
+scGPT - INFO - Processing completed
+scGPT - INFO - Starting processing of data/cellxgene/batch_download_scb/others/partition_6.scb
+scGPT - INFO - Saving results to data/processed_all/others/partition_6.scb
+scGPT - INFO - Loading data from: data/cellxgene/batch_download_scb/others/partition_6.scb
+scGPT - INFO - Successfully loaded data with shape: (200000, 60694)
+scGPT - INFO - Saving raw data to data/processed_all/others/partition_6.scb/raw_data.h5ad
+scGPT - INFO - Starting preprocessing steps...
+scGPT - INFO - Normalizing total counts ...
+scGPT - INFO - Preprocessing completed
+scGPT - INFO - Saving processed AnnData to data/processed_all/others/partition_6.scb/processed_data.h5ad
+scGPT - INFO - Saved adata to data/processed_all/others/partition_6.scb
+scGPT - INFO - Saved raw_counts to data/processed_all/others/partition_6.scb
+scGPT - INFO - Saved normalized_counts to data/processed_all/others/partition_6.scb
+scGPT - INFO - Saved var_names to data/processed_all/others/partition_6.scb
+scGPT - INFO - Saved obs_names to data/processed_all/others/partition_6.scb
+scGPT - INFO - Saved metadata to data/processed_all/others/partition_6.scb
+scGPT - INFO - Saving metadata to data/processed_all/others/partition_6.scb/metadata.json
+scGPT - INFO - All files saved successfully
+scGPT - INFO - Preprocessor returned dictionary with keys: ['adata', 'raw_counts', 'normalized_counts', 'var_names', 'obs_names', 'metadata']
+scGPT - INFO - Processing completed
+scGPT - INFO - Starting processing of data/cellxgene/batch_download_scb/others/partition_60.scb
+scGPT - INFO - Saving results to data/processed_all/others/partition_60.scb
+scGPT - INFO - Loading data from: data/cellxgene/batch_download_scb/others/partition_60.scb
+scGPT - INFO - Successfully loaded data with shape: (200000, 60694)
+scGPT - INFO - Saving raw data to data/processed_all/others/partition_60.scb/raw_data.h5ad
+scGPT - INFO - Starting preprocessing steps...
+scGPT - INFO - Normalizing total counts ...
+scGPT - INFO - Preprocessing completed
+scGPT - INFO - Saving processed AnnData to data/processed_all/others/partition_60.scb/processed_data.h5ad
+scGPT - INFO - Saved adata to data/processed_all/others/partition_60.scb
+scGPT - INFO - Saved raw_counts to data/processed_all/others/partition_60.scb
+scGPT - INFO - Saved normalized_counts to data/processed_all/others/partition_60.scb
+scGPT - INFO - Saved var_names to data/processed_all/others/partition_60.scb
+scGPT - INFO - Saved obs_names to data/processed_all/others/partition_60.scb
+scGPT - INFO - Saved metadata to data/processed_all/others/partition_60.scb
+scGPT - INFO - Saving metadata to data/processed_all/others/partition_60.scb/metadata.json
+scGPT - INFO - All files saved successfully
+scGPT - INFO - Preprocessor returned dictionary with keys: ['adata', 'raw_counts', 'normalized_counts', 'var_names', 'obs_names', 'metadata']
+scGPT - INFO - Processing completed
+scGPT - INFO - Starting processing of data/cellxgene/batch_download_scb/others/partition_61.scb
+scGPT - INFO - Saving results to data/processed_all/others/partition_61.scb
+scGPT - INFO - Loading data from: data/cellxgene/batch_download_scb/others/partition_61.scb
+scGPT - INFO - Successfully loaded data with shape: (200000, 60694)
+scGPT - INFO - Saving raw data to data/processed_all/others/partition_61.scb/raw_data.h5ad
+scGPT - INFO - Starting preprocessing steps...
+scGPT - INFO - Normalizing total counts ...
+scGPT - INFO - Preprocessing completed
+scGPT - INFO - Saving processed AnnData to data/processed_all/others/partition_61.scb/processed_data.h5ad
+scGPT - INFO - Saved adata to data/processed_all/others/partition_61.scb
+scGPT - INFO - Saved raw_counts to data/processed_all/others/partition_61.scb
+scGPT - INFO - Saved normalized_counts to data/processed_all/others/partition_61.scb
+scGPT - INFO - Saved var_names to data/processed_all/others/partition_61.scb
+scGPT - INFO - Saved obs_names to data/processed_all/others/partition_61.scb
+scGPT - INFO - Saved metadata to data/processed_all/others/partition_61.scb
+scGPT - INFO - Saving metadata to data/processed_all/others/partition_61.scb/metadata.json
+scGPT - INFO - All files saved successfully
+scGPT - INFO - Preprocessor returned dictionary with keys: ['adata', 'raw_counts', 'normalized_counts', 'var_names', 'obs_names', 'metadata']
+scGPT - INFO - Processing completed
+scGPT - INFO - Starting processing of data/cellxgene/batch_download_scb/others/partition_62.scb
+scGPT - INFO - Saving results to data/processed_all/others/partition_62.scb
+scGPT - INFO - Loading data from: data/cellxgene/batch_download_scb/others/partition_62.scb
+scGPT - INFO - Successfully loaded data with shape: (200000, 60694)
+scGPT - INFO - Saving raw data to data/processed_all/others/partition_62.scb/raw_data.h5ad
+scGPT - INFO - Starting preprocessing steps...
+scGPT - INFO - Normalizing total counts ...
+scGPT - INFO - Preprocessing completed
+scGPT - INFO - Saving processed AnnData to data/processed_all/others/partition_62.scb/processed_data.h5ad
+scGPT - INFO - Saved adata to data/processed_all/others/partition_62.scb
+scGPT - INFO - Saved raw_counts to data/processed_all/others/partition_62.scb
+scGPT - INFO - Saved normalized_counts to data/processed_all/others/partition_62.scb
+scGPT - INFO - Saved var_names to data/processed_all/others/partition_62.scb
+scGPT - INFO - Saved obs_names to data/processed_all/others/partition_62.scb
+scGPT - INFO - Saved metadata to data/processed_all/others/partition_62.scb
+scGPT - INFO - Saving metadata to data/processed_all/others/partition_62.scb/metadata.json
+scGPT - INFO - All files saved successfully
+scGPT - INFO - Preprocessor returned dictionary with keys: ['adata', 'raw_counts', 'normalized_counts', 'var_names', 'obs_names', 'metadata']
+scGPT - INFO - Processing completed
+scGPT - INFO - Starting processing of data/cellxgene/batch_download_scb/others/partition_63.scb
+scGPT - INFO - Saving results to data/processed_all/others/partition_63.scb
+scGPT - INFO - Loading data from: data/cellxgene/batch_download_scb/others/partition_63.scb
+scGPT - INFO - Successfully loaded data with shape: (200000, 60694)
+scGPT - INFO - Saving raw data to data/processed_all/others/partition_63.scb/raw_data.h5ad
+scGPT - INFO - Starting preprocessing steps...
+scGPT - INFO - Normalizing total counts ...
+scGPT - INFO - Preprocessing completed
+scGPT - INFO - Saving processed AnnData to data/processed_all/others/partition_63.scb/processed_data.h5ad
+scGPT - INFO - Saved adata to data/processed_all/others/partition_63.scb
+scGPT - INFO - Saved raw_counts to data/processed_all/others/partition_63.scb
+scGPT - INFO - Saved normalized_counts to data/processed_all/others/partition_63.scb
+scGPT - INFO - Saved var_names to data/processed_all/others/partition_63.scb
+scGPT - INFO - Saved obs_names to data/processed_all/others/partition_63.scb
+scGPT - INFO - Saved metadata to data/processed_all/others/partition_63.scb
+scGPT - INFO - Saving metadata to data/processed_all/others/partition_63.scb/metadata.json
+scGPT - INFO - All files saved successfully
+scGPT - INFO - Preprocessor returned dictionary with keys: ['adata', 'raw_counts', 'normalized_counts', 'var_names', 'obs_names', 'metadata']
+scGPT - INFO - Processing completed
+scGPT - INFO - Starting processing of data/cellxgene/batch_download_scb/others/partition_64.scb
+scGPT - INFO - Saving results to data/processed_all/others/partition_64.scb
+scGPT - INFO - Loading data from: data/cellxgene/batch_download_scb/others/partition_64.scb
+scGPT - INFO - Successfully loaded data with shape: (200000, 60694)
+scGPT - INFO - Saving raw data to data/processed_all/others/partition_64.scb/raw_data.h5ad
+scGPT - INFO - Starting preprocessing steps...
+scGPT - INFO - Normalizing total counts ...
+scGPT - INFO - Preprocessing completed
+scGPT - INFO - Saving processed AnnData to data/processed_all/others/partition_64.scb/processed_data.h5ad
+scGPT - INFO - Saved adata to data/processed_all/others/partition_64.scb
+scGPT - INFO - Saved raw_counts to data/processed_all/others/partition_64.scb
+scGPT - INFO - Saved normalized_counts to data/processed_all/others/partition_64.scb
+scGPT - INFO - Saved var_names to data/processed_all/others/partition_64.scb
+scGPT - INFO - Saved obs_names to data/processed_all/others/partition_64.scb
+scGPT - INFO - Saved metadata to data/processed_all/others/partition_64.scb
+scGPT - INFO - Saving metadata to data/processed_all/others/partition_64.scb/metadata.json
+scGPT - INFO - All files saved successfully
+scGPT - INFO - Preprocessor returned dictionary with keys: ['adata', 'raw_counts', 'normalized_counts', 'var_names', 'obs_names', 'metadata']
+scGPT - INFO - Processing completed
+scGPT - INFO - Starting processing of data/cellxgene/batch_download_scb/others/partition_65.scb
+scGPT - INFO - Saving results to data/processed_all/others/partition_65.scb
+scGPT - INFO - Loading data from: data/cellxgene/batch_download_scb/others/partition_65.scb
+scGPT - INFO - Successfully loaded data with shape: (200000, 60694)
+scGPT - INFO - Saving raw data to data/processed_all/others/partition_65.scb/raw_data.h5ad
+scGPT - INFO - Starting preprocessing steps...
+scGPT - INFO - Normalizing total counts ...
+scGPT - INFO - Preprocessing completed
+scGPT - INFO - Saving processed AnnData to data/processed_all/others/partition_65.scb/processed_data.h5ad
+scGPT - INFO - Saved adata to data/processed_all/others/partition_65.scb
+scGPT - INFO - Saved raw_counts to data/processed_all/others/partition_65.scb
+scGPT - INFO - Saved normalized_counts to data/processed_all/others/partition_65.scb
+scGPT - INFO - Saved var_names to data/processed_all/others/partition_65.scb
+scGPT - INFO - Saved obs_names to data/processed_all/others/partition_65.scb
+scGPT - INFO - Saved metadata to data/processed_all/others/partition_65.scb
+scGPT - INFO - Saving metadata to data/processed_all/others/partition_65.scb/metadata.json
+scGPT - INFO - All files saved successfully
+scGPT - INFO - Preprocessor returned dictionary with keys: ['adata', 'raw_counts', 'normalized_counts', 'var_names', 'obs_names', 'metadata']
+scGPT - INFO - Processing completed
+scGPT - INFO - Starting processing of data/cellxgene/batch_download_scb/others/partition_66.scb
+scGPT - INFO - Saving results to data/processed_all/others/partition_66.scb
+scGPT - INFO - Loading data from: data/cellxgene/batch_download_scb/others/partition_66.scb
+scGPT - INFO - Successfully loaded data with shape: (200000, 60694)
+scGPT - INFO - Saving raw data to data/processed_all/others/partition_66.scb/raw_data.h5ad
+scGPT - INFO - Starting preprocessing steps...
+scGPT - INFO - Normalizing total counts ...
+scGPT - INFO - Preprocessing completed
+scGPT - INFO - Saving processed AnnData to data/processed_all/others/partition_66.scb/processed_data.h5ad
+scGPT - INFO - Saved adata to data/processed_all/others/partition_66.scb
+scGPT - INFO - Saved raw_counts to data/processed_all/others/partition_66.scb
+scGPT - INFO - Saved normalized_counts to data/processed_all/others/partition_66.scb
+scGPT - INFO - Saved var_names to data/processed_all/others/partition_66.scb
+scGPT - INFO - Saved obs_names to data/processed_all/others/partition_66.scb
+scGPT - INFO - Saved metadata to data/processed_all/others/partition_66.scb
+scGPT - INFO - Saving metadata to data/processed_all/others/partition_66.scb/metadata.json
+scGPT - INFO - All files saved successfully
+scGPT - INFO - Preprocessor returned dictionary with keys: ['adata', 'raw_counts', 'normalized_counts', 'var_names', 'obs_names', 'metadata']
+scGPT - INFO - Processing completed
+scGPT - INFO - Starting processing of data/cellxgene/batch_download_scb/others/partition_67.scb
+scGPT - INFO - Saving results to data/processed_all/others/partition_67.scb
+scGPT - INFO - Loading data from: data/cellxgene/batch_download_scb/others/partition_67.scb
+scGPT - INFO - Successfully loaded data with shape: (200000, 60694)
+scGPT - INFO - Saving raw data to data/processed_all/others/partition_67.scb/raw_data.h5ad
+scGPT - INFO - Starting preprocessing steps...
+scGPT - INFO - Normalizing total counts ...
+scGPT - INFO - Preprocessing completed
+scGPT - INFO - Saving processed AnnData to data/processed_all/others/partition_67.scb/processed_data.h5ad
+scGPT - INFO - Saved adata to data/processed_all/others/partition_67.scb
+scGPT - INFO - Saved raw_counts to data/processed_all/others/partition_67.scb
+scGPT - INFO - Saved normalized_counts to data/processed_all/others/partition_67.scb
+scGPT - INFO - Saved var_names to data/processed_all/others/partition_67.scb
+scGPT - INFO - Saved obs_names to data/processed_all/others/partition_67.scb
+scGPT - INFO - Saved metadata to data/processed_all/others/partition_67.scb
+scGPT - INFO - Saving metadata to data/processed_all/others/partition_67.scb/metadata.json
+scGPT - INFO - All files saved successfully
+scGPT - INFO - Preprocessor returned dictionary with keys: ['adata', 'raw_counts', 'normalized_counts', 'var_names', 'obs_names', 'metadata']
+scGPT - INFO - Processing completed
+scGPT - INFO - Starting processing of data/cellxgene/batch_download_scb/others/partition_68.scb
+scGPT - INFO - Saving results to data/processed_all/others/partition_68.scb
+scGPT - INFO - Loading data from: data/cellxgene/batch_download_scb/others/partition_68.scb
+scGPT - INFO - Successfully loaded data with shape: (180695, 60694)
+scGPT - INFO - Saving raw data to data/processed_all/others/partition_68.scb/raw_data.h5ad
+scGPT - INFO - Starting preprocessing steps...
+scGPT - INFO - Normalizing total counts ...
+scGPT - INFO - Preprocessing completed
+scGPT - INFO - Saving processed AnnData to data/processed_all/others/partition_68.scb/processed_data.h5ad
+scGPT - INFO - Saved adata to data/processed_all/others/partition_68.scb
+scGPT - INFO - Saved raw_counts to data/processed_all/others/partition_68.scb
+scGPT - INFO - Saved normalized_counts to data/processed_all/others/partition_68.scb
+scGPT - INFO - Saved var_names to data/processed_all/others/partition_68.scb
+scGPT - INFO - Saved obs_names to data/processed_all/others/partition_68.scb
+scGPT - INFO - Saved metadata to data/processed_all/others/partition_68.scb
+scGPT - INFO - Saving metadata to data/processed_all/others/partition_68.scb/metadata.json
+scGPT - INFO - All files saved successfully
+scGPT - INFO - Preprocessor returned dictionary with keys: ['adata', 'raw_counts', 'normalized_counts', 'var_names', 'obs_names', 'metadata']
+scGPT - INFO - Processing completed
+scGPT - INFO - Starting processing of data/cellxgene/batch_download_scb/others/partition_7.scb
+scGPT - INFO - Saving results to data/processed_all/others/partition_7.scb
+scGPT - INFO - Loading data from: data/cellxgene/batch_download_scb/others/partition_7.scb
+scGPT - INFO - Successfully loaded data with shape: (200000, 60694)
+scGPT - INFO - Saving raw data to data/processed_all/others/partition_7.scb/raw_data.h5ad
+scGPT - INFO - Starting preprocessing steps...
+scGPT - INFO - Normalizing total counts ...
+scGPT - INFO - Preprocessing completed
+scGPT - INFO - Saving processed AnnData to data/processed_all/others/partition_7.scb/processed_data.h5ad
+scGPT - INFO - Saved adata to data/processed_all/others/partition_7.scb
+scGPT - INFO - Saved raw_counts to data/processed_all/others/partition_7.scb
+scGPT - INFO - Saved normalized_counts to data/processed_all/others/partition_7.scb
+scGPT - INFO - Saved var_names to data/processed_all/others/partition_7.scb
+scGPT - INFO - Saved obs_names to data/processed_all/others/partition_7.scb
+scGPT - INFO - Saved metadata to data/processed_all/others/partition_7.scb
+scGPT - INFO - Saving metadata to data/processed_all/others/partition_7.scb/metadata.json
+scGPT - INFO - All files saved successfully
+scGPT - INFO - Preprocessor returned dictionary with keys: ['adata', 'raw_counts', 'normalized_counts', 'var_names', 'obs_names', 'metadata']
+scGPT - INFO - Processing completed
+scGPT - INFO - Starting processing of data/cellxgene/batch_download_scb/others/partition_8.scb
+scGPT - INFO - Saving results to data/processed_all/others/partition_8.scb
+scGPT - INFO - Loading data from: data/cellxgene/batch_download_scb/others/partition_8.scb
+scGPT - INFO - Successfully loaded data with shape: (200000, 60694)
+scGPT - INFO - Saving raw data to data/processed_all/others/partition_8.scb/raw_data.h5ad
+scGPT - INFO - Starting preprocessing steps...
+scGPT - INFO - Normalizing total counts ...
+scGPT - INFO - Preprocessing completed
+scGPT - INFO - Saving processed AnnData to data/processed_all/others/partition_8.scb/processed_data.h5ad
+scGPT - INFO - Saved adata to data/processed_all/others/partition_8.scb
+scGPT - INFO - Saved raw_counts to data/processed_all/others/partition_8.scb
+scGPT - INFO - Saved normalized_counts to data/processed_all/others/partition_8.scb
+scGPT - INFO - Saved var_names to data/processed_all/others/partition_8.scb
+scGPT - INFO - Saved obs_names to data/processed_all/others/partition_8.scb
+scGPT - INFO - Saved metadata to data/processed_all/others/partition_8.scb
+scGPT - INFO - Saving metadata to data/processed_all/others/partition_8.scb/metadata.json
+scGPT - INFO - All files saved successfully
+scGPT - INFO - Preprocessor returned dictionary with keys: ['adata', 'raw_counts', 'normalized_counts', 'var_names', 'obs_names', 'metadata']
+scGPT - INFO - Processing completed
+scGPT - INFO - Starting processing of data/cellxgene/batch_download_scb/others/partition_9.scb
+scGPT - INFO - Saving results to data/processed_all/others/partition_9.scb
+scGPT - INFO - Loading data from: data/cellxgene/batch_download_scb/others/partition_9.scb
+scGPT - INFO - Successfully loaded data with shape: (200000, 60694)
+scGPT - INFO - Saving raw data to data/processed_all/others/partition_9.scb/raw_data.h5ad
+scGPT - INFO - Starting preprocessing steps...
+scGPT - INFO - Normalizing total counts ...
+scGPT - INFO - Preprocessing completed
+scGPT - INFO - Saving processed AnnData to data/processed_all/others/partition_9.scb/processed_data.h5ad
+scGPT - INFO - Saved adata to data/processed_all/others/partition_9.scb
+scGPT - INFO - Saved raw_counts to data/processed_all/others/partition_9.scb
+scGPT - INFO - Saved normalized_counts to data/processed_all/others/partition_9.scb
+scGPT - INFO - Saved var_names to data/processed_all/others/partition_9.scb
+scGPT - INFO - Saved obs_names to data/processed_all/others/partition_9.scb
+scGPT - INFO - Saved metadata to data/processed_all/others/partition_9.scb
+scGPT - INFO - Saving metadata to data/processed_all/others/partition_9.scb/metadata.json
+scGPT - INFO - All files saved successfully
+scGPT - INFO - Preprocessor returned dictionary with keys: ['adata', 'raw_counts', 'normalized_counts', 'var_names', 'obs_names', 'metadata']
+scGPT - INFO - Processing completed
+scGPT - INFO - Starting processing of data/cellxgene/batch_download_scb/pancreas/partition_0.scb
+scGPT - INFO - Saving results to data/processed_all/pancreas/partition_0.scb
+scGPT - INFO - Loading data from: data/cellxgene/batch_download_scb/pancreas/partition_0.scb
+scGPT - INFO - Successfully loaded data with shape: (200000, 60694)
+scGPT - INFO - Saving raw data to data/processed_all/pancreas/partition_0.scb/raw_data.h5ad
+scGPT - INFO - Starting preprocessing steps...
+scGPT - INFO - Normalizing total counts ...
+scGPT - INFO - Preprocessing completed
+scGPT - INFO - Saving processed AnnData to data/processed_all/pancreas/partition_0.scb/processed_data.h5ad
+scGPT - INFO - Saved adata to data/processed_all/pancreas/partition_0.scb
+scGPT - INFO - Saved raw_counts to data/processed_all/pancreas/partition_0.scb
+scGPT - INFO - Saved normalized_counts to data/processed_all/pancreas/partition_0.scb
+scGPT - INFO - Saved var_names to data/processed_all/pancreas/partition_0.scb
+scGPT - INFO - Saved obs_names to data/processed_all/pancreas/partition_0.scb
+scGPT - INFO - Saved metadata to data/processed_all/pancreas/partition_0.scb
+scGPT - INFO - Saving metadata to data/processed_all/pancreas/partition_0.scb/metadata.json
+scGPT - INFO - All files saved successfully
+scGPT - INFO - Preprocessor returned dictionary with keys: ['adata', 'raw_counts', 'normalized_counts', 'var_names', 'obs_names', 'metadata']
+scGPT - INFO - Processing completed
+scGPT - INFO - Starting processing of data/cellxgene/batch_download_scb/pancreas/partition_1.scb
+scGPT - INFO - Saving results to data/processed_all/pancreas/partition_1.scb
+scGPT - INFO - Loading data from: data/cellxgene/batch_download_scb/pancreas/partition_1.scb
+scGPT - INFO - Successfully loaded data with shape: (9594, 60694)
+scGPT - INFO - Saving raw data to data/processed_all/pancreas/partition_1.scb/raw_data.h5ad
+scGPT - INFO - Starting preprocessing steps...
+scGPT - INFO - Normalizing total counts ...
+scGPT - INFO - Preprocessing completed
+scGPT - INFO - Saving processed AnnData to data/processed_all/pancreas/partition_1.scb/processed_data.h5ad
+scGPT - INFO - Saved adata to data/processed_all/pancreas/partition_1.scb
+scGPT - INFO - Saved raw_counts to data/processed_all/pancreas/partition_1.scb
+scGPT - INFO - Saved normalized_counts to data/processed_all/pancreas/partition_1.scb
+scGPT - INFO - Saved var_names to data/processed_all/pancreas/partition_1.scb
+scGPT - INFO - Saved obs_names to data/processed_all/pancreas/partition_1.scb
+scGPT - INFO - Saved metadata to data/processed_all/pancreas/partition_1.scb
+scGPT - INFO - Saving metadata to data/processed_all/pancreas/partition_1.scb/metadata.json
+scGPT - INFO - All files saved successfully
+scGPT - INFO - Preprocessor returned dictionary with keys: ['adata', 'raw_counts', 'normalized_counts', 'var_names', 'obs_names', 'metadata']
+scGPT - INFO - Processing completed

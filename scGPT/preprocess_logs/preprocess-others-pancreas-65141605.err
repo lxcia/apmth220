@@ -1,0 +1,77 @@
+/n/data1/hms/dbmi/zitnik/lab/users/lucia1215/scGPT/scgpt/model/model.py:21: UserWarning: flash_attn is not installed
+  warnings.warn("flash_attn is not installed")
+/n/data1/hms/dbmi/zitnik/lab/users/lucia1215/scGPT/scgpt/model/multiomic_model.py:19: UserWarning: flash_attn is not installed
+  warnings.warn("flash_attn is not installed")
+
+A module that was compiled using NumPy 1.x cannot be run in
+NumPy 2.1.2 as it may crash. To support both 1.x and 2.x
+versions of NumPy, modules must be compiled with NumPy 2.0.
+Some module may need to rebuild instead e.g. with 'pybind11>=2.12'.
+
+If you are a user of the module, the easiest solution will be to
+downgrade to 'numpy<2' or try to upgrade the affected module.
+We expect that some modules will need time to support NumPy 2.
+
+Traceback (most recent call last):  File "/n/data1/hms/dbmi/zitnik/lab/users/lucia1215/scGPT/preprocess_data.py", line 303, in <module>
+    set_seed(config['seed'])
+  File "/n/data1/hms/dbmi/zitnik/lab/users/lucia1215/scGPT/preprocess_data.py", line 49, in set_seed
+    torch.manual_seed(seed)
+  File "/n/data1/hms/dbmi/zitnik/lab/users/lucia1215/conda_envs/preprocess/lib/python3.10/site-packages/torch/random.py", line 42, in manual_seed
+    return default_generator.manual_seed(seed)
+/n/data1/hms/dbmi/zitnik/lab/users/lucia1215/conda_envs/preprocess/lib/python3.10/site-packages/torch/random.py:42: UserWarning: Failed to initialize NumPy: _ARRAY_API not found (Triggered internally at  ../torch/csrc/utils/tensor_numpy.cpp:68.)
+  return default_generator.manual_seed(seed)
+2025-04-14 00:22:03,046 - __main__ - INFO - Skipping all_counts - not in processing list
+2025-04-14 00:22:03,046 - __main__ - INFO - Processing blood
+2025-04-14 00:22:03,047 - __main__ - INFO - Processing partition: data/cellxgene/batch_download_scb/blood/partition_0.scb
+2025-04-14 00:22:03,048 - __main__ - INFO - Skipping data/cellxgene/batch_download_scb/blood/partition_0.scb - already processed
+2025-04-14 00:22:03,049 - __main__ - INFO - Processing partition: data/cellxgene/batch_download_scb/blood/partition_1.scb
+2025-04-14 00:22:03,050 - __main__ - INFO - Skipping data/cellxgene/batch_download_scb/blood/partition_1.scb - already processed
+2025-04-14 00:22:03,050 - __main__ - INFO - Processing partition: data/cellxgene/batch_download_scb/blood/partition_10.scb
+2025-04-14 00:22:03,051 - __main__ - INFO - Skipping data/cellxgene/batch_download_scb/blood/partition_10.scb - already processed
+2025-04-14 00:22:03,051 - __main__ - INFO - Processing partition: data/cellxgene/batch_download_scb/blood/partition_11.scb
+2025-04-14 00:22:03,052 - __main__ - INFO - Skipping data/cellxgene/batch_download_scb/blood/partition_11.scb - already processed
+2025-04-14 00:22:03,052 - __main__ - INFO - Processing partition: data/cellxgene/batch_download_scb/blood/partition_12.scb
+2025-04-14 00:22:03,053 - __main__ - INFO - Skipping data/cellxgene/batch_download_scb/blood/partition_12.scb - already processed
+2025-04-14 00:22:03,053 - __main__ - INFO - Processing partition: data/cellxgene/batch_download_scb/blood/partition_13.scb
+2025-04-14 00:22:03,054 - __main__ - INFO - Skipping data/cellxgene/batch_download_scb/blood/partition_13.scb - already processed
+2025-04-14 00:22:03,054 - __main__ - INFO - Processing partition: data/cellxgene/batch_download_scb/blood/partition_14.scb
+2025-04-14 00:22:03,055 - __main__ - INFO - Skipping data/cellxgene/batch_download_scb/blood/partition_14.scb - already processed
+2025-04-14 00:22:03,055 - __main__ - INFO - Processing partition: data/cellxgene/batch_download_scb/blood/partition_15.scb
+2025-04-14 00:22:03,056 - __main__ - INFO - Skipping data/cellxgene/batch_download_scb/blood/partition_15.scb - already processed
+2025-04-14 00:22:03,056 - __main__ - INFO - Processing partition: data/cellxgene/batch_download_scb/blood/partition_16.scb
+2025-04-14 00:22:03,057 - __main__ - INFO - Skipping data/cellxgene/batch_download_scb/blood/partition_16.scb - already processed
+2025-04-14 00:22:03,057 - __main__ - INFO - Processing partition: data/cellxgene/batch_download_scb/blood/partition_17.scb
+2025-04-14 00:22:03,058 - __main__ - INFO - Skipping data/cellxgene/batch_download_scb/blood/partition_17.scb - already processed
+2025-04-14 00:22:03,058 - __main__ - INFO - Processing partition: data/cellxgene/batch_download_scb/blood/partition_18.scb
+2025-04-14 00:22:03,059 - __main__ - INFO - Skipping data/cellxgene/batch_download_scb/blood/partition_18.scb - already processed
+2025-04-14 00:22:03,059 - __main__ - INFO - Processing partition: data/cellxgene/batch_download_scb/blood/partition_19.scb
+2025-04-14 00:22:03,060 - __main__ - INFO - Skipping data/cellxgene/batch_download_scb/blood/partition_19.scb - already processed
+2025-04-14 00:22:03,060 - __main__ - INFO - Processing partition: data/cellxgene/batch_download_scb/blood/partition_2.scb
+2025-04-14 00:22:03,061 - __main__ - INFO - Skipping data/cellxgene/batch_download_scb/blood/partition_2.scb - already processed
+2025-04-14 00:22:03,061 - __main__ - INFO - Processing partition: data/cellxgene/batch_download_scb/blood/partition_20.scb
+2025-04-14 00:22:03,062 - __main__ - INFO - Skipping data/cellxgene/batch_download_scb/blood/partition_20.scb - already processed
+2025-04-14 00:22:03,062 - __main__ - INFO - Processing partition: data/cellxgene/batch_download_scb/blood/partition_21.scb
+2025-04-14 00:22:03,063 - __main__ - INFO - Skipping data/cellxgene/batch_download_scb/blood/partition_21.scb - already processed
+2025-04-14 00:22:03,063 - __main__ - INFO - Processing partition: data/cellxgene/batch_download_scb/blood/partition_22.scb
+2025-04-14 00:22:03,063 - __main__ - INFO - Skipping data/cellxgene/batch_download_scb/blood/partition_22.scb - already processed
+2025-04-14 00:22:03,064 - __main__ - INFO - Processing partition: data/cellxgene/batch_download_scb/blood/partition_3.scb
+2025-04-14 00:22:03,064 - __main__ - INFO - Skipping data/cellxgene/batch_download_scb/blood/partition_3.scb - already processed
+2025-04-14 00:22:03,065 - __main__ - INFO - Processing partition: data/cellxgene/batch_download_scb/blood/partition_4.scb
+2025-04-14 00:22:03,066 - __main__ - INFO - Skipping data/cellxgene/batch_download_scb/blood/partition_4.scb - already processed
+2025-04-14 00:22:03,066 - __main__ - INFO - Processing partition: data/cellxgene/batch_download_scb/blood/partition_5.scb
+2025-04-14 00:22:03,066 - __main__ - INFO - Skipping data/cellxgene/batch_download_scb/blood/partition_5.scb - already processed
+2025-04-14 00:22:03,067 - __main__ - INFO - Processing partition: data/cellxgene/batch_download_scb/blood/partition_6.scb
+2025-04-14 00:22:03,067 - __main__ - INFO - Skipping data/cellxgene/batch_download_scb/blood/partition_6.scb - already processed
+2025-04-14 00:22:03,068 - __main__ - INFO - Processing partition: data/cellxgene/batch_download_scb/blood/partition_7.scb
+2025-04-14 00:22:03,068 - __main__ - INFO - Skipping data/cellxgene/batch_download_scb/blood/partition_7.scb - already processed
+2025-04-14 00:22:03,068 - __main__ - INFO - Processing partition: data/cellxgene/batch_download_scb/blood/partition_8.scb
+2025-04-14 00:22:03,069 - __main__ - INFO - Skipping data/cellxgene/batch_download_scb/blood/partition_8.scb - already processed
+2025-04-14 00:22:03,069 - __main__ - INFO - Processing partition: data/cellxgene/batch_download_scb/blood/partition_9.scb
+2025-04-14 00:22:03,069 - __main__ - INFO - Skipping data/cellxgene/batch_download_scb/blood/partition_9.scb - already processed
+2025-04-14 00:22:03,070 - __main__ - INFO - Skipping brain - not in processing list
+2025-04-14 00:22:03,070 - __main__ - INFO - Skipping heart - not in processing list
+2025-04-14 00:22:03,070 - __main__ - INFO - Skipping intestine - not in processing list
+2025-04-14 00:22:03,070 - __main__ - INFO - Skipping kidney - not in processing list
+2025-04-14 00:22:03,070 - __main__ - INFO - Skipping lung - not in processing list
+2025-04-14 00:22:03,071 - __main__ - INFO - Skipping others - not in processing list
+2025-04-14 00:22:03,071 - __main__ - INFO - Skipping pancreas - not in processing list

@@ -1,0 +1,825 @@
+/n/data1/hms/dbmi/zitnik/lab/users/lucia1215/scGPT/scgpt/model/model.py:21: UserWarning: flash_attn is not installed
+  warnings.warn("flash_attn is not installed")
+/n/data1/hms/dbmi/zitnik/lab/users/lucia1215/scGPT/scgpt/model/multiomic_model.py:19: UserWarning: flash_attn is not installed
+  warnings.warn("flash_attn is not installed")
+
+A module that was compiled using NumPy 1.x cannot be run in
+NumPy 2.1.2 as it may crash. To support both 1.x and 2.x
+versions of NumPy, modules must be compiled with NumPy 2.0.
+Some module may need to rebuild instead e.g. with 'pybind11>=2.12'.
+
+If you are a user of the module, the easiest solution will be to
+downgrade to 'numpy<2' or try to upgrade the affected module.
+We expect that some modules will need time to support NumPy 2.
+
+Traceback (most recent call last):  File "/n/data1/hms/dbmi/zitnik/lab/users/lucia1215/scGPT/preprocess_data.py", line 303, in <module>
+    set_seed(config['seed'])
+  File "/n/data1/hms/dbmi/zitnik/lab/users/lucia1215/scGPT/preprocess_data.py", line 49, in set_seed
+    torch.manual_seed(seed)
+  File "/n/data1/hms/dbmi/zitnik/lab/users/lucia1215/conda_envs/preprocess/lib/python3.10/site-packages/torch/random.py", line 42, in manual_seed
+    return default_generator.manual_seed(seed)
+/n/data1/hms/dbmi/zitnik/lab/users/lucia1215/conda_envs/preprocess/lib/python3.10/site-packages/torch/random.py:42: UserWarning: Failed to initialize NumPy: _ARRAY_API not found (Triggered internally at  ../torch/csrc/utils/tensor_numpy.cpp:68.)
+  return default_generator.manual_seed(seed)
+2025-04-14 09:53:40,341 - __main__ - INFO - Skipping all_counts - not in processing list
+2025-04-14 09:53:40,341 - __main__ - INFO - Skipping blood - not in processing list
+2025-04-14 09:53:40,341 - __main__ - INFO - Skipping brain - not in processing list
+2025-04-14 09:53:40,341 - __main__ - INFO - Skipping heart - not in processing list
+2025-04-14 09:53:40,342 - __main__ - INFO - Skipping intestine - not in processing list
+2025-04-14 09:53:40,342 - __main__ - INFO - Skipping kidney - not in processing list
+2025-04-14 09:53:40,342 - __main__ - INFO - Skipping lung - not in processing list
+2025-04-14 09:53:40,342 - __main__ - INFO - Processing others
+2025-04-14 09:53:40,347 - __main__ - INFO - Processing partition: data/cellxgene/batch_download_scb/others/partition_0.scb
+2025-04-14 09:53:40,351 - __main__ - INFO - Skipping data/cellxgene/batch_download_scb/others/partition_0.scb - already processed
+2025-04-14 09:53:40,351 - __main__ - INFO - Processing partition: data/cellxgene/batch_download_scb/others/partition_1.scb
+2025-04-14 09:53:40,353 - __main__ - INFO - Skipping data/cellxgene/batch_download_scb/others/partition_1.scb - already processed
+2025-04-14 09:53:40,353 - __main__ - INFO - Processing partition: data/cellxgene/batch_download_scb/others/partition_10.scb
+2025-04-14 09:53:40,355 - __main__ - INFO - Skipping data/cellxgene/batch_download_scb/others/partition_10.scb - already processed
+2025-04-14 09:53:40,355 - __main__ - INFO - Processing partition: data/cellxgene/batch_download_scb/others/partition_11.scb
+2025-04-14 09:53:40,357 - __main__ - INFO - Skipping data/cellxgene/batch_download_scb/others/partition_11.scb - already processed
+2025-04-14 09:53:40,357 - __main__ - INFO - Processing partition: data/cellxgene/batch_download_scb/others/partition_12.scb
+2025-04-14 09:53:40,359 - __main__ - INFO - Skipping data/cellxgene/batch_download_scb/others/partition_12.scb - already processed
+2025-04-14 09:53:40,359 - __main__ - INFO - Processing partition: data/cellxgene/batch_download_scb/others/partition_13.scb
+2025-04-14 09:53:40,362 - __main__ - INFO - Skipping data/cellxgene/batch_download_scb/others/partition_13.scb - already processed
+2025-04-14 09:53:40,362 - __main__ - INFO - Processing partition: data/cellxgene/batch_download_scb/others/partition_14.scb
+2025-04-14 09:53:40,365 - __main__ - INFO - Skipping data/cellxgene/batch_download_scb/others/partition_14.scb - already processed
+2025-04-14 09:53:40,365 - __main__ - INFO - Processing partition: data/cellxgene/batch_download_scb/others/partition_15.scb
+2025-04-14 09:53:40,368 - __main__ - INFO - Skipping data/cellxgene/batch_download_scb/others/partition_15.scb - already processed
+2025-04-14 09:53:40,368 - __main__ - INFO - Processing partition: data/cellxgene/batch_download_scb/others/partition_16.scb
+2025-04-14 09:53:40,370 - __main__ - INFO - Skipping data/cellxgene/batch_download_scb/others/partition_16.scb - already processed
+2025-04-14 09:53:40,370 - __main__ - INFO - Processing partition: data/cellxgene/batch_download_scb/others/partition_17.scb
+2025-04-14 09:53:40,374 - __main__ - INFO - Skipping data/cellxgene/batch_download_scb/others/partition_17.scb - already processed
+2025-04-14 09:53:40,374 - __main__ - INFO - Processing partition: data/cellxgene/batch_download_scb/others/partition_18.scb
+2025-04-14 09:53:40,377 - __main__ - INFO - Skipping data/cellxgene/batch_download_scb/others/partition_18.scb - already processed
+2025-04-14 09:53:40,377 - __main__ - INFO - Processing partition: data/cellxgene/batch_download_scb/others/partition_19.scb
+2025-04-14 09:53:40,379 - __main__ - INFO - Skipping data/cellxgene/batch_download_scb/others/partition_19.scb - already processed
+2025-04-14 09:53:40,379 - __main__ - INFO - Processing partition: data/cellxgene/batch_download_scb/others/partition_2.scb
+2025-04-14 09:53:40,381 - __main__ - INFO - Skipping data/cellxgene/batch_download_scb/others/partition_2.scb - already processed
+2025-04-14 09:53:40,381 - __main__ - INFO - Processing partition: data/cellxgene/batch_download_scb/others/partition_20.scb
+2025-04-14 09:53:40,382 - __main__ - INFO - Skipping data/cellxgene/batch_download_scb/others/partition_20.scb - already processed
+2025-04-14 09:53:40,382 - __main__ - INFO - Processing partition: data/cellxgene/batch_download_scb/others/partition_21.scb
+2025-04-14 09:53:40,384 - __main__ - INFO - Skipping data/cellxgene/batch_download_scb/others/partition_21.scb - already processed
+2025-04-14 09:53:40,384 - __main__ - INFO - Processing partition: data/cellxgene/batch_download_scb/others/partition_22.scb
+2025-04-14 09:53:40,386 - __main__ - INFO - Skipping data/cellxgene/batch_download_scb/others/partition_22.scb - already processed
+2025-04-14 09:53:40,386 - __main__ - INFO - Processing partition: data/cellxgene/batch_download_scb/others/partition_23.scb
+2025-04-14 09:53:40,387 - __main__ - INFO - Skipping data/cellxgene/batch_download_scb/others/partition_23.scb - already processed
+2025-04-14 09:53:40,387 - __main__ - INFO - Processing partition: data/cellxgene/batch_download_scb/others/partition_24.scb
+2025-04-14 09:53:40,389 - __main__ - INFO - Skipping data/cellxgene/batch_download_scb/others/partition_24.scb - already processed
+2025-04-14 09:53:40,389 - __main__ - INFO - Processing partition: data/cellxgene/batch_download_scb/others/partition_25.scb
+2025-04-14 09:53:40,391 - __main__ - INFO - Skipping data/cellxgene/batch_download_scb/others/partition_25.scb - already processed
+2025-04-14 09:53:40,391 - __main__ - INFO - Processing partition: data/cellxgene/batch_download_scb/others/partition_26.scb
+2025-04-14 09:53:40,392 - __main__ - INFO - Skipping data/cellxgene/batch_download_scb/others/partition_26.scb - already processed
+2025-04-14 09:53:40,392 - __main__ - INFO - Processing partition: data/cellxgene/batch_download_scb/others/partition_27.scb
+2025-04-14 09:53:40,394 - __main__ - INFO - Skipping data/cellxgene/batch_download_scb/others/partition_27.scb - already processed
+2025-04-14 09:53:40,394 - __main__ - INFO - Processing partition: data/cellxgene/batch_download_scb/others/partition_28.scb
+2025-04-14 09:53:40,395 - __main__ - INFO - Skipping data/cellxgene/batch_download_scb/others/partition_28.scb - already processed
+2025-04-14 09:53:40,395 - __main__ - INFO - Processing partition: data/cellxgene/batch_download_scb/others/partition_29.scb
+2025-04-14 09:53:40,397 - __main__ - INFO - Skipping data/cellxgene/batch_download_scb/others/partition_29.scb - already processed
+2025-04-14 09:53:40,397 - __main__ - INFO - Processing partition: data/cellxgene/batch_download_scb/others/partition_3.scb
+2025-04-14 09:53:40,398 - __main__ - INFO - Skipping data/cellxgene/batch_download_scb/others/partition_3.scb - already processed
+2025-04-14 09:53:40,398 - __main__ - INFO - Processing partition: data/cellxgene/batch_download_scb/others/partition_30.scb
+2025-04-14 09:53:40,400 - __main__ - INFO - Skipping data/cellxgene/batch_download_scb/others/partition_30.scb - already processed
+2025-04-14 09:53:40,400 - __main__ - INFO - Processing partition: data/cellxgene/batch_download_scb/others/partition_31.scb
+2025-04-14 09:53:40,401 - __main__ - INFO - Skipping data/cellxgene/batch_download_scb/others/partition_31.scb - already processed
+2025-04-14 09:53:40,401 - __main__ - INFO - Processing partition: data/cellxgene/batch_download_scb/others/partition_32.scb
+2025-04-14 09:53:40,403 - __main__ - INFO - Skipping data/cellxgene/batch_download_scb/others/partition_32.scb - already processed
+2025-04-14 09:53:40,403 - __main__ - INFO - Processing partition: data/cellxgene/batch_download_scb/others/partition_33.scb
+2025-04-14 09:53:40,404 - __main__ - INFO - Skipping data/cellxgene/batch_download_scb/others/partition_33.scb - already processed
+2025-04-14 09:53:40,404 - __main__ - INFO - Processing partition: data/cellxgene/batch_download_scb/others/partition_34.scb
+2025-04-14 09:53:40,406 - __main__ - INFO - Skipping data/cellxgene/batch_download_scb/others/partition_34.scb - already processed
+2025-04-14 09:53:40,406 - __main__ - INFO - Processing partition: data/cellxgene/batch_download_scb/others/partition_35.scb
+2025-04-14 09:53:40,407 - __main__ - INFO - Skipping data/cellxgene/batch_download_scb/others/partition_35.scb - already processed
+2025-04-14 09:53:40,407 - __main__ - INFO - Processing partition: data/cellxgene/batch_download_scb/others/partition_36.scb
+2025-04-14 09:53:40,408 - __main__ - INFO - Skipping data/cellxgene/batch_download_scb/others/partition_36.scb - already processed
+2025-04-14 09:53:40,408 - __main__ - INFO - Processing partition: data/cellxgene/batch_download_scb/others/partition_37.scb
+2025-04-14 09:53:40,409 - __main__ - INFO - Skipping data/cellxgene/batch_download_scb/others/partition_37.scb - already processed
+2025-04-14 09:53:40,409 - __main__ - INFO - Processing partition: data/cellxgene/batch_download_scb/others/partition_38.scb
+2025-04-14 09:53:40,411 - __main__ - INFO - Skipping data/cellxgene/batch_download_scb/others/partition_38.scb - already processed
+2025-04-14 09:53:40,411 - __main__ - INFO - Processing partition: data/cellxgene/batch_download_scb/others/partition_39.scb
+2025-04-14 09:53:40,412 - __main__ - INFO - Skipping data/cellxgene/batch_download_scb/others/partition_39.scb - already processed
+2025-04-14 09:53:40,412 - __main__ - INFO - Processing partition: data/cellxgene/batch_download_scb/others/partition_4.scb
+2025-04-14 09:53:40,414 - __main__ - INFO - Skipping data/cellxgene/batch_download_scb/others/partition_4.scb - already processed
+2025-04-14 09:53:40,414 - __main__ - INFO - Processing partition: data/cellxgene/batch_download_scb/others/partition_40.scb
+2025-04-14 09:53:40,415 - __main__ - INFO - Skipping data/cellxgene/batch_download_scb/others/partition_40.scb - already processed
+2025-04-14 09:53:40,415 - __main__ - INFO - Processing partition: data/cellxgene/batch_download_scb/others/partition_41.scb
+2025-04-14 09:53:40,416 - __main__ - INFO - Skipping data/cellxgene/batch_download_scb/others/partition_41.scb - already processed
+2025-04-14 09:53:40,416 - __main__ - INFO - Processing partition: data/cellxgene/batch_download_scb/others/partition_42.scb
+2025-04-14 09:53:40,417 - __main__ - INFO - Skipping data/cellxgene/batch_download_scb/others/partition_42.scb - already processed
+2025-04-14 09:53:40,417 - __main__ - INFO - Processing partition: data/cellxgene/batch_download_scb/others/partition_43.scb
+2025-04-14 09:53:40,419 - __main__ - INFO - Skipping data/cellxgene/batch_download_scb/others/partition_43.scb - already processed
+2025-04-14 09:53:40,419 - __main__ - INFO - Processing partition: data/cellxgene/batch_download_scb/others/partition_44.scb
+2025-04-14 09:53:40,420 - __main__ - INFO - Skipping data/cellxgene/batch_download_scb/others/partition_44.scb - already processed
+2025-04-14 09:53:40,420 - __main__ - INFO - Processing partition: data/cellxgene/batch_download_scb/others/partition_45.scb
+2025-04-14 09:53:40,422 - __main__ - INFO - Skipping data/cellxgene/batch_download_scb/others/partition_45.scb - already processed
+2025-04-14 09:53:40,422 - __main__ - INFO - Processing partition: data/cellxgene/batch_download_scb/others/partition_46.scb
+2025-04-14 09:53:40,423 - __main__ - INFO - Skipping data/cellxgene/batch_download_scb/others/partition_46.scb - already processed
+2025-04-14 09:53:40,423 - __main__ - INFO - Processing partition: data/cellxgene/batch_download_scb/others/partition_47.scb
+2025-04-14 09:53:40,425 - __main__ - INFO - Skipping data/cellxgene/batch_download_scb/others/partition_47.scb - already processed
+2025-04-14 09:53:40,425 - __main__ - INFO - Processing partition: data/cellxgene/batch_download_scb/others/partition_48.scb
+2025-04-14 09:53:48,322 - __main__ - INFO - Number of cells: 200000
+2025-04-14 09:53:48,323 - __main__ - INFO - Number of genes: 60694
+2025-04-14 09:53:48,323 - __main__ - INFO - Processing batch 1/20
+2025-04-14 09:53:56,563 - __main__ - INFO - Processing batch 2/20
+2025-04-14 09:54:04,749 - __main__ - INFO - Processing batch 3/20
+2025-04-14 09:54:12,473 - __main__ - INFO - Processing batch 4/20
+2025-04-14 09:54:20,562 - __main__ - INFO - Processing batch 5/20
+2025-04-14 09:54:29,020 - __main__ - INFO - Processing batch 6/20
+2025-04-14 09:54:37,206 - __main__ - INFO - Processing batch 7/20
+2025-04-14 09:54:44,790 - __main__ - INFO - Processing batch 8/20
+2025-04-14 09:54:54,376 - __main__ - INFO - Processing batch 9/20
+2025-04-14 09:55:05,294 - __main__ - INFO - Processing batch 10/20
+2025-04-14 09:55:12,563 - __main__ - INFO - Processing batch 11/20
+2025-04-14 09:55:20,669 - __main__ - INFO - Processing batch 12/20
+2025-04-14 09:55:28,395 - __main__ - INFO - Processing batch 13/20
+2025-04-14 09:55:36,321 - __main__ - INFO - Processing batch 14/20
+2025-04-14 09:55:45,160 - __main__ - INFO - Processing batch 15/20
+2025-04-14 09:55:53,571 - __main__ - INFO - Processing batch 16/20
+2025-04-14 09:56:01,333 - __main__ - INFO - Processing batch 17/20
+2025-04-14 09:56:08,099 - __main__ - INFO - Processing batch 18/20
+2025-04-14 09:56:16,180 - __main__ - INFO - Processing batch 19/20
+2025-04-14 09:56:24,705 - __main__ - INFO - Processing batch 20/20
+2025-04-14 09:56:35,825 - __main__ - INFO - Created AnnData with shape: (200000, 60694)
+2025-04-14 09:56:35,826 - __main__ - INFO - Matrix sparsity: 97.16%
+2025-04-14 10:04:50,005 - __main__ - INFO - Successfully processed data/cellxgene/batch_download_scb/others/partition_48.scb
+2025-04-14 10:04:50,010 - __main__ - INFO - Processing partition: data/cellxgene/batch_download_scb/others/partition_49.scb
+2025-04-14 10:04:56,685 - __main__ - INFO - Number of cells: 200000
+2025-04-14 10:04:56,686 - __main__ - INFO - Number of genes: 60694
+2025-04-14 10:04:56,687 - __main__ - INFO - Processing batch 1/20
+2025-04-14 10:05:05,701 - __main__ - INFO - Processing batch 2/20
+2025-04-14 10:05:15,159 - __main__ - INFO - Processing batch 3/20
+2025-04-14 10:05:24,241 - __main__ - INFO - Processing batch 4/20
+2025-04-14 10:05:33,660 - __main__ - INFO - Processing batch 5/20
+2025-04-14 10:05:42,506 - __main__ - INFO - Processing batch 6/20
+2025-04-14 10:05:52,103 - __main__ - INFO - Processing batch 7/20
+2025-04-14 10:06:01,063 - __main__ - INFO - Processing batch 8/20
+2025-04-14 10:06:10,776 - __main__ - INFO - Processing batch 9/20
+2025-04-14 10:06:20,217 - __main__ - INFO - Processing batch 10/20
+2025-04-14 10:06:29,618 - __main__ - INFO - Processing batch 11/20
+2025-04-14 10:06:38,589 - __main__ - INFO - Processing batch 12/20
+2025-04-14 10:06:47,205 - __main__ - INFO - Processing batch 13/20
+2025-04-14 10:06:57,001 - __main__ - INFO - Processing batch 14/20
+2025-04-14 10:07:05,516 - __main__ - INFO - Processing batch 15/20
+2025-04-14 10:07:14,436 - __main__ - INFO - Processing batch 16/20
+2025-04-14 10:07:22,744 - __main__ - INFO - Processing batch 17/20
+2025-04-14 10:07:29,877 - __main__ - INFO - Processing batch 18/20
+2025-04-14 10:07:38,066 - __main__ - INFO - Processing batch 19/20
+2025-04-14 10:07:45,037 - __main__ - INFO - Processing batch 20/20
+2025-04-14 10:07:56,389 - __main__ - INFO - Created AnnData with shape: (200000, 60694)
+2025-04-14 10:07:56,389 - __main__ - INFO - Matrix sparsity: 96.98%
+2025-04-14 10:16:43,593 - __main__ - INFO - Successfully processed data/cellxgene/batch_download_scb/others/partition_49.scb
+2025-04-14 10:16:43,596 - __main__ - INFO - Processing partition: data/cellxgene/batch_download_scb/others/partition_5.scb
+2025-04-14 10:16:49,088 - __main__ - INFO - Number of cells: 200000
+2025-04-14 10:16:49,089 - __main__ - INFO - Number of genes: 60694
+2025-04-14 10:16:49,090 - __main__ - INFO - Processing batch 1/20
+2025-04-14 10:16:54,304 - __main__ - INFO - Processing batch 2/20
+2025-04-14 10:16:59,941 - __main__ - INFO - Processing batch 3/20
+2025-04-14 10:17:03,997 - __main__ - INFO - Processing batch 4/20
+2025-04-14 10:17:10,067 - __main__ - INFO - Processing batch 5/20
+2025-04-14 10:17:15,883 - __main__ - INFO - Processing batch 6/20
+2025-04-14 10:17:22,429 - __main__ - INFO - Processing batch 7/20
+2025-04-14 10:17:32,041 - __main__ - INFO - Processing batch 8/20
+2025-04-14 10:17:40,724 - __main__ - INFO - Processing batch 9/20
+2025-04-14 10:17:48,254 - __main__ - INFO - Processing batch 10/20
+2025-04-14 10:17:57,387 - __main__ - INFO - Processing batch 11/20
+2025-04-14 10:18:06,670 - __main__ - INFO - Processing batch 12/20
+2025-04-14 10:18:15,902 - __main__ - INFO - Processing batch 13/20
+2025-04-14 10:18:25,050 - __main__ - INFO - Processing batch 14/20
+2025-04-14 10:18:34,070 - __main__ - INFO - Processing batch 15/20
+2025-04-14 10:18:43,231 - __main__ - INFO - Processing batch 16/20
+2025-04-14 10:18:52,366 - __main__ - INFO - Processing batch 17/20
+2025-04-14 10:19:01,742 - __main__ - INFO - Processing batch 18/20
+2025-04-14 10:19:11,113 - __main__ - INFO - Processing batch 19/20
+2025-04-14 10:19:20,446 - __main__ - INFO - Processing batch 20/20
+2025-04-14 10:19:32,394 - __main__ - INFO - Created AnnData with shape: (200000, 60694)
+2025-04-14 10:19:32,395 - __main__ - INFO - Matrix sparsity: 97.13%
+2025-04-14 10:28:12,010 - __main__ - INFO - Successfully processed data/cellxgene/batch_download_scb/others/partition_5.scb
+2025-04-14 10:28:12,017 - __main__ - INFO - Processing partition: data/cellxgene/batch_download_scb/others/partition_50.scb
+2025-04-14 10:28:17,767 - __main__ - INFO - Number of cells: 200000
+2025-04-14 10:28:17,768 - __main__ - INFO - Number of genes: 60694
+2025-04-14 10:28:17,768 - __main__ - INFO - Processing batch 1/20
+2025-04-14 10:28:27,484 - __main__ - INFO - Processing batch 2/20
+2025-04-14 10:28:36,363 - __main__ - INFO - Processing batch 3/20
+2025-04-14 10:28:44,612 - __main__ - INFO - Processing batch 4/20
+2025-04-14 10:28:52,441 - __main__ - INFO - Processing batch 5/20
+2025-04-14 10:29:01,714 - __main__ - INFO - Processing batch 6/20
+2025-04-14 10:29:10,807 - __main__ - INFO - Processing batch 7/20
+2025-04-14 10:29:17,180 - __main__ - INFO - Processing batch 8/20
+2025-04-14 10:29:22,411 - __main__ - INFO - Processing batch 9/20
+2025-04-14 10:29:27,568 - __main__ - INFO - Processing batch 10/20
+2025-04-14 10:29:33,018 - __main__ - INFO - Processing batch 11/20
+2025-04-14 10:29:38,222 - __main__ - INFO - Processing batch 12/20
+2025-04-14 10:29:42,418 - __main__ - INFO - Processing batch 13/20
+2025-04-14 10:29:47,725 - __main__ - INFO - Processing batch 14/20
+2025-04-14 10:29:51,087 - __main__ - INFO - Processing batch 15/20
+2025-04-14 10:29:53,834 - __main__ - INFO - Processing batch 16/20
+2025-04-14 10:30:00,623 - __main__ - INFO - Processing batch 17/20
+2025-04-14 10:30:11,612 - __main__ - INFO - Processing batch 18/20
+2025-04-14 10:30:21,062 - __main__ - INFO - Processing batch 19/20
+2025-04-14 10:30:30,767 - __main__ - INFO - Processing batch 20/20
+2025-04-14 10:30:44,606 - __main__ - INFO - Created AnnData with shape: (200000, 60694)
+2025-04-14 10:30:44,607 - __main__ - INFO - Matrix sparsity: 97.43%
+2025-04-14 10:38:05,938 - __main__ - INFO - Successfully processed data/cellxgene/batch_download_scb/others/partition_50.scb
+2025-04-14 10:38:05,941 - __main__ - INFO - Processing partition: data/cellxgene/batch_download_scb/others/partition_51.scb
+2025-04-14 10:38:14,073 - __main__ - INFO - Number of cells: 200000
+2025-04-14 10:38:14,075 - __main__ - INFO - Number of genes: 60694
+2025-04-14 10:38:14,075 - __main__ - INFO - Processing batch 1/20
+2025-04-14 10:38:23,570 - __main__ - INFO - Processing batch 2/20
+2025-04-14 10:38:31,552 - __main__ - INFO - Processing batch 3/20
+2025-04-14 10:38:40,930 - __main__ - INFO - Processing batch 4/20
+2025-04-14 10:38:48,211 - __main__ - INFO - Processing batch 5/20
+2025-04-14 10:38:55,039 - __main__ - INFO - Processing batch 6/20
+2025-04-14 10:39:04,902 - __main__ - INFO - Processing batch 7/20
+2025-04-14 10:39:13,874 - __main__ - INFO - Processing batch 8/20
+2025-04-14 10:39:20,386 - __main__ - INFO - Processing batch 9/20
+2025-04-14 10:39:28,295 - __main__ - INFO - Processing batch 10/20
+2025-04-14 10:39:38,440 - __main__ - INFO - Processing batch 11/20
+2025-04-14 10:39:48,097 - __main__ - INFO - Processing batch 12/20
+2025-04-14 10:39:57,863 - __main__ - INFO - Processing batch 13/20
+2025-04-14 10:40:07,797 - __main__ - INFO - Processing batch 14/20
+2025-04-14 10:40:17,495 - __main__ - INFO - Processing batch 15/20
+2025-04-14 10:40:27,370 - __main__ - INFO - Processing batch 16/20
+2025-04-14 10:40:37,281 - __main__ - INFO - Processing batch 17/20
+2025-04-14 10:40:47,143 - __main__ - INFO - Processing batch 18/20
+2025-04-14 10:40:56,918 - __main__ - INFO - Processing batch 19/20
+2025-04-14 10:41:06,806 - __main__ - INFO - Processing batch 20/20
+2025-04-14 10:41:19,648 - __main__ - INFO - Created AnnData with shape: (200000, 60694)
+2025-04-14 10:41:19,649 - __main__ - INFO - Matrix sparsity: 96.71%
+2025-04-14 10:51:22,889 - __main__ - INFO - Successfully processed data/cellxgene/batch_download_scb/others/partition_51.scb
+2025-04-14 10:51:22,892 - __main__ - INFO - Processing partition: data/cellxgene/batch_download_scb/others/partition_52.scb
+2025-04-14 10:51:32,049 - __main__ - INFO - Number of cells: 200000
+2025-04-14 10:51:32,051 - __main__ - INFO - Number of genes: 60694
+2025-04-14 10:51:32,051 - __main__ - INFO - Processing batch 1/20
+2025-04-14 10:51:42,972 - __main__ - INFO - Processing batch 2/20
+2025-04-14 10:51:53,412 - __main__ - INFO - Processing batch 3/20
+2025-04-14 10:52:03,589 - __main__ - INFO - Processing batch 4/20
+2025-04-14 10:52:13,446 - __main__ - INFO - Processing batch 5/20
+2025-04-14 10:52:23,563 - __main__ - INFO - Processing batch 6/20
+2025-04-14 10:52:33,342 - __main__ - INFO - Processing batch 7/20
+2025-04-14 10:52:43,309 - __main__ - INFO - Processing batch 8/20
+2025-04-14 10:52:53,038 - __main__ - INFO - Processing batch 9/20
+2025-04-14 10:53:02,932 - __main__ - INFO - Processing batch 10/20
+2025-04-14 10:53:12,702 - __main__ - INFO - Processing batch 11/20
+2025-04-14 10:53:22,407 - __main__ - INFO - Processing batch 12/20
+2025-04-14 10:53:32,185 - __main__ - INFO - Processing batch 13/20
+2025-04-14 10:53:42,321 - __main__ - INFO - Processing batch 14/20
+2025-04-14 10:53:52,256 - __main__ - INFO - Processing batch 15/20
+2025-04-14 10:54:01,314 - __main__ - INFO - Processing batch 16/20
+2025-04-14 10:54:12,842 - __main__ - INFO - Processing batch 17/20
+2025-04-14 10:54:29,093 - __main__ - INFO - Processing batch 18/20
+2025-04-14 10:54:39,488 - __main__ - INFO - Processing batch 19/20
+2025-04-14 10:54:49,676 - __main__ - INFO - Processing batch 20/20
+2025-04-14 10:55:06,121 - __main__ - INFO - Created AnnData with shape: (200000, 60694)
+2025-04-14 10:55:06,125 - __main__ - INFO - Matrix sparsity: 96.26%
+2025-04-14 11:06:43,276 - __main__ - INFO - Successfully processed data/cellxgene/batch_download_scb/others/partition_52.scb
+2025-04-14 11:06:43,282 - __main__ - INFO - Processing partition: data/cellxgene/batch_download_scb/others/partition_53.scb
+2025-04-14 11:06:52,181 - __main__ - INFO - Number of cells: 200000
+2025-04-14 11:06:52,182 - __main__ - INFO - Number of genes: 60694
+2025-04-14 11:06:52,182 - __main__ - INFO - Processing batch 1/20
+2025-04-14 11:07:04,879 - __main__ - INFO - Processing batch 2/20
+2025-04-14 11:07:18,961 - __main__ - INFO - Processing batch 3/20
+2025-04-14 11:07:31,429 - __main__ - INFO - Processing batch 4/20
+2025-04-14 11:07:41,267 - __main__ - INFO - Processing batch 5/20
+2025-04-14 11:07:51,360 - __main__ - INFO - Processing batch 6/20
+2025-04-14 11:08:04,539 - __main__ - INFO - Processing batch 7/20
+2025-04-14 11:08:16,949 - __main__ - INFO - Processing batch 8/20
+2025-04-14 11:08:30,549 - __main__ - INFO - Processing batch 9/20
+2025-04-14 11:08:43,091 - __main__ - INFO - Processing batch 10/20
+2025-04-14 11:08:53,547 - __main__ - INFO - Processing batch 11/20
+2025-04-14 11:09:03,651 - __main__ - INFO - Processing batch 12/20
+2025-04-14 11:09:17,803 - __main__ - INFO - Processing batch 13/20
+2025-04-14 11:09:22,591 - __main__ - INFO - Processing batch 14/20
+2025-04-14 11:09:32,954 - __main__ - INFO - Processing batch 15/20
+2025-04-14 11:09:41,916 - __main__ - INFO - Processing batch 16/20
+2025-04-14 11:09:49,422 - __main__ - INFO - Processing batch 17/20
+2025-04-14 11:10:01,978 - __main__ - INFO - Processing batch 18/20
+2025-04-14 11:10:12,682 - __main__ - INFO - Processing batch 19/20
+2025-04-14 11:10:20,534 - __main__ - INFO - Processing batch 20/20
+2025-04-14 11:10:28,406 - __main__ - INFO - Created AnnData with shape: (200000, 60694)
+2025-04-14 11:10:28,406 - __main__ - INFO - Matrix sparsity: 96.20%
+2025-04-14 11:22:14,154 - __main__ - INFO - Successfully processed data/cellxgene/batch_download_scb/others/partition_53.scb
+2025-04-14 11:22:14,158 - __main__ - INFO - Processing partition: data/cellxgene/batch_download_scb/others/partition_54.scb
+2025-04-14 11:22:22,061 - __main__ - INFO - Number of cells: 200000
+2025-04-14 11:22:22,063 - __main__ - INFO - Number of genes: 60694
+2025-04-14 11:22:22,063 - __main__ - INFO - Processing batch 1/20
+2025-04-14 11:22:26,994 - __main__ - INFO - Processing batch 2/20
+2025-04-14 11:22:37,981 - __main__ - INFO - Processing batch 3/20
+2025-04-14 11:22:48,181 - __main__ - INFO - Processing batch 4/20
+2025-04-14 11:22:57,213 - __main__ - INFO - Processing batch 5/20
+2025-04-14 11:23:10,838 - __main__ - INFO - Processing batch 6/20
+2025-04-14 11:23:14,906 - __main__ - INFO - Processing batch 7/20
+2025-04-14 11:23:23,102 - __main__ - INFO - Processing batch 8/20
+2025-04-14 11:23:32,221 - __main__ - INFO - Processing batch 9/20
+2025-04-14 11:23:42,279 - __main__ - INFO - Processing batch 10/20
+2025-04-14 11:23:51,952 - __main__ - INFO - Processing batch 11/20
+2025-04-14 11:24:01,306 - __main__ - INFO - Processing batch 12/20
+2025-04-14 11:24:10,514 - __main__ - INFO - Processing batch 13/20
+2025-04-14 11:24:19,451 - __main__ - INFO - Processing batch 14/20
+2025-04-14 11:24:28,815 - __main__ - INFO - Processing batch 15/20
+2025-04-14 11:24:39,131 - __main__ - INFO - Processing batch 16/20
+2025-04-14 11:24:50,629 - __main__ - INFO - Processing batch 17/20
+2025-04-14 11:25:02,190 - __main__ - INFO - Processing batch 18/20
+2025-04-14 11:25:14,851 - __main__ - INFO - Processing batch 19/20
+2025-04-14 11:25:26,774 - __main__ - INFO - Processing batch 20/20
+2025-04-14 11:25:39,947 - __main__ - INFO - Created AnnData with shape: (200000, 60694)
+2025-04-14 11:25:39,948 - __main__ - INFO - Matrix sparsity: 96.51%
+2025-04-14 11:36:26,872 - __main__ - INFO - Successfully processed data/cellxgene/batch_download_scb/others/partition_54.scb
+2025-04-14 11:36:26,880 - __main__ - INFO - Processing partition: data/cellxgene/batch_download_scb/others/partition_55.scb
+2025-04-14 11:36:36,640 - __main__ - INFO - Number of cells: 200000
+2025-04-14 11:36:36,642 - __main__ - INFO - Number of genes: 60694
+2025-04-14 11:36:36,642 - __main__ - INFO - Processing batch 1/20
+2025-04-14 11:36:46,375 - __main__ - INFO - Processing batch 2/20
+2025-04-14 11:36:56,378 - __main__ - INFO - Processing batch 3/20
+2025-04-14 11:37:06,774 - __main__ - INFO - Processing batch 4/20
+2025-04-14 11:37:17,445 - __main__ - INFO - Processing batch 5/20
+2025-04-14 11:37:29,980 - __main__ - INFO - Processing batch 6/20
+2025-04-14 11:37:42,056 - __main__ - INFO - Processing batch 7/20
+2025-04-14 11:37:53,264 - __main__ - INFO - Processing batch 8/20
+2025-04-14 11:38:04,407 - __main__ - INFO - Processing batch 9/20
+2025-04-14 11:38:15,084 - __main__ - INFO - Processing batch 10/20
+2025-04-14 11:38:25,463 - __main__ - INFO - Processing batch 11/20
+2025-04-14 11:38:35,551 - __main__ - INFO - Processing batch 12/20
+2025-04-14 11:38:44,820 - __main__ - INFO - Processing batch 13/20
+2025-04-14 11:39:02,748 - __main__ - INFO - Processing batch 14/20
+2025-04-14 11:39:18,493 - __main__ - INFO - Processing batch 15/20
+2025-04-14 11:39:28,673 - __main__ - INFO - Processing batch 16/20
+2025-04-14 11:39:39,052 - __main__ - INFO - Processing batch 17/20
+2025-04-14 11:39:51,051 - __main__ - INFO - Processing batch 18/20
+2025-04-14 11:40:01,124 - __main__ - INFO - Processing batch 19/20
+2025-04-14 11:40:11,535 - __main__ - INFO - Processing batch 20/20
+2025-04-14 11:40:27,775 - __main__ - INFO - Created AnnData with shape: (200000, 60694)
+2025-04-14 11:40:27,776 - __main__ - INFO - Matrix sparsity: 96.05%
+2025-04-14 11:52:34,669 - __main__ - INFO - Successfully processed data/cellxgene/batch_download_scb/others/partition_55.scb
+2025-04-14 11:52:34,672 - __main__ - INFO - Processing partition: data/cellxgene/batch_download_scb/others/partition_56.scb
+2025-04-14 11:52:42,259 - __main__ - INFO - Number of cells: 200000
+2025-04-14 11:52:42,261 - __main__ - INFO - Number of genes: 60694
+2025-04-14 11:52:42,261 - __main__ - INFO - Processing batch 1/20
+2025-04-14 11:52:52,616 - __main__ - INFO - Processing batch 2/20
+2025-04-14 11:53:05,854 - __main__ - INFO - Processing batch 3/20
+2025-04-14 11:53:17,456 - __main__ - INFO - Processing batch 4/20
+2025-04-14 11:53:28,346 - __main__ - INFO - Processing batch 5/20
+2025-04-14 11:53:39,655 - __main__ - INFO - Processing batch 6/20
+2025-04-14 11:53:49,091 - __main__ - INFO - Processing batch 7/20
+2025-04-14 11:54:01,967 - __main__ - INFO - Processing batch 8/20
+2025-04-14 11:54:13,036 - __main__ - INFO - Processing batch 9/20
+2025-04-14 11:54:21,878 - __main__ - INFO - Processing batch 10/20
+2025-04-14 11:54:31,303 - __main__ - INFO - Processing batch 11/20
+2025-04-14 11:54:40,478 - __main__ - INFO - Processing batch 12/20
+2025-04-14 11:54:49,403 - __main__ - INFO - Processing batch 13/20
+2025-04-14 11:54:57,204 - __main__ - INFO - Processing batch 14/20
+2025-04-14 11:55:06,312 - __main__ - INFO - Processing batch 15/20
+2025-04-14 11:55:14,405 - __main__ - INFO - Processing batch 16/20
+2025-04-14 11:55:23,112 - __main__ - INFO - Processing batch 17/20
+2025-04-14 11:55:30,918 - __main__ - INFO - Processing batch 18/20
+2025-04-14 11:55:37,700 - __main__ - INFO - Processing batch 19/20
+2025-04-14 11:55:44,852 - __main__ - INFO - Processing batch 20/20
+2025-04-14 11:55:54,919 - __main__ - INFO - Created AnnData with shape: (200000, 60694)
+2025-04-14 11:55:54,920 - __main__ - INFO - Matrix sparsity: 96.65%
+2025-04-14 12:05:53,254 - __main__ - INFO - Successfully processed data/cellxgene/batch_download_scb/others/partition_56.scb
+2025-04-14 12:05:53,264 - __main__ - INFO - Processing partition: data/cellxgene/batch_download_scb/others/partition_57.scb
+2025-04-14 12:06:02,108 - __main__ - INFO - Number of cells: 200000
+2025-04-14 12:06:02,110 - __main__ - INFO - Number of genes: 60694
+2025-04-14 12:06:02,110 - __main__ - INFO - Processing batch 1/20
+2025-04-14 12:06:08,542 - __main__ - INFO - Processing batch 2/20
+2025-04-14 12:06:16,171 - __main__ - INFO - Processing batch 3/20
+2025-04-14 12:06:27,383 - __main__ - INFO - Processing batch 4/20
+2025-04-14 12:06:38,520 - __main__ - INFO - Processing batch 5/20
+2025-04-14 12:06:51,485 - __main__ - INFO - Processing batch 6/20
+2025-04-14 12:07:06,837 - __main__ - INFO - Processing batch 7/20
+2025-04-14 12:07:19,367 - __main__ - INFO - Processing batch 8/20
+2025-04-14 12:07:33,457 - __main__ - INFO - Processing batch 9/20
+2025-04-14 12:07:47,940 - __main__ - INFO - Processing batch 10/20
+2025-04-14 12:07:59,685 - __main__ - INFO - Processing batch 11/20
+2025-04-14 12:08:11,533 - __main__ - INFO - Processing batch 12/20
+2025-04-14 12:08:22,113 - __main__ - INFO - Processing batch 13/20
+2025-04-14 12:08:32,355 - __main__ - INFO - Processing batch 14/20
+2025-04-14 12:08:41,405 - __main__ - INFO - Processing batch 15/20
+2025-04-14 12:08:50,306 - __main__ - INFO - Processing batch 16/20
+2025-04-14 12:09:02,888 - __main__ - INFO - Processing batch 17/20
+2025-04-14 12:09:14,890 - __main__ - INFO - Processing batch 18/20
+2025-04-14 12:09:26,527 - __main__ - INFO - Processing batch 19/20
+2025-04-14 12:09:43,317 - __main__ - INFO - Processing batch 20/20
+2025-04-14 12:09:56,039 - __main__ - INFO - Created AnnData with shape: (200000, 60694)
+2025-04-14 12:09:56,042 - __main__ - INFO - Matrix sparsity: 95.95%
+2025-04-14 12:23:00,876 - __main__ - INFO - Successfully processed data/cellxgene/batch_download_scb/others/partition_57.scb
+2025-04-14 12:23:00,896 - __main__ - INFO - Processing partition: data/cellxgene/batch_download_scb/others/partition_58.scb
+2025-04-14 12:23:11,138 - __main__ - INFO - Number of cells: 200000
+2025-04-14 12:23:11,140 - __main__ - INFO - Number of genes: 60694
+2025-04-14 12:23:11,140 - __main__ - INFO - Processing batch 1/20
+2025-04-14 12:23:21,801 - __main__ - INFO - Processing batch 2/20
+2025-04-14 12:23:31,884 - __main__ - INFO - Processing batch 3/20
+2025-04-14 12:23:45,363 - __main__ - INFO - Processing batch 4/20
+2025-04-14 12:24:00,792 - __main__ - INFO - Processing batch 5/20
+2025-04-14 12:24:14,151 - __main__ - INFO - Processing batch 6/20
+2025-04-14 12:24:23,815 - __main__ - INFO - Processing batch 7/20
+2025-04-14 12:24:35,846 - __main__ - INFO - Processing batch 8/20
+2025-04-14 12:24:47,707 - __main__ - INFO - Processing batch 9/20
+2025-04-14 12:25:03,098 - __main__ - INFO - Processing batch 10/20
+2025-04-14 12:25:15,373 - __main__ - INFO - Processing batch 11/20
+2025-04-14 12:25:27,841 - __main__ - INFO - Processing batch 12/20
+2025-04-14 12:25:38,003 - __main__ - INFO - Processing batch 13/20
+2025-04-14 12:25:48,566 - __main__ - INFO - Processing batch 14/20
+2025-04-14 12:26:00,906 - __main__ - INFO - Processing batch 15/20
+2025-04-14 12:26:11,582 - __main__ - INFO - Processing batch 16/20
+2025-04-14 12:26:21,646 - __main__ - INFO - Processing batch 17/20
+2025-04-14 12:26:34,358 - __main__ - INFO - Processing batch 18/20
+2025-04-14 12:26:48,237 - __main__ - INFO - Processing batch 19/20
+2025-04-14 12:27:04,020 - __main__ - INFO - Processing batch 20/20
+2025-04-14 12:27:20,342 - __main__ - INFO - Created AnnData with shape: (200000, 60694)
+2025-04-14 12:27:20,343 - __main__ - INFO - Matrix sparsity: 95.68%
+2025-04-14 12:41:17,740 - __main__ - INFO - Successfully processed data/cellxgene/batch_download_scb/others/partition_58.scb
+2025-04-14 12:41:17,742 - __main__ - INFO - Processing partition: data/cellxgene/batch_download_scb/others/partition_59.scb
+2025-04-14 12:41:26,608 - __main__ - INFO - Number of cells: 200000
+2025-04-14 12:41:26,610 - __main__ - INFO - Number of genes: 60694
+2025-04-14 12:41:26,610 - __main__ - INFO - Processing batch 1/20
+2025-04-14 12:41:41,766 - __main__ - INFO - Processing batch 2/20
+2025-04-14 12:41:57,053 - __main__ - INFO - Processing batch 3/20
+2025-04-14 12:42:09,551 - __main__ - INFO - Processing batch 4/20
+2025-04-14 12:42:21,333 - __main__ - INFO - Processing batch 5/20
+2025-04-14 12:42:33,602 - __main__ - INFO - Processing batch 6/20
+2025-04-14 12:42:43,704 - __main__ - INFO - Processing batch 7/20
+2025-04-14 12:42:54,838 - __main__ - INFO - Processing batch 8/20
+2025-04-14 12:43:05,477 - __main__ - INFO - Processing batch 9/20
+2025-04-14 12:43:14,632 - __main__ - INFO - Processing batch 10/20
+2025-04-14 12:43:23,122 - __main__ - INFO - Processing batch 11/20
+2025-04-14 12:43:32,153 - __main__ - INFO - Processing batch 12/20
+2025-04-14 12:43:42,442 - __main__ - INFO - Processing batch 13/20
+2025-04-14 12:43:52,612 - __main__ - INFO - Processing batch 14/20
+2025-04-14 12:44:00,831 - __main__ - INFO - Processing batch 15/20
+2025-04-14 12:44:09,289 - __main__ - INFO - Processing batch 16/20
+2025-04-14 12:44:20,313 - __main__ - INFO - Processing batch 17/20
+2025-04-14 12:44:31,761 - __main__ - INFO - Processing batch 18/20
+2025-04-14 12:44:41,526 - __main__ - INFO - Processing batch 19/20
+2025-04-14 12:44:52,722 - __main__ - INFO - Processing batch 20/20
+2025-04-14 12:45:06,430 - __main__ - INFO - Created AnnData with shape: (200000, 60694)
+2025-04-14 12:45:06,431 - __main__ - INFO - Matrix sparsity: 96.11%
+2025-04-14 12:57:11,938 - __main__ - INFO - Successfully processed data/cellxgene/batch_download_scb/others/partition_59.scb
+2025-04-14 12:57:11,943 - __main__ - INFO - Processing partition: data/cellxgene/batch_download_scb/others/partition_6.scb
+2025-04-14 12:57:19,002 - __main__ - INFO - Number of cells: 200000
+2025-04-14 12:57:19,005 - __main__ - INFO - Number of genes: 60694
+2025-04-14 12:57:19,005 - __main__ - INFO - Processing batch 1/20
+2025-04-14 12:57:28,737 - __main__ - INFO - Processing batch 2/20
+2025-04-14 12:57:38,045 - __main__ - INFO - Processing batch 3/20
+2025-04-14 12:57:46,956 - __main__ - INFO - Processing batch 4/20
+2025-04-14 12:57:55,930 - __main__ - INFO - Processing batch 5/20
+2025-04-14 12:58:04,922 - __main__ - INFO - Processing batch 6/20
+2025-04-14 12:58:13,818 - __main__ - INFO - Processing batch 7/20
+2025-04-14 12:58:22,779 - __main__ - INFO - Processing batch 8/20
+2025-04-14 12:58:31,847 - __main__ - INFO - Processing batch 9/20
+2025-04-14 12:58:41,102 - __main__ - INFO - Processing batch 10/20
+2025-04-14 12:58:50,111 - __main__ - INFO - Processing batch 11/20
+2025-04-14 12:58:59,274 - __main__ - INFO - Processing batch 12/20
+2025-04-14 12:59:08,345 - __main__ - INFO - Processing batch 13/20
+2025-04-14 12:59:17,276 - __main__ - INFO - Processing batch 14/20
+2025-04-14 12:59:26,345 - __main__ - INFO - Processing batch 15/20
+2025-04-14 12:59:35,616 - __main__ - INFO - Processing batch 16/20
+2025-04-14 12:59:44,722 - __main__ - INFO - Processing batch 17/20
+2025-04-14 12:59:53,915 - __main__ - INFO - Processing batch 18/20
+2025-04-14 13:00:03,102 - __main__ - INFO - Processing batch 19/20
+2025-04-14 13:00:12,314 - __main__ - INFO - Processing batch 20/20
+2025-04-14 13:00:24,544 - __main__ - INFO - Created AnnData with shape: (200000, 60694)
+2025-04-14 13:00:24,546 - __main__ - INFO - Matrix sparsity: 96.68%
+2025-04-14 13:10:53,155 - __main__ - INFO - Successfully processed data/cellxgene/batch_download_scb/others/partition_6.scb
+2025-04-14 13:10:53,158 - __main__ - INFO - Processing partition: data/cellxgene/batch_download_scb/others/partition_60.scb
+2025-04-14 13:11:03,220 - __main__ - INFO - Number of cells: 200000
+2025-04-14 13:11:03,222 - __main__ - INFO - Number of genes: 60694
+2025-04-14 13:11:03,222 - __main__ - INFO - Processing batch 1/20
+2025-04-14 13:11:12,913 - __main__ - INFO - Processing batch 2/20
+2025-04-14 13:11:21,401 - __main__ - INFO - Processing batch 3/20
+2025-04-14 13:11:30,563 - __main__ - INFO - Processing batch 4/20
+2025-04-14 13:11:41,070 - __main__ - INFO - Processing batch 5/20
+2025-04-14 13:11:53,916 - __main__ - INFO - Processing batch 6/20
+2025-04-14 13:12:06,181 - __main__ - INFO - Processing batch 7/20
+2025-04-14 13:12:21,502 - __main__ - INFO - Processing batch 8/20
+2025-04-14 13:12:34,913 - __main__ - INFO - Processing batch 9/20
+2025-04-14 13:12:46,908 - __main__ - INFO - Processing batch 10/20
+2025-04-14 13:12:56,147 - __main__ - INFO - Processing batch 11/20
+2025-04-14 13:13:14,045 - __main__ - INFO - Processing batch 12/20
+2025-04-14 13:13:26,550 - __main__ - INFO - Processing batch 13/20
+2025-04-14 13:13:43,909 - __main__ - INFO - Processing batch 14/20
+2025-04-14 13:13:55,574 - __main__ - INFO - Processing batch 15/20
+2025-04-14 13:14:05,351 - __main__ - INFO - Processing batch 16/20
+2025-04-14 13:14:14,819 - __main__ - INFO - Processing batch 17/20
+2025-04-14 13:14:24,483 - __main__ - INFO - Processing batch 18/20
+2025-04-14 13:14:34,125 - __main__ - INFO - Processing batch 19/20
+2025-04-14 13:14:43,586 - __main__ - INFO - Processing batch 20/20
+2025-04-14 13:14:56,990 - __main__ - INFO - Created AnnData with shape: (200000, 60694)
+2025-04-14 13:14:56,991 - __main__ - INFO - Matrix sparsity: 95.76%
+2025-04-14 13:28:24,185 - __main__ - INFO - Successfully processed data/cellxgene/batch_download_scb/others/partition_60.scb
+2025-04-14 13:28:24,198 - __main__ - INFO - Processing partition: data/cellxgene/batch_download_scb/others/partition_61.scb
+2025-04-14 13:28:31,595 - __main__ - INFO - Number of cells: 200000
+2025-04-14 13:28:31,596 - __main__ - INFO - Number of genes: 60694
+2025-04-14 13:28:31,596 - __main__ - INFO - Processing batch 1/20
+2025-04-14 13:28:41,564 - __main__ - INFO - Processing batch 2/20
+2025-04-14 13:28:51,822 - __main__ - INFO - Processing batch 3/20
+2025-04-14 13:29:01,713 - __main__ - INFO - Processing batch 4/20
+2025-04-14 13:29:11,528 - __main__ - INFO - Processing batch 5/20
+2025-04-14 13:29:21,341 - __main__ - INFO - Processing batch 6/20
+2025-04-14 13:29:31,063 - __main__ - INFO - Processing batch 7/20
+2025-04-14 13:29:40,817 - __main__ - INFO - Processing batch 8/20
+2025-04-14 13:29:50,401 - __main__ - INFO - Processing batch 9/20
+2025-04-14 13:29:59,932 - __main__ - INFO - Processing batch 10/20
+2025-04-14 13:30:09,644 - __main__ - INFO - Processing batch 11/20
+2025-04-14 13:30:19,277 - __main__ - INFO - Processing batch 12/20
+2025-04-14 13:30:28,741 - __main__ - INFO - Processing batch 13/20
+2025-04-14 13:30:38,667 - __main__ - INFO - Processing batch 14/20
+2025-04-14 13:30:48,208 - __main__ - INFO - Processing batch 15/20
+2025-04-14 13:30:57,713 - __main__ - INFO - Processing batch 16/20
+2025-04-14 13:31:07,462 - __main__ - INFO - Processing batch 17/20
+2025-04-14 13:31:17,132 - __main__ - INFO - Processing batch 18/20
+2025-04-14 13:31:26,764 - __main__ - INFO - Processing batch 19/20
+2025-04-14 13:31:32,838 - __main__ - INFO - Processing batch 20/20
+2025-04-14 13:31:37,418 - __main__ - INFO - Created AnnData with shape: (200000, 60694)
+2025-04-14 13:31:37,419 - __main__ - INFO - Matrix sparsity: 96.68%
+2025-04-14 13:42:07,735 - __main__ - INFO - Successfully processed data/cellxgene/batch_download_scb/others/partition_61.scb
+2025-04-14 13:42:07,738 - __main__ - INFO - Processing partition: data/cellxgene/batch_download_scb/others/partition_62.scb
+2025-04-14 13:42:09,140 - __main__ - INFO - Number of cells: 200000
+2025-04-14 13:42:09,141 - __main__ - INFO - Number of genes: 60694
+2025-04-14 13:42:09,141 - __main__ - INFO - Processing batch 1/20
+2025-04-14 13:42:11,029 - __main__ - INFO - Processing batch 2/20
+2025-04-14 13:42:12,696 - __main__ - INFO - Processing batch 3/20
+2025-04-14 13:42:14,240 - __main__ - INFO - Processing batch 4/20
+2025-04-14 13:42:15,866 - __main__ - INFO - Processing batch 5/20
+2025-04-14 13:42:17,428 - __main__ - INFO - Processing batch 6/20
+2025-04-14 13:42:19,153 - __main__ - INFO - Processing batch 7/20
+2025-04-14 13:42:20,823 - __main__ - INFO - Processing batch 8/20
+2025-04-14 13:42:22,440 - __main__ - INFO - Processing batch 9/20
+2025-04-14 13:42:24,263 - __main__ - INFO - Processing batch 10/20
+2025-04-14 13:42:26,289 - __main__ - INFO - Processing batch 11/20
+2025-04-14 13:42:28,354 - __main__ - INFO - Processing batch 12/20
+2025-04-14 13:42:30,399 - __main__ - INFO - Processing batch 13/20
+2025-04-14 13:42:32,450 - __main__ - INFO - Processing batch 14/20
+2025-04-14 13:42:34,473 - __main__ - INFO - Processing batch 15/20
+2025-04-14 13:42:36,592 - __main__ - INFO - Processing batch 16/20
+2025-04-14 13:42:38,521 - __main__ - INFO - Processing batch 17/20
+2025-04-14 13:42:40,506 - __main__ - INFO - Processing batch 18/20
+2025-04-14 13:42:42,538 - __main__ - INFO - Processing batch 19/20
+2025-04-14 13:42:44,615 - __main__ - INFO - Processing batch 20/20
+2025-04-14 13:42:47,297 - __main__ - INFO - Created AnnData with shape: (200000, 60694)
+2025-04-14 13:42:47,297 - __main__ - INFO - Matrix sparsity: 99.32%
+2025-04-14 13:44:45,405 - __main__ - INFO - Successfully processed data/cellxgene/batch_download_scb/others/partition_62.scb
+2025-04-14 13:44:45,407 - __main__ - INFO - Processing partition: data/cellxgene/batch_download_scb/others/partition_63.scb
+2025-04-14 13:44:46,834 - __main__ - INFO - Number of cells: 200000
+2025-04-14 13:44:46,834 - __main__ - INFO - Number of genes: 60694
+2025-04-14 13:44:46,835 - __main__ - INFO - Processing batch 1/20
+2025-04-14 13:44:49,306 - __main__ - INFO - Processing batch 2/20
+2025-04-14 13:44:51,569 - __main__ - INFO - Processing batch 3/20
+2025-04-14 13:44:53,603 - __main__ - INFO - Processing batch 4/20
+2025-04-14 13:44:55,580 - __main__ - INFO - Processing batch 5/20
+2025-04-14 13:44:57,601 - __main__ - INFO - Processing batch 6/20
+2025-04-14 13:44:59,715 - __main__ - INFO - Processing batch 7/20
+2025-04-14 13:45:01,846 - __main__ - INFO - Processing batch 8/20
+2025-04-14 13:45:03,958 - __main__ - INFO - Processing batch 9/20
+2025-04-14 13:45:05,991 - __main__ - INFO - Processing batch 10/20
+2025-04-14 13:45:07,971 - __main__ - INFO - Processing batch 11/20
+2025-04-14 13:45:10,050 - __main__ - INFO - Processing batch 12/20
+2025-04-14 13:45:12,012 - __main__ - INFO - Processing batch 13/20
+2025-04-14 13:45:14,008 - __main__ - INFO - Processing batch 14/20
+2025-04-14 13:45:15,962 - __main__ - INFO - Processing batch 15/20
+2025-04-14 13:45:17,883 - __main__ - INFO - Processing batch 16/20
+2025-04-14 13:45:19,847 - __main__ - INFO - Processing batch 17/20
+2025-04-14 13:45:21,766 - __main__ - INFO - Processing batch 18/20
+2025-04-14 13:45:23,773 - __main__ - INFO - Processing batch 19/20
+2025-04-14 13:45:25,781 - __main__ - INFO - Processing batch 20/20
+2025-04-14 13:45:28,329 - __main__ - INFO - Created AnnData with shape: (200000, 60694)
+2025-04-14 13:45:28,330 - __main__ - INFO - Matrix sparsity: 99.27%
+2025-04-14 13:47:36,043 - __main__ - INFO - Successfully processed data/cellxgene/batch_download_scb/others/partition_63.scb
+2025-04-14 13:47:36,049 - __main__ - INFO - Processing partition: data/cellxgene/batch_download_scb/others/partition_64.scb
+2025-04-14 13:47:37,383 - __main__ - INFO - Number of cells: 200000
+2025-04-14 13:47:37,384 - __main__ - INFO - Number of genes: 60694
+2025-04-14 13:47:37,384 - __main__ - INFO - Processing batch 1/20
+2025-04-14 13:47:39,550 - __main__ - INFO - Processing batch 2/20
+2025-04-14 13:47:41,468 - __main__ - INFO - Processing batch 3/20
+2025-04-14 13:47:43,224 - __main__ - INFO - Processing batch 4/20
+2025-04-14 13:47:44,868 - __main__ - INFO - Processing batch 5/20
+2025-04-14 13:47:46,540 - __main__ - INFO - Processing batch 6/20
+2025-04-14 13:47:48,174 - __main__ - INFO - Processing batch 7/20
+2025-04-14 13:47:49,793 - __main__ - INFO - Processing batch 8/20
+2025-04-14 13:47:51,528 - __main__ - INFO - Processing batch 9/20
+2025-04-14 13:47:53,313 - __main__ - INFO - Processing batch 10/20
+2025-04-14 13:47:55,124 - __main__ - INFO - Processing batch 11/20
+2025-04-14 13:47:57,018 - __main__ - INFO - Processing batch 12/20
+2025-04-14 13:47:58,749 - __main__ - INFO - Processing batch 13/20
+2025-04-14 13:48:00,244 - __main__ - INFO - Processing batch 14/20
+2025-04-14 13:48:01,739 - __main__ - INFO - Processing batch 15/20
+2025-04-14 13:48:03,329 - __main__ - INFO - Processing batch 16/20
+2025-04-14 13:48:04,880 - __main__ - INFO - Processing batch 17/20
+2025-04-14 13:48:06,292 - __main__ - INFO - Processing batch 18/20
+2025-04-14 13:48:07,742 - __main__ - INFO - Processing batch 19/20
+2025-04-14 13:48:09,207 - __main__ - INFO - Processing batch 20/20
+2025-04-14 13:48:11,373 - __main__ - INFO - Created AnnData with shape: (200000, 60694)
+2025-04-14 13:48:11,373 - __main__ - INFO - Matrix sparsity: 99.40%
+2025-04-14 13:49:58,728 - __main__ - INFO - Successfully processed data/cellxgene/batch_download_scb/others/partition_64.scb
+2025-04-14 13:49:58,730 - __main__ - INFO - Processing partition: data/cellxgene/batch_download_scb/others/partition_65.scb
+2025-04-14 13:50:00,147 - __main__ - INFO - Number of cells: 200000
+2025-04-14 13:50:00,148 - __main__ - INFO - Number of genes: 60694
+2025-04-14 13:50:00,149 - __main__ - INFO - Processing batch 1/20
+2025-04-14 13:50:01,991 - __main__ - INFO - Processing batch 2/20
+2025-04-14 13:50:03,738 - __main__ - INFO - Processing batch 3/20
+2025-04-14 13:50:05,390 - __main__ - INFO - Processing batch 4/20
+2025-04-14 13:50:07,078 - __main__ - INFO - Processing batch 5/20
+2025-04-14 13:50:08,752 - __main__ - INFO - Processing batch 6/20
+2025-04-14 13:50:10,901 - __main__ - INFO - Processing batch 7/20
+2025-04-14 13:50:13,176 - __main__ - INFO - Processing batch 8/20
+2025-04-14 13:50:15,539 - __main__ - INFO - Processing batch 9/20
+2025-04-14 13:50:17,904 - __main__ - INFO - Processing batch 10/20
+2025-04-14 13:50:20,104 - __main__ - INFO - Processing batch 11/20
+2025-04-14 13:50:22,510 - __main__ - INFO - Processing batch 12/20
+2025-04-14 13:50:24,605 - __main__ - INFO - Processing batch 13/20
+2025-04-14 13:50:26,673 - __main__ - INFO - Processing batch 14/20
+2025-04-14 13:50:28,889 - __main__ - INFO - Processing batch 15/20
+2025-04-14 13:50:30,735 - __main__ - INFO - Processing batch 16/20
+2025-04-14 13:50:32,457 - __main__ - INFO - Processing batch 17/20
+2025-04-14 13:50:34,061 - __main__ - INFO - Processing batch 18/20
+2025-04-14 13:50:35,579 - __main__ - INFO - Processing batch 19/20
+2025-04-14 13:50:37,209 - __main__ - INFO - Processing batch 20/20
+2025-04-14 13:50:44,359 - __main__ - INFO - Created AnnData with shape: (200000, 60694)
+2025-04-14 13:50:44,360 - __main__ - INFO - Matrix sparsity: 99.26%
+2025-04-14 13:52:56,810 - __main__ - INFO - Successfully processed data/cellxgene/batch_download_scb/others/partition_65.scb
+2025-04-14 13:52:56,813 - __main__ - INFO - Processing partition: data/cellxgene/batch_download_scb/others/partition_66.scb
+2025-04-14 13:53:03,575 - __main__ - INFO - Number of cells: 200000
+2025-04-14 13:53:03,579 - __main__ - INFO - Number of genes: 60694
+2025-04-14 13:53:03,579 - __main__ - INFO - Processing batch 1/20
+2025-04-14 13:53:12,991 - __main__ - INFO - Processing batch 2/20
+2025-04-14 13:53:24,636 - __main__ - INFO - Processing batch 3/20
+2025-04-14 13:53:32,699 - __main__ - INFO - Processing batch 4/20
+2025-04-14 13:53:42,641 - __main__ - INFO - Processing batch 5/20
+2025-04-14 13:53:52,233 - __main__ - INFO - Processing batch 6/20
+2025-04-14 13:54:01,064 - __main__ - INFO - Processing batch 7/20
+2025-04-14 13:54:08,755 - __main__ - INFO - Processing batch 8/20
+2025-04-14 13:54:22,439 - __main__ - INFO - Processing batch 9/20
+2025-04-14 13:54:35,796 - __main__ - INFO - Processing batch 10/20
+2025-04-14 13:54:46,661 - __main__ - INFO - Processing batch 11/20
+2025-04-14 13:54:56,657 - __main__ - INFO - Processing batch 12/20
+2025-04-14 13:55:05,569 - __main__ - INFO - Processing batch 13/20
+2025-04-14 13:55:13,717 - __main__ - INFO - Processing batch 14/20
+2025-04-14 13:55:22,206 - __main__ - INFO - Processing batch 15/20
+2025-04-14 13:55:33,796 - __main__ - INFO - Processing batch 16/20
+2025-04-14 13:55:43,600 - __main__ - INFO - Processing batch 17/20
+2025-04-14 13:55:53,933 - __main__ - INFO - Processing batch 18/20
+2025-04-14 13:56:00,145 - __main__ - INFO - Processing batch 19/20
+2025-04-14 13:56:04,654 - __main__ - INFO - Processing batch 20/20
+2025-04-14 13:56:12,508 - __main__ - INFO - Created AnnData with shape: (200000, 60694)
+2025-04-14 13:56:12,509 - __main__ - INFO - Matrix sparsity: 96.63%
+2025-04-14 14:06:14,656 - __main__ - INFO - Successfully processed data/cellxgene/batch_download_scb/others/partition_66.scb
+2025-04-14 14:06:14,659 - __main__ - INFO - Processing partition: data/cellxgene/batch_download_scb/others/partition_67.scb
+2025-04-14 14:06:16,339 - __main__ - INFO - Number of cells: 200000
+2025-04-14 14:06:16,340 - __main__ - INFO - Number of genes: 60694
+2025-04-14 14:06:16,340 - __main__ - INFO - Processing batch 1/20
+2025-04-14 14:06:18,924 - __main__ - INFO - Processing batch 2/20
+2025-04-14 14:06:21,044 - __main__ - INFO - Processing batch 3/20
+2025-04-14 14:06:23,537 - __main__ - INFO - Processing batch 4/20
+2025-04-14 14:06:26,010 - __main__ - INFO - Processing batch 5/20
+2025-04-14 14:06:27,566 - __main__ - INFO - Processing batch 6/20
+2025-04-14 14:06:29,455 - __main__ - INFO - Processing batch 7/20
+2025-04-14 14:06:31,248 - __main__ - INFO - Processing batch 8/20
+2025-04-14 14:06:33,166 - __main__ - INFO - Processing batch 9/20
+2025-04-14 14:06:35,333 - __main__ - INFO - Processing batch 10/20
+2025-04-14 14:06:38,007 - __main__ - INFO - Processing batch 11/20
+2025-04-14 14:06:40,576 - __main__ - INFO - Processing batch 12/20
+2025-04-14 14:06:42,784 - __main__ - INFO - Processing batch 13/20
+2025-04-14 14:06:44,419 - __main__ - INFO - Processing batch 14/20
+2025-04-14 14:06:46,335 - __main__ - INFO - Processing batch 15/20
+2025-04-14 14:06:48,656 - __main__ - INFO - Processing batch 16/20
+2025-04-14 14:06:50,758 - __main__ - INFO - Processing batch 17/20
+2025-04-14 14:06:53,605 - __main__ - INFO - Processing batch 18/20
+2025-04-14 14:06:55,729 - __main__ - INFO - Processing batch 19/20
+2025-04-14 14:06:58,358 - __main__ - INFO - Processing batch 20/20
+2025-04-14 14:07:02,329 - __main__ - INFO - Created AnnData with shape: (200000, 60694)
+2025-04-14 14:07:02,329 - __main__ - INFO - Matrix sparsity: 99.20%
+2025-04-14 14:09:07,175 - __main__ - INFO - Successfully processed data/cellxgene/batch_download_scb/others/partition_67.scb
+2025-04-14 14:09:07,177 - __main__ - INFO - Processing partition: data/cellxgene/batch_download_scb/others/partition_68.scb
+2025-04-14 14:09:08,694 - __main__ - INFO - Number of cells: 180695
+2025-04-14 14:09:08,695 - __main__ - INFO - Number of genes: 60694
+2025-04-14 14:09:08,695 - __main__ - INFO - Processing batch 1/19
+2025-04-14 14:09:11,204 - __main__ - INFO - Processing batch 2/19
+2025-04-14 14:09:13,700 - __main__ - INFO - Processing batch 3/19
+2025-04-14 14:09:16,348 - __main__ - INFO - Processing batch 4/19
+2025-04-14 14:09:19,351 - __main__ - INFO - Processing batch 5/19
+2025-04-14 14:09:21,422 - __main__ - INFO - Processing batch 6/19
+2025-04-14 14:09:23,377 - __main__ - INFO - Processing batch 7/19
+2025-04-14 14:09:25,371 - __main__ - INFO - Processing batch 8/19
+2025-04-14 14:09:27,106 - __main__ - INFO - Processing batch 9/19
+2025-04-14 14:09:29,570 - __main__ - INFO - Processing batch 10/19
+2025-04-14 14:09:31,848 - __main__ - INFO - Processing batch 11/19
+2025-04-14 14:09:34,105 - __main__ - INFO - Processing batch 12/19
+2025-04-14 14:09:36,634 - __main__ - INFO - Processing batch 13/19
+2025-04-14 14:09:38,821 - __main__ - INFO - Processing batch 14/19
+2025-04-14 14:09:40,500 - __main__ - INFO - Processing batch 15/19
+2025-04-14 14:09:42,356 - __main__ - INFO - Processing batch 16/19
+2025-04-14 14:09:44,413 - __main__ - INFO - Processing batch 17/19
+2025-04-14 14:09:46,439 - __main__ - INFO - Processing batch 18/19
+2025-04-14 14:09:48,745 - __main__ - INFO - Processing batch 19/19
+2025-04-14 14:09:49,600 - __main__ - INFO - Created AnnData with shape: (180695, 60694)
+2025-04-14 14:09:49,600 - __main__ - INFO - Matrix sparsity: 99.20%
+2025-04-14 14:11:41,376 - __main__ - INFO - Successfully processed data/cellxgene/batch_download_scb/others/partition_68.scb
+2025-04-14 14:11:41,378 - __main__ - INFO - Processing partition: data/cellxgene/batch_download_scb/others/partition_7.scb
+2025-04-14 14:11:47,518 - __main__ - INFO - Number of cells: 200000
+2025-04-14 14:11:47,520 - __main__ - INFO - Number of genes: 60694
+2025-04-14 14:11:47,520 - __main__ - INFO - Processing batch 1/20
+2025-04-14 14:11:56,547 - __main__ - INFO - Processing batch 2/20
+2025-04-14 14:12:05,276 - __main__ - INFO - Processing batch 3/20
+2025-04-14 14:12:14,110 - __main__ - INFO - Processing batch 4/20
+2025-04-14 14:12:23,142 - __main__ - INFO - Processing batch 5/20
+2025-04-14 14:12:31,906 - __main__ - INFO - Processing batch 6/20
+2025-04-14 14:12:40,932 - __main__ - INFO - Processing batch 7/20
+2025-04-14 14:12:50,043 - __main__ - INFO - Processing batch 8/20
+2025-04-14 14:12:58,812 - __main__ - INFO - Processing batch 9/20
+2025-04-14 14:13:06,171 - __main__ - INFO - Processing batch 10/20
+2025-04-14 14:13:13,539 - __main__ - INFO - Processing batch 11/20
+2025-04-14 14:13:20,993 - __main__ - INFO - Processing batch 12/20
+2025-04-14 14:13:28,501 - __main__ - INFO - Processing batch 13/20
+2025-04-14 14:13:36,008 - __main__ - INFO - Processing batch 14/20
+2025-04-14 14:13:43,437 - __main__ - INFO - Processing batch 15/20
+2025-04-14 14:13:50,837 - __main__ - INFO - Processing batch 16/20
+2025-04-14 14:13:58,320 - __main__ - INFO - Processing batch 17/20
+2025-04-14 14:14:05,634 - __main__ - INFO - Processing batch 18/20
+2025-04-14 14:14:13,118 - __main__ - INFO - Processing batch 19/20
+2025-04-14 14:14:20,602 - __main__ - INFO - Processing batch 20/20
+2025-04-14 14:14:31,165 - __main__ - INFO - Created AnnData with shape: (200000, 60694)
+2025-04-14 14:14:31,166 - __main__ - INFO - Matrix sparsity: 97.07%
+2025-04-14 14:23:45,938 - __main__ - INFO - Successfully processed data/cellxgene/batch_download_scb/others/partition_7.scb
+2025-04-14 14:23:45,942 - __main__ - INFO - Processing partition: data/cellxgene/batch_download_scb/others/partition_8.scb
+2025-04-14 14:23:52,244 - __main__ - INFO - Number of cells: 200000
+2025-04-14 14:23:52,246 - __main__ - INFO - Number of genes: 60694
+2025-04-14 14:23:52,246 - __main__ - INFO - Processing batch 1/20
+2025-04-14 14:24:00,104 - __main__ - INFO - Processing batch 2/20
+2025-04-14 14:24:07,785 - __main__ - INFO - Processing batch 3/20
+2025-04-14 14:24:15,287 - __main__ - INFO - Processing batch 4/20
+2025-04-14 14:24:22,887 - __main__ - INFO - Processing batch 5/20
+2025-04-14 14:24:30,295 - __main__ - INFO - Processing batch 6/20
+2025-04-14 14:24:37,899 - __main__ - INFO - Processing batch 7/20
+2025-04-14 14:24:45,399 - __main__ - INFO - Processing batch 8/20
+2025-04-14 14:24:53,182 - __main__ - INFO - Processing batch 9/20
+2025-04-14 14:25:00,812 - __main__ - INFO - Processing batch 10/20
+2025-04-14 14:25:08,486 - __main__ - INFO - Processing batch 11/20
+2025-04-14 14:25:16,170 - __main__ - INFO - Processing batch 12/20
+2025-04-14 14:25:23,888 - __main__ - INFO - Processing batch 13/20
+2025-04-14 14:25:31,329 - __main__ - INFO - Processing batch 14/20
+2025-04-14 14:25:39,161 - __main__ - INFO - Processing batch 15/20
+2025-04-14 14:25:46,829 - __main__ - INFO - Processing batch 16/20
+2025-04-14 14:25:54,404 - __main__ - INFO - Processing batch 17/20
+2025-04-14 14:26:02,156 - __main__ - INFO - Processing batch 18/20
+2025-04-14 14:26:09,665 - __main__ - INFO - Processing batch 19/20
+2025-04-14 14:26:17,232 - __main__ - INFO - Processing batch 20/20
+2025-04-14 14:26:28,074 - __main__ - INFO - Created AnnData with shape: (200000, 60694)
+2025-04-14 14:26:28,074 - __main__ - INFO - Matrix sparsity: 97.31%
+2025-04-14 14:34:42,922 - __main__ - INFO - Successfully processed data/cellxgene/batch_download_scb/others/partition_8.scb
+2025-04-14 14:34:42,924 - __main__ - INFO - Processing partition: data/cellxgene/batch_download_scb/others/partition_9.scb
+2025-04-14 14:34:52,505 - __main__ - INFO - Number of cells: 200000
+2025-04-14 14:34:52,508 - __main__ - INFO - Number of genes: 60694
+2025-04-14 14:34:52,508 - __main__ - INFO - Processing batch 1/20
+2025-04-14 14:35:00,260 - __main__ - INFO - Processing batch 2/20
+2025-04-14 14:35:07,915 - __main__ - INFO - Processing batch 3/20
+2025-04-14 14:35:16,122 - __main__ - INFO - Processing batch 4/20
+2025-04-14 14:35:24,394 - __main__ - INFO - Processing batch 5/20
+2025-04-14 14:35:32,535 - __main__ - INFO - Processing batch 6/20
+2025-04-14 14:35:40,614 - __main__ - INFO - Processing batch 7/20
+2025-04-14 14:35:48,416 - __main__ - INFO - Processing batch 8/20
+2025-04-14 14:35:56,385 - __main__ - INFO - Processing batch 9/20
+2025-04-14 14:36:04,098 - __main__ - INFO - Processing batch 10/20
+2025-04-14 14:36:15,034 - __main__ - INFO - Processing batch 11/20
+2025-04-14 14:36:27,031 - __main__ - INFO - Processing batch 12/20
+2025-04-14 14:36:39,754 - __main__ - INFO - Processing batch 13/20
+2025-04-14 14:36:52,772 - __main__ - INFO - Processing batch 14/20
+2025-04-14 14:37:05,964 - __main__ - INFO - Processing batch 15/20
+2025-04-14 14:37:19,187 - __main__ - INFO - Processing batch 16/20
+2025-04-14 14:37:31,882 - __main__ - INFO - Processing batch 17/20
+2025-04-14 14:37:43,867 - __main__ - INFO - Processing batch 18/20
+2025-04-14 14:37:56,251 - __main__ - INFO - Processing batch 19/20
+2025-04-14 14:38:08,372 - __main__ - INFO - Processing batch 20/20
+2025-04-14 14:38:24,044 - __main__ - INFO - Created AnnData with shape: (200000, 60694)
+2025-04-14 14:38:24,045 - __main__ - INFO - Matrix sparsity: 96.43%
+2025-04-14 14:49:33,551 - __main__ - INFO - Successfully processed data/cellxgene/batch_download_scb/others/partition_9.scb
+2025-04-14 14:49:33,553 - __main__ - INFO - Processing pancreas
+2025-04-14 14:49:33,556 - __main__ - INFO - Processing partition: data/cellxgene/batch_download_scb/pancreas/partition_0.scb
+2025-04-14 14:49:42,686 - __main__ - INFO - Number of cells: 200000
+2025-04-14 14:49:42,689 - __main__ - INFO - Number of genes: 60694
+2025-04-14 14:49:42,689 - __main__ - INFO - Processing batch 1/20
+2025-04-14 14:49:57,413 - __main__ - INFO - Processing batch 2/20
+2025-04-14 14:50:11,257 - __main__ - INFO - Processing batch 3/20
+2025-04-14 14:50:28,709 - __main__ - INFO - Processing batch 4/20
+2025-04-14 14:50:46,756 - __main__ - INFO - Processing batch 5/20
+2025-04-14 14:51:04,386 - __main__ - INFO - Processing batch 6/20
+2025-04-14 14:51:22,605 - __main__ - INFO - Processing batch 7/20
+2025-04-14 14:51:37,738 - __main__ - INFO - Processing batch 8/20
+2025-04-14 14:51:50,372 - __main__ - INFO - Processing batch 9/20
+2025-04-14 14:51:53,622 - __main__ - INFO - Processing batch 10/20
+2025-04-14 14:51:56,392 - __main__ - INFO - Processing batch 11/20
+2025-04-14 14:51:59,083 - __main__ - INFO - Processing batch 12/20
+2025-04-14 14:52:01,997 - __main__ - INFO - Processing batch 13/20
+2025-04-14 14:52:05,144 - __main__ - INFO - Processing batch 14/20
+2025-04-14 14:52:15,011 - __main__ - INFO - Processing batch 15/20
+2025-04-14 14:52:26,065 - __main__ - INFO - Processing batch 16/20
+2025-04-14 14:52:39,637 - __main__ - INFO - Processing batch 17/20
+2025-04-14 14:52:56,029 - __main__ - INFO - Processing batch 18/20
+2025-04-14 14:53:10,410 - __main__ - INFO - Processing batch 19/20
+2025-04-14 14:53:13,130 - __main__ - INFO - Processing batch 20/20
+2025-04-14 14:53:20,230 - __main__ - INFO - Created AnnData with shape: (200000, 60694)
+2025-04-14 14:53:20,231 - __main__ - INFO - Matrix sparsity: 96.79%
+2025-04-14 15:03:37,319 - __main__ - INFO - Successfully processed data/cellxgene/batch_download_scb/pancreas/partition_0.scb
+2025-04-14 15:03:37,322 - __main__ - INFO - Processing partition: data/cellxgene/batch_download_scb/pancreas/partition_1.scb
+2025-04-14 15:03:37,535 - __main__ - INFO - Number of cells: 9594
+2025-04-14 15:03:37,535 - __main__ - INFO - Number of genes: 60694
+2025-04-14 15:03:37,535 - __main__ - INFO - Processing batch 1/1
+2025-04-14 15:03:40,256 - __main__ - INFO - Created AnnData with shape: (9594, 60694)
+2025-04-14 15:03:40,257 - __main__ - INFO - Matrix sparsity: 99.16%
+2025-04-14 15:03:47,071 - __main__ - INFO - Successfully processed data/cellxgene/batch_download_scb/pancreas/partition_1.scb

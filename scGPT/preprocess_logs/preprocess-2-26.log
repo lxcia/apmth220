@@ -1,0 +1,19 @@
+Current PATH: /n/app/miniconda3/4.10.3/bin:/n/app/cuda/10.2/bin:/n/app/gcc/6.2.0/bin:/n/cluster/bin:/opt/singularity/bin:/home/lum347/.cursor-server/cli/servers/Stable-1649e229afdef8fd1d18ea173f063563f1e722e0/server/bin/remote-cli:/n/cluster/bin:/opt/singularity/bin:/n/data1/hms/dbmi/zitnik/lab/users/lucia1215/conda_envs/preprocess/bin:/n/app/miniconda3/4.10.3/condabin:/n/cluster/bin:/opt/singularity/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/puppetlabs/bin:/usr/local/rvm/bin:/opt/dell/srvadmin/bin:/home/lum347/.local/bin:/home/lum347/bin:/home/lum347/.local/bin:/home/lum347/bin
+Current PYTHONPATH: 
+Current CONDA_PREFIX: /n/data1/hms/dbmi/zitnik/lab/users/lucia1215/conda_envs/preprocess
+no change     /n/app/miniconda3/4.10.3/condabin/conda
+no change     /n/app/miniconda3/4.10.3/bin/conda
+no change     /n/app/miniconda3/4.10.3/bin/conda-env
+no change     /n/app/miniconda3/4.10.3/bin/activate
+no change     /n/app/miniconda3/4.10.3/bin/deactivate
+no change     /n/app/miniconda3/4.10.3/etc/profile.d/conda.sh
+no change     /n/app/miniconda3/4.10.3/etc/fish/conf.d/conda.fish
+no change     /n/app/miniconda3/4.10.3/shell/condabin/Conda.psm1
+no change     /n/app/miniconda3/4.10.3/shell/condabin/conda-hook.ps1
+no change     /n/app/miniconda3/4.10.3/lib/python3.9/site-packages/xontrib/conda.xsh
+no change     /n/app/miniconda3/4.10.3/etc/profile.d/conda.csh
+no change     /home/lum347/.bashrc
+No action taken.
+After activation, CONDA_PREFIX: /n/data1/hms/dbmi/zitnik/lab/users/lucia1215/conda_envs/preprocess
+Python path: /n/app/miniconda3/4.10.3/bin/python
+Python version: Python 3.9.5

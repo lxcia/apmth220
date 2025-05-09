@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/n/data1/hms/dbmi/zitnik/lab/users/lucia1215/scGPT/preprocess_data.py", line 16, in <module>
+    import torch
+  File "/n/data1/hms/dbmi/zitnik/lab/users/lucia1215/conda_envs/scgpt_train/lib/python3.10/site-packages/torch/__init__.py", line 753, in <module>
+    from .serialization import save, load
+  File "/n/data1/hms/dbmi/zitnik/lab/users/lucia1215/conda_envs/scgpt_train/lib/python3.10/site-packages/torch/serialization.py", line 18, in <module>
+    from typing_extensions import TypeAlias
+ModuleNotFoundError: No module named 'typing_extensions'
